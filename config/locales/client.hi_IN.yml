@@ -295,7 +295,7 @@ hi_IN:
         last_30_days: "Last 30 days"
       like_count: "Likes"
       topic_count: "Topics"
-      post_count: "Posts"
+      post_count: "पोस्ट"
       user_count: "Users"
       active_user_count: "Active Users"
       contact: "Contact Us"
@@ -582,7 +582,7 @@ hi_IN:
         reviewable_user:
           title: "User"
         reviewable_post:
-          title: "Post"
+          title: "पोस्ट"
       approval:
         title: "Post Needs Approval"
         description: "We've received your new post but it needs to be approved by a moderator before it will appear. Please be patient."
@@ -872,7 +872,7 @@ hi_IN:
         forbidden: "You're not allowed to view the members."
         no_filter_matches: "No members match that search."
       topics: "Topics"
-      posts: "Posts"
+      posts: "पोस्ट"
       mentions: "Mentions"
       messages: "Messages"
       notification_level: "Default notification level for group messages"
@@ -945,7 +945,7 @@ hi_IN:
         save: "Save Order"
         apply_all: "Apply"
         position: "Position"
-      posts: "Posts"
+      posts: "पोस्ट"
       topics: "Topics"
       latest: "Latest"
       subcategories: "Subcategories"
@@ -1480,7 +1480,7 @@ hi_IN:
         browser_active: '%{browser} | <span class="active">active now</span>'
         browser_last_seen: "%{browser} | %{date}"
 
-      last_posted: "Last Post"
+      last_posted: "आखिरी पोस्ट"
       last_seen: "Seen"
       created: "Joined"
       log_out: "Log Out"
@@ -2356,7 +2356,7 @@ hi_IN:
     search:
       sort_by: "Sort by"
       relevance: "Relevance"
-      latest_post: "Latest Post"
+      latest_post: "नवीनतम पोस्ट"
       latest_topic: "Latest Topic"
       most_viewed: "Most Viewed"
       most_liked: "Most Liked"
@@ -3404,7 +3404,7 @@ hi_IN:
         likes: "Likes"
         op_likes: "Original Post Likes"
         views: "Views"
-        posts: "Posts"
+        posts: "पोस्ट"
         activity: "Activity"
         posters: "Posters"
         category: "Category"
@@ -3515,7 +3515,7 @@ hi_IN:
       personal_message:
         title: "This topic is a personal message"
         help: "This topic is a personal message"
-    posts: "Posts"
+    posts: "पोस्ट"
     pending_posts:
       label: "Pending"
       label_with_count: "Pending (%{count})"
@@ -5523,7 +5523,7 @@ hi_IN:
         topic_id: "Topic ID"
         topic_title: "Topic"
         post_id: "Post ID"
-        post_title: "Post"
+        post_title: "पोस्ट"
         category_id: "Category ID"
         category_title: "Category"
         tag_name: "Tag name"
