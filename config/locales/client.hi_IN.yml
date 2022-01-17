@@ -56,79 +56,79 @@ hi_IN:
       wrap_on: "on %{date}"
 
       tiny:
-        half_a_minute: "< 1m"
+        half_a_minute: "< 1मि"
         less_than_x_seconds:
-          one: "< %{count}s"
-          other: "< %{count}s"
+          one: "< %{count}से"
+          other: "< %{count}से"
         x_seconds:
-          one: "%{count}s"
-          other: "%{count}s"
+          one: "%{count}से"
+          other: "%{count}से"
         less_than_x_minutes:
-          one: "< %{count}m"
-          other: "< %{count}m"
+          one: "< %{count}मि"
+          other: "< %{count}मि"
         x_minutes:
-          one: "%{count}m"
-          other: "%{count}m"
+          one: "%{count}मि"
+          other: "%{count}मि"
         about_x_hours:
-          one: "%{count}h"
-          other: "%{count}h"
+          one: "%{count}घं"
+          other: "%{count}घं"
         x_days:
-          one: "%{count}d"
-          other: "%{count}d"
+          one: "%{count}दि"
+          other: "%{count}दि"
         x_months:
-          one: "%{count}mon"
-          other: "%{count}mon"
+          one: "%{count}म"
+          other: "%{count}म"
         about_x_years:
-          one: "%{count}y"
-          other: "%{count}y"
+          one: "%{count}सा"
+          other: "%{count}सा"
         over_x_years:
-          one: "> %{count}y"
-          other: "> %{count}y"
+          one: "> %{count}सा"
+          other: "> %{count}सा"
         almost_x_years:
-          one: "%{count}y"
-          other: "%{count}y"
+          one: "%{count}सा"
+          other: "%{count}सा"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_month: "MMM D"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_year: "MMM 'YY"
       medium:
         x_minutes:
-          one: "%{count} min"
-          other: "%{count} mins"
+          one: "%{count} मिनट"
+          other: "%{count} मिनट"
         x_hours:
-          one: "%{count} hour"
-          other: "%{count} hours"
+          one: "%{count} घंटा"
+          other: "%{count} घंटे"
         x_days:
-          one: "%{count} day"
-          other: "%{count} days"
+          one: "%{count} दिन"
+          other: "%{count} दिन"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_year: "MMM D, 'YY"
       medium_with_ago:
         x_minutes:
-          one: "%{count} min ago"
-          other: "%{count} mins ago"
+          one: "%{count} मिनट पहले"
+          other: "%{count} मिनट पहले"
         x_hours:
-          one: "%{count} hour ago"
-          other: "%{count} hours ago"
+          one: "%{count} घंटा पहले"
+          other: "%{count} घंटे पहले"
         x_days:
-          one: "%{count} day ago"
-          other: "%{count} days ago"
+          one: "%{count} दिन पहले"
+          other: "%{count} दिन पहले"
         x_months:
-          one: "%{count} month ago"
-          other: "%{count} months ago"
+          one: "%{count} महीना पहले"
+          other: "%{count} महीने पहले"
         x_years:
-          one: "%{count} year ago"
-          other: "%{count} years ago"
+          one: "%{count} साल पहले"
+          other: "%{count} साल पहले"
       later:
         x_days:
-          one: "%{count} day later"
-          other: "%{count} days later"
+          one: "%{count} दिन बाद"
+          other: "%{count} दिन बाद"
         x_months:
-          one: "%{count} month later"
-          other: "%{count} months later"
+          one: "%{count} महीना बाद"
+          other: "%{count} महीने बाद"
         x_years:
-          one: "%{count} year later"
-          other: "%{count} years later"
+          one: "%{count} साल बाद"
+          other: "%{count} साल बाद"
       previous_month: "Previous Month"
       next_month: "Next Month"
       placeholder: date
