@@ -26,18 +26,18 @@ hi_IN:
     month_names:
       [
         ~,
-        January,
-        February,
-        March,
-        April,
-        May,
-        June,
-        July,
-        August,
-        September,
-        October,
-        November,
-        December,
+        जनवरी,
+        फरवरी,
+        मार्च,
+        अप्रैल,
+        मई,
+        जून,
+        जुलाई,
+        अगस्त,
+        सितम्बर,
+        अक्टूबर,
+        नवंबर,
+        दिसंबर,
       ]
     <<: *datetime_formats
   time:
