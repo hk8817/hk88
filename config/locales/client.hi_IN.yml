@@ -484,9 +484,9 @@ hi_IN:
       deleted_user: "(user deleted)"
       user:
         bio: "Bio"
-        website: "Website"
-        username: "Username"
-        email: "Email"
+        website: "वेबसाइट"
+        username: "यूजरनाम"
+        email: "ईमेल"
         name: "Name"
         fields: "Fields"
         reject_reason: "Reason"
@@ -717,7 +717,7 @@ hi_IN:
           posting: Posting
           notification: Notification
         email:
-          title: "Email"
+          title: "ईमेल"
           status: "Synchronized %{old_emails} / %{total_emails} emails via IMAP."
           enable_smtp: "Enable SMTP"
           enable_imap: "Enable IMAP"
