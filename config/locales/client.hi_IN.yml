@@ -1233,7 +1233,7 @@ hi_IN:
         tags: "टैग्स"
         warnings: "Official Warnings"
         read_more_in_group: "Want to read more? Browse other messages in %{groupLink}."
-        read_more: "क्या आप और पढ़ना चाहते हैं? <a href="%{basePath}/u/%{username}/messages/personal">व्यक्तिगत संदेशों</a> में अन्य संदेश खोलें।"
+        read_more: "क्या आप और पढ़ना चाहते हैं? <a href='%{basePath}/u/%{username}/messages'>व्यक्तिगत संदेशों</a> में अन्य संदेश खोलें।"
 
         read_more_group_pm_MF: "There {
           UNREAD, plural,
