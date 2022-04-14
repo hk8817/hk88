@@ -288,7 +288,7 @@ hi_IN:
       simple_title: "About"
       title: "About %{title}"
       stats: "साइट के आंकड़े"
-      our_admins: "Our Admins"
+      our_admins: "संस्थापक"
       our_moderators: "Our Moderators"
       moderators: "Moderators"
       stat:
@@ -301,7 +301,7 @@ hi_IN:
       post_count: "पोस्ट"
       user_count: "उपयोगकर्ता"
       active_user_count: "सक्रिय उपयोगकर्ता"
-      contact: "Contact Us"
+      contact: "संपर्क करें"
       contact_info: "In the event of a critical issue or urgent matter affecting this site, please contact us at %{contact_info}."
 
     bookmarked:
@@ -476,7 +476,7 @@ hi_IN:
           title: "Reviewable Priorities"
 
       moderation_history: "Moderation History"
-      view_all: "View All"
+      view_all: "सभी देखें"
       grouped_by_topic: "Grouped by Topic"
       none: "There are no items to review."
       view_pending: "view pending"
@@ -539,7 +539,7 @@ hi_IN:
         minimum_score: "Minimum Score:"
         refresh: "Refresh"
         status: "Status"
-        category: "Category"
+        category: "श्रेणी"
         orders:
           score: "Score"
           score_asc: "Score (reverse)"
@@ -618,7 +618,7 @@ hi_IN:
         one: "month"
         other: "months"
       years:
-        one: "year"
+        one: "वर्ष"
         other: "years"
       relative: "Relative"
 
@@ -660,7 +660,7 @@ hi_IN:
       username: "यूजरनाम"
       filter_name: "filter by username"
       title: "उपयोगकर्ता"
-      likes_given: "Given"
+      likes_given: "दिए"
       likes_received: "Received"
       topics_entered: "Viewed"
       topics_entered_long: "टॉपिक्स देखे"
@@ -690,7 +690,7 @@ hi_IN:
         change_group_setting: "Change group setting"
         add_user_to_group: "Add user"
         remove_user_from_group: "Remove user"
-        make_user_group_owner: "Make owner"
+        make_user_group_owner: "मालिक बनायें"
         remove_user_as_group_owner: "Revoke owner"
 
     groups:
@@ -860,7 +860,7 @@ hi_IN:
         filter_placeholder: "यूजरनाम"
         remove_member: "Remove Member"
         remove_member_description: "Remove <b>%{username}</b> from this group"
-        make_owner: "Make Owner"
+        make_owner: "मालिक बनायें"
         make_owner_description: "Make <b>%{username}</b> an owner of this group"
         remove_owner: "Remove as Owner"
         remove_owner_description: "Remove <b>%{username}</b> as an owner of this group"
@@ -910,7 +910,7 @@ hi_IN:
           title: "Normal"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted:
-          title: "Muted"
+          title: "म्यूट किया"
           description: "You will not be notified of anything about messages in this group."
       flair_url: "Avatar Flair Image"
       flair_upload_description: "Use square images no smaller than 20px by 20px."
@@ -945,10 +945,10 @@ hi_IN:
       "15": "ड्राफ्ट"
 
     categories:
-      all: "all categories"
+      all: "सभी श्रेणियाँ"
       all_subcategories: "सभी"
       no_subcategory: "none"
-      category: "Category"
+      category: "श्रेणी"
       category_list: "Display category list"
       reorder:
         title: "Reorder Categories"
@@ -1033,7 +1033,7 @@ hi_IN:
         ignore_option: "Ignored"
         ignore_option_title: "You will not receive notifications related to this user and all of their topics and replies will be hidden."
         add_ignored_user: "Add..."
-        mute_option: "Muted"
+        mute_option: "म्यूट किया"
         mute_option_title: "You will not receive any notifications related to this user."
         normal_option: "Normal"
         normal_option_title: "You will be notified if this user replies to you, quotes you, or mentions you."
@@ -1160,7 +1160,7 @@ hi_IN:
       watched_tags_instructions: "You will automatically watch all topics with these tags. You will be notified of all new posts and topics, and a count of new posts will also appear next to the topic."
       tracked_tags: "Tracked"
       tracked_tags_instructions: "You will automatically track all topics with these tags. A count of new posts will appear next to the topic."
-      muted_tags: "Muted"
+      muted_tags: "म्यूट किया"
       muted_tags_instructions: "You will not be notified of anything about new topics with these tags, and they will not appear in latest."
       watched_categories: "Watched"
       watched_categories_instructions: "You will automatically watch all topics in these categories. You will be notified of all new posts and topics, and a count of new posts will also appear next to the topic."
@@ -1171,7 +1171,7 @@ hi_IN:
       watched_first_post_tags: "Watching First Post"
       watched_first_post_tags_instructions: "You will be notified of the first post in each new topic with these tags."
 
-      muted_categories: "Muted"
+      muted_categories: "म्यूट किया"
       muted_categories_instructions: "You will not be notified of anything about new topics in these categories, and they will not appear on the categories or latest pages."
       muted_categories_instructions_dont_hide: "You will not be notified of anything about new topics in these categories."
       regular_categories: "Regular"
@@ -1184,7 +1184,7 @@ hi_IN:
       unread_message_count: "संदेश"
       admin_delete: "Delete"
       users: "उपयोगकर्ता"
-      muted_users: "Muted"
+      muted_users: "म्यूट किया"
       muted_users_instructions: "Suppress all notifications and PMs from these users."
       allowed_pm_users: "Allowed"
       allowed_pm_users_instructions: "Only allow PMs from these users."
@@ -1444,8 +1444,8 @@ hi_IN:
 
       name:
         title: "नाम"
-        instructions: "your full name (optional)"
-        instructions_required: "Your full name"
+        instructions: "आपका पूरा नाम (वैकल्पिक)"
+        instructions_required: "आपका पूरा नाम"
         required: "Please enter a name"
         too_short: "Your name is too short"
         ok: "Your name looks good"
@@ -1453,12 +1453,12 @@ hi_IN:
         title: "यूजरनाम"
         instructions: "unique, no spaces, short"
         short_instructions: "People can mention you as @%{username}"
-        available: "Your username is available"
+        available: "आपका यूजरनाम उपलब्ध है"
         not_available: "उपलब्ध नहीं है। %{suggestion} डालकर देखें?"
         not_available_no_suggestion: "उपलब्ध नहीं है।"
-        too_short: "Your username is too short"
+        too_short: "आपका यूजरनाम बहुत छोटा है"
         too_long: "Your username is too long"
-        checking: "Checking username availability..."
+        checking: "यूजरनाम उपलब्धता की जाँच कर रहे हैं..."
         prefilled: "Email matches this registered username"
         required: "Please enter a username"
         edit: "Edit username"
@@ -1571,7 +1571,7 @@ hi_IN:
       notification_level_when_replying: "When I post in a topic, set that topic to"
 
       invited:
-        title: "Invites"
+        title: "आमंत्रण"
         pending_tab: "Pending"
         pending_tab_with_count: "Pending (%{count})"
         expired_tab: "Expired"
@@ -1678,8 +1678,8 @@ hi_IN:
         required: "Please enter a password"
 
       summary:
-        title: "Summary"
-        stats: "Stats"
+        title: "सारांश"
+        stats: "आँकड़े"
         time_read: "read time"
         recent_time_read: "recent read time"
         topic_count:
@@ -1689,8 +1689,8 @@ hi_IN:
           one: "post created"
           other: "posts created"
         likes_given:
-          one: "given"
-          other: "given"
+          one: "दिए"
+          other: "दिए"
         likes_received:
           one: "received"
           other: "received"
@@ -1834,7 +1834,7 @@ hi_IN:
       hide_session: "Remind me tomorrow"
       hide_forever: "जी नहीं, धन्यवाद"
       hidden_for_session: "OK, we'll ask you tomorrow. You can always use 'Log In' to create an account, too."
-      intro: "Hello! Looks like you’re enjoying the discussion, but you haven’t signed up for an account yet."
+      intro: "नमस्कार! ऐसा लगता है कि आप चर्चा का आनंद ले रहे हैं, लेकिन आपने अभी तक किसी अकाउंट के लिए साइन अप नहीं किया है।"
       value_prop: "जब आप एक अकाउंट बना लेते हैं, तो हमें याद रहता है कि आपने क्या-क्या पढ़ लिया है, इसलिए आप हमेशा वहीं वापस आते हैं जहां आपने छोड़ा था। साथ ही, जब कोई आपको रिप्लाई देता है, तो आपको यहाँ और ईमेल के माध्यम से नोटिफिकेशन प्राप्त होते हैं। और सबसे बड़ी बात, आप प्यार बांटने के लिए पोस्ट को लाइक कर सकते हैं। :heartpulse:"
 
     summary:
@@ -1914,7 +1914,7 @@ hi_IN:
       confirm_button: Finish Login
 
     login:
-      header_title: "Welcome back"
+      header_title: "स्वागतम!"
       subheader_title: "Log in to your account"
       title: "लॉग इन"
       username: "User"
@@ -2810,10 +2810,10 @@ hi_IN:
           title: "Normal"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted_pm:
-          title: "Muted"
+          title: "म्यूट किया"
           description: "You will never be notified of anything about this message."
         muted:
-          title: "Muted"
+          title: "म्यूट किया"
           description: "You will never be notified of anything about this topic, and it will not appear in latest."
 
       actions:
@@ -3004,7 +3004,7 @@ hi_IN:
         publishing_settings: "Publishing Settings"
 
       change_owner:
-        title: "Change Owner"
+        title: "मालिक बदलें"
         action: "change ownership"
         error: "There was an error changing the ownership of the posts."
         placeholder: "username of new owner"
@@ -3309,7 +3309,7 @@ hi_IN:
 
     category:
       none: "(no category)"
-      all: "All categories"
+      all: "सभी श्रेणियाँ"
       choose: "category&hellip;"
       edit: "संपादित करें"
       edit_dialog_title: "Edit: %{categoryName}"
@@ -3394,7 +3394,7 @@ hi_IN:
       review_group_name: "समूह का नाम"
       require_topic_approval: "Require moderator approval of all new topics"
       require_reply_approval: "Require moderator approval of all new replies"
-      this_year: "this year"
+      this_year: "इस वर्ष"
       position: "Position on the categories page:"
       default_position: "Default Position"
       position_disabled: "Categories will be displayed in order of activity. To control the order of categories in lists, "
@@ -3419,7 +3419,7 @@ hi_IN:
           title: "Normal"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted:
-          title: "Muted"
+          title: "म्यूट किया"
           description: "You will never be notified of anything about new topics in this category, and they will not appear in latest."
       search_priority:
         label: "Search Priority"
@@ -3438,7 +3438,7 @@ hi_IN:
         posts: "पोस्ट"
         activity: "गतिविधि"
         posters: "Posters"
-        category: "Category"
+        category: "श्रेणी"
         created: "Created"
       sort_ascending: "Ascending"
       sort_descending: "Descending"
@@ -3581,7 +3581,7 @@ hi_IN:
     users_lowercase:
       one: "user"
       other: "उपयोगकर्ता"
-    category_title: "Category"
+    category_title: "श्रेणी"
     history_capped_revisions: "History, last 100 revisions"
     history: "History"
     changed_by: "by %{author}"
@@ -3659,7 +3659,7 @@ hi_IN:
         daily:
           title: "Daily"
         all_time: "अब तक"
-        this_year: "Year"
+        this_year: "वर्ष"
         this_quarter: "Quarter"
         this_month: "Month"
         this_week: "Week"
@@ -3820,9 +3820,9 @@ hi_IN:
       google: "Google Calendar"
       ics: "ICS"
     tagging:
-      all_tags: "All Tags"
+      all_tags: "सभी टैग्स"
       other_tags: "Other Tags"
-      selector_all_tags: "all tags"
+      selector_all_tags: "सभी टैग्स"
       selector_no_tags: "no tags"
       changed: "tags changed:"
       tags: "टैग्स"
@@ -3903,7 +3903,7 @@ hi_IN:
           title: "Regular"
           description: "You will be notified if someone mentions your @name or replies to your post."
         muted:
-          title: "Muted"
+          title: "म्यूट किया"
           description: "You will not be notified of anything about new topics with this tag, and they will not appear on your unread tab."
 
       groups:
@@ -5155,7 +5155,7 @@ hi_IN:
         reputation: Reputation
         permissions: Permissions
         activity: Activity
-        like_count: Likes Given / Received
+        like_count: लाइक्स दिए / पाए
         last_100_days: "in the last 100 days"
         private_topics_count: Private Topics
         posts_read_count: Posts Read
@@ -5295,7 +5295,7 @@ hi_IN:
           posts_read_all_time: "पोस्ट पढ़ीं (अब तक)"
           flagged_posts: "Flagged Posts"
           flagged_by_users: "Users Who Flagged"
-          likes_given: "Likes Given"
+          likes_given: "लाइक्स दिए"
           likes_received: "Likes Received"
           likes_received_days: "Likes Received: unique days"
           likes_received_users: "Likes Received: unique users"
@@ -5576,7 +5576,7 @@ hi_IN:
         post_id: "Post ID"
         post_title: "पोस्ट"
         category_id: "Category ID"
-        category_title: "Category"
+        category_title: "श्रेणी"
         tag_name: "Tag name"
         external_url: "External or Relative URL"
         destination: "Destination"
