@@ -46,7 +46,7 @@ hi_IN:
     pm: "pm"
 
   title: "Discourse"
-  topics: "Topics"
+  topics: "टॉपिक्स"
   posts: "posts"
   views: "views"
   loading: "Loading"
@@ -403,8 +403,8 @@ hi_IN:
   private_message_abbrev: "Msg"
 
   rss_description:
-    latest: "Latest topics"
-    top: "Top topics"
+    latest: "नवीनतम टॉपिक्स"
+    top: "टॉप टॉपिक्स"
     top_all: "All time top topics"
     top_yearly: "Yearly top topics"
     top_quarterly: "Quarterly top topics"
@@ -717,7 +717,7 @@ hi_IN:
       topic_exists_no_oldest: "Can't delete this category because topic count is %{count}."
     uncategorized_description: "Topics that don't need a category, or don't fit into any other existing category."
   trust_levels:
-    admin: "Admin"
+    admin: "एडमिन"
     staff: "Staff"
     change_failed_explanation: "You attempted to demote %{user_name} to '%{new_trust_level}'. However their trust level is already '%{current_trust_level}'. %{user_name} will remain at '%{current_trust_level}' - if you wish to demote user lock trust level first"
 
@@ -845,7 +845,7 @@ hi_IN:
 
   email_login:
     invalid_token: "Sorry, that email login link is too old. Select the Log In button and use 'I forgot my password' to get a new link."
-    title: "Email login"
+    title: "ईमेल लॉगिन"
 
   user_auth_tokens:
     browser:
@@ -1052,7 +1052,7 @@ hi_IN:
     all: "Don’t send me any mail from %{sitename}"
     different_user_description: "You are currently logged in as a different user than the one we emailed. Please log out, or enter anonymous mode, and try again."
     not_found_description: "Sorry, we couldn't find this unsubscribe. It’s possible the link in your email is too old and has expired?"
-    log_out: "Log Out"
+    log_out: "लॉग आउट"
     submit: "Save preferences"
     digest_frequency:
       title: "You are receiving summary emails %{frequency}"
@@ -1063,8 +1063,8 @@ hi_IN:
       every_30_minutes: "every 30 minutes"
       every_hour: "hourly"
       daily: "daily"
-      weekly: "weekly"
-      every_month: "every month"
+      weekly: "साप्ताहिक"
+      every_month: "हर महीने"
       every_six_months: "every six months"
 
   user_api_key:
@@ -1147,17 +1147,17 @@ hi_IN:
       description: "List of flags' statuses including type of flag, poster, flagger, and time to resolution."
     visits:
       title: "User Visits"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of visits"
       description: "Number of all user visits."
     signups:
       title: "Signups"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of signups"
       description: "New account registrations for this period."
     new_contributors:
       title: "New Contributors"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of new contributors"
       description: "Number of users who made their first post during this period."
     trust_level_growth:
@@ -1167,7 +1167,7 @@ hi_IN:
         tl2_reached: "Reached TL2"
         tl3_reached: "Reached TL3"
         tl4_reached: "Reached TL4"
-      yaxis: "Day"
+      yaxis: "दिन"
       description: "Number of users who increased their Trust Level during this period."
     consolidated_page_views:
       title: "Consolidated Pageviews"
@@ -1175,7 +1175,7 @@ hi_IN:
         page_view_crawler: "Crawlers"
         page_view_anon: "Anonymous users"
         page_view_logged_in: "Logged in users"
-      yaxis: "Day"
+      yaxis: "दिन"
       description: "Pageviews for logged in users, anonymous users and crawlers."
       labels:
         post: Post
@@ -1184,42 +1184,42 @@ hi_IN:
         edit_reason: Reason
     dau_by_mau:
       title: "DAU/MAU"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "DAU/MAU"
       description: "Number of members that logged in in the last day divided by number of members that logged in in the last month – returns a % which indicates community 'stickiness'. Aim for >30%."
     daily_engaged_users:
       title: "Daily Engaged Users"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Engaged Users"
       description: "Number of users that have liked or posted in the last day."
     profile_views:
       title: "User Profile Views"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of user profiles viewed"
       description: "Total new views of user profiles."
     topics:
-      title: "Topics"
-      xaxis: "Day"
+      title: "टॉपिक्स"
+      xaxis: "दिन"
       yaxis: "Number of new topics"
       description: "New topics created during this period."
     posts:
       title: "Posts"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of new posts"
       description: "New posts created during this period"
     likes:
       title: "लाइक्स"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of new likes"
       description: "Number of new likes."
     flags:
       title: "Flags"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of flags"
       description: "Number of new flags."
     bookmarks:
       title: "Bookmarks"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of new bookmarks"
       description: "Number of new topics and posts bookmarked."
     users_by_trust_level:
@@ -1251,54 +1251,54 @@ hi_IN:
       description: "Most popular search terms with their click-through rates."
     emails:
       title: "Emails Sent"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of Emails"
       description: "Number of new emails sent."
     user_to_user_private_messages:
       title: "User-to-User (excluding replies)"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of messages"
       description: "Number of newly initiated personal messages."
     user_to_user_private_messages_with_replies:
       title: "User-to-User (with replies)"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of messages"
       description: "Number of all new personal messages and responses."
     system_private_messages:
       title: "System"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of messages"
       description: "Number of personal messages sent automatically by the System."
     moderator_warning_private_messages:
       title: "Moderator Warning"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of messages"
       description: "Number of warnings sent by personal messages from moderators."
     notify_moderators_private_messages:
       title: "Notify Moderators"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of messages"
       description: "Number of times moderators have been privately notified by a flag."
     notify_user_private_messages:
       title: "Notify User"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of messages"
       description: "Number of times users have been privately notified by a flag."
     top_referrers:
       title: "Top Referrers"
       xaxis: "User"
       num_clicks: "Clicks"
-      num_topics: "Topics"
+      num_topics: "टॉपिक्स"
       labels:
         user: "User"
         num_clicks: "Clicks"
-        num_topics: "Topics"
+        num_topics: "टॉपिक्स"
       description: "Users listed by number of clicks on links they have shared."
     top_traffic_sources:
       title: "Top Traffic Sources"
       xaxis: "Domain"
       num_clicks: "Clicks"
-      num_topics: "Topics"
+      num_topics: "टॉपिक्स"
       num_users: "उपयोगकर्ता"
       labels:
         domain: Domain
@@ -1309,75 +1309,75 @@ hi_IN:
       title: "Top Referred Topics"
       labels:
         num_clicks: "Clicks"
-        topic: "Topic"
+        topic: "टॉपिक"
       description: "Topics that have received the most clicks from external sources."
     page_view_anon_reqs:
       title: "Anonymous"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Anonymous Pageviews"
       description: "Number of new pageviews by visitors not logged in to an account."
     page_view_logged_in_reqs:
       title: "Logged In"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Logged In Pageviews"
       description: "Number of new pageviews from logged in users."
     page_view_crawler_reqs:
       title: "Web Crawler Pageviews"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Web Crawler Pageviews"
       description: "Total pageviews from web crawlers over time."
     page_view_total_reqs:
       title: "Pageviews"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Total Pageviews"
       description: "Number of new pageviews from all visitors."
     page_view_logged_in_mobile_reqs:
       title: "Logged In Pageviews"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Mobile Logged In Pageviews"
       description: "Number of new pageviews from users on mobile devices and logged in to an account."
     page_view_anon_mobile_reqs:
       title: "Anon Pageviews"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Mobile Anon Pageviews"
       description: "Number of new pageviews from visitors on a mobile device who are not logged in."
     http_background_reqs:
       title: "Background"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Requests used for live update and tracking"
     http_2xx_reqs:
       title: "Status 2xx (OK)"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Successful requests (Status 2xx)"
     http_3xx_reqs:
       title: "HTTP 3xx (Redirect)"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Redirect requests (Status 3xx)"
     http_4xx_reqs:
       title: "HTTP 4xx (Client Error)"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Client Errors (Status 4xx)"
     http_5xx_reqs:
       title: "HTTP 5xx (Server Error)"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Server Errors (Status 5xx)"
     http_total_reqs:
       title: "Total"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Total requests"
     time_to_first_response:
       title: "Time to first response"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Average time (hours)"
       description: "Average time (in hours) of the first response to new topics."
     topics_with_no_response:
       title: "Topics with no response"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Total"
       description: "Number of new topics created that did not receive a response."
     mobile_visits:
       title: "User Visits (mobile)"
-      xaxis: "Day"
+      xaxis: "दिन"
       yaxis: "Number of visits"
       description: "Number of unique users who visited using a mobile device."
     web_crawlers:
@@ -4278,7 +4278,7 @@ hi_IN:
       Yes, legalese is boring, but we must protect ourselves &ndash; and by extension, you and your data &ndash; against unfriendly folks. We have a [Terms of Service](%{base_path}/tos) describing your (and our) behavior and rights related to content, privacy, and laws. To use this service, you must agree to abide by our [TOS](%{base_path}/tos).
 
   tos_topic:
-    title: "Terms of Service"
+    title: "सेवा की शर्तें"
     body: |
       These terms govern use of the Internet forum at <%{base_url}>. To use the forum, you must agree to these terms with %{company_name}, the company that runs the forum.
 
@@ -4827,7 +4827,7 @@ hi_IN:
       other: "You must include at least %{count} %{tag_group_name} tags. The tags in this group are: %{tags}."
     invalid_target_tag: "cannot be a synonym of a synonym"
     synonyms_exist: "is not allowed while synonyms exist"
-  rss_by_tag: "Topics tagged %{tag}"
+  rss_by_tag: "'%{tag}' टैग वाले टॉपिक्स"
 
   finish_installation:
     congratulations: "Congratulations, you installed Discourse!"
@@ -4966,7 +4966,7 @@ hi_IN:
             label: "Homepage style"
             choices:
               latest:
-                label: "Latest Topics"
+                label: "नवीनतम टॉपिक्स"
               categories_only:
                 label: "Categories Only"
               categories_with_featured_topics:
