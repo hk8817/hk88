@@ -247,7 +247,7 @@ hi_IN:
       one: "link"
       other: "links"
     faq: "नियम"
-    guidelines: "Guidelines"
+    guidelines: "दिशा निर्देश"
     privacy_policy: "Privacy Policy"
     privacy: "गोपनीयता"
     tos: "सेवा की शर्तें"
@@ -287,12 +287,12 @@ hi_IN:
     about:
       simple_title: "About"
       title: "About %{title}"
-      stats: "Site Statistics"
+      stats: "साइट के आंकड़े"
       our_admins: "Our Admins"
       our_moderators: "Our Moderators"
       moderators: "Moderators"
       stat:
-        all_time: "All Time"
+        all_time: "अब तक"
         last_day: "Last 24 hours"
         last_7_days: "Last 7 days"
         last_30_days: "Last 30 days"
@@ -300,13 +300,13 @@ hi_IN:
       topic_count: "टॉपिक्स"
       post_count: "पोस्ट"
       user_count: "उपयोगकर्ता"
-      active_user_count: "Active Users"
+      active_user_count: "सक्रिय उपयोगकर्ता"
       contact: "Contact Us"
       contact_info: "In the event of a critical issue or urgent matter affecting this site, please contact us at %{contact_info}."
 
     bookmarked:
-      title: "Bookmark"
-      edit_bookmark: "Edit Bookmark"
+      title: "बुकमार्क"
+      edit_bookmark: "बुकमार्क संपादित करें"
       clear_bookmarks: "Clear Bookmarks"
       help:
         bookmark: "Click to bookmark the first post on this topic"
@@ -323,7 +323,7 @@ hi_IN:
       remove_reminder_keep_bookmark: "Remove reminder and keep bookmark"
       created_with_reminder: "You've bookmarked this post with a reminder %{date}. %{name}"
       remove: "Remove Bookmark"
-      delete: "Delete Bookmark"
+      delete: "बुकमार्क हटाएं"
       confirm_delete: "Are you sure you want to delete this bookmark? The reminder will also be deleted."
       confirm_clear: "Are you sure you want to clear all your bookmarks from this topic?"
       save: "Save"
@@ -334,10 +334,10 @@ hi_IN:
       auto_delete_preference:
         label: "After you are notified"
         never: "Keep bookmark"
-        when_reminder_sent: "Delete bookmark"
+        when_reminder_sent: "बुकमार्क हटाएं"
         on_owner_reply: "Delete bookmark, once I reply"
         clear_reminder: "Keep bookmark and clear reminder"
-      search_placeholder: "Search bookmarks by name, topic title, or post content"
+      search_placeholder: "नाम, टॉपिक टाइटल, या पोस्ट सामग्री के द्वारा बुकमार्क खोजें"
       search: "Search"
       reminders:
         today_with_time: "today at %{time}"
@@ -415,7 +415,7 @@ hi_IN:
 
     banner:
       close: "Dismiss this banner"
-      edit: "Edit"
+      edit: "संपादित करें"
 
     pwa:
       install_banner: "Do you want to <a href>install %{title} on this device?</a>"
@@ -451,7 +451,7 @@ hi_IN:
           name: "user accuracy"
           title: "Users whose flags have been historically agreed with are given a bonus."
         trust_level_bonus:
-          name: "trust level"
+          name: "विश्वास स्तर"
           title: "Reviewable items created by higher trust level users have a higher score."
         type_bonus:
           name: "type bonus"
@@ -471,7 +471,7 @@ hi_IN:
       settings:
         saved: "Saved"
         save_changes: "Save Changes"
-        title: "Settings"
+        title: "सेटिंग"
         priorities:
           title: "Reviewable Priorities"
 
@@ -526,7 +526,7 @@ hi_IN:
       replies:
         one: "%{count} reply"
         other: "%{count} replies"
-      edit: "Edit"
+      edit: "संपादित करें"
       save: "Save"
       cancel: "रद्द करें"
       new_topic: "Approving this item will create a new topic"
@@ -558,7 +558,7 @@ hi_IN:
       scores:
         about: "This score is calculated based on the trust level of the reporter, the accuracy of their previous flags, and the priority of the item being reported."
         score: "Score"
-        date: "Date"
+        date: "दिनाँक"
         type: "Type"
         status: "Status"
         submitted_by: "Submitted By"
@@ -716,7 +716,7 @@ hi_IN:
         title: "Manage"
         name: "नाम"
         full_name: "Full Name"
-        add_members: "Add Users"
+        add_members: "उपयोगकर्ताओं को जोड़ें"
         invite_members: "Invite"
         delete_member_confirm: "Remove '%{username}' from the '%{group}' group?"
         profile:
@@ -758,9 +758,9 @@ hi_IN:
             imap_port: "IMAP Port"
             imap_ssl: "Use SSL for IMAP"
             username: "यूजरनाम"
-            password: "Password"
+            password: "पासवर्ड"
           settings:
-            title: "Settings"
+            title: "सेटिंग"
             allow_unknown_sender_topic_replies: "Allow unknown sender topic replies."
             allow_unknown_sender_topic_replies_hint: "Allows unknown senders to reply to group topics. If this is not enabled, replies from email addresses not already invited to the topic will create a new topic."
             from_alias: "From Alias"
@@ -848,7 +848,7 @@ hi_IN:
         public_groups: "Public Groups"
         my_groups: "My Groups"
         group_type: "Group type"
-        is_group_user: "Member"
+        is_group_user: "सदस्य"
         is_group_owner: "मालिक"
       title:
         one: "समूह"
@@ -932,7 +932,7 @@ hi_IN:
     user_action_groups:
       "1": "लाइक्स"
       "2": "लाइक्स"
-      "3": "Bookmarks"
+      "3": "बुकमार्क्स"
       "4": "टॉपिक्स"
       "5": "रिप्लाई"
       "6": "Responses"
@@ -958,7 +958,7 @@ hi_IN:
         position: "Position"
       posts: "पोस्ट"
       topics: "टॉपिक्स"
-      latest: "Latest"
+      latest: "नवीनतम"
       subcategories: "Subcategories"
       muted: "Muted categories"
       topic_sentence:
@@ -1005,7 +1005,7 @@ hi_IN:
 
     user:
       said: "%{username}:"
-      profile: "Profile"
+      profile: "प्रोफाइल"
       mute: "म्यूट"
       edit: "Edit Preferences"
       download_archive:
@@ -1069,13 +1069,13 @@ hi_IN:
       sr_expand_profile: "Expand profile details"
       collapse_profile: "Collapse"
       sr_collapse_profile: "Collapse profile details"
-      bookmarks: "Bookmarks"
-      bio: "About me"
+      bookmarks: "बुकमार्क्स"
+      bio: "मेरे बारे में"
       timezone: "टाइमजोन"
       invited_by: "Invited By"
-      trust_level: "Trust Level"
+      trust_level: "विश्वास स्तर"
       notifications: "Notifications"
-      statistics: "Stats"
+      statistics: "आँकड़े"
       desktop_notifications:
         label: "Live Notifications"
         not_supported: "Notifications are not supported on this browser. Sorry."
@@ -1215,7 +1215,7 @@ hi_IN:
         all: "all inboxes"
         inbox: "Inbox"
         personal: "Personal"
-        latest: "Latest"
+        latest: "नवीनतम"
         sent: "Sent"
         unread: "अपठित"
         unread_with_count:
@@ -1268,7 +1268,7 @@ hi_IN:
       preferences_nav:
         account: "Account"
         security: "Security"
-        profile: "Profile"
+        profile: "प्रोफाइल"
         emails: "Emails"
         notifications: "Notifications"
         categories: "Categories"
@@ -1283,7 +1283,7 @@ hi_IN:
         error: "(error)"
         emoji: "lock emoji"
         action: "पासवर्ड रीसेट ईमेल भेजें"
-        set_password: "Set Password"
+        set_password: "पासवर्ड सेट करें"
         choose_new: "Choose a new password"
         choose: "Choose a password"
 
@@ -1332,7 +1332,7 @@ hi_IN:
         disable: "Disable"
         disable_confirm: "Are you sure you want to disable all two-factor methods?"
         save: "Save"
-        edit: "Edit"
+        edit: "संपादित करें"
         edit_title: "Edit Authenticator"
         edit_description: "Authenticator Name"
         enable_security_key_description: |
@@ -1417,7 +1417,7 @@ hi_IN:
         add_email: "Add Alternate Email"
         auth_override_instructions: "Email can be updated from authentication provider."
         no_secondary: "No secondary emails"
-        instructions: "Never shown to the public."
+        instructions: "पब्लिक को कभी नहीं दिखेगा।"
         admin_note: "Note: An admin user changing another non-admin user's email indicates the user has lost access to their original email account, so a reset password email will be sent to their new address. The user's email will not change until they complete the reset password process."
         ok: "पुष्टि करने के लिए हम आपको ईमेल करेंगे"
         required: "Please enter an email address"
@@ -1454,8 +1454,8 @@ hi_IN:
         instructions: "unique, no spaces, short"
         short_instructions: "People can mention you as @%{username}"
         available: "Your username is available"
-        not_available: "Not available. Try %{suggestion}?"
-        not_available_no_suggestion: "Not available"
+        not_available: "उपलब्ध नहीं है। %{suggestion} डालकर देखें?"
+        not_available_no_suggestion: "उपलब्ध नहीं है।"
         too_short: "Your username is too short"
         too_long: "Your username is too long"
         checking: "Checking username availability..."
@@ -1548,7 +1548,7 @@ hi_IN:
       categories_settings: "Categories"
 
       new_topic_duration:
-        label: "Consider topics new when"
+        label: "टॉपिक्स को नया मानें जब"
         not_viewed: "I haven't viewed them yet"
         last_here: "created since I was here last"
         after_1_day: "created in the last day"
@@ -1556,7 +1556,7 @@ hi_IN:
         after_1_week: "created in the last week"
         after_2_weeks: "created in the last 2 weeks"
 
-      auto_track_topics: "Automatically track topics I enter"
+      auto_track_topics: "मेरे द्वारा देखे गए टॉपिक्स को स्वचालित रूप से ट्रैक करें"
       auto_track_options:
         never: "never"
         immediately: "immediately"
@@ -1584,7 +1584,7 @@ hi_IN:
         topic: "टॉपिक"
         sent: "Created/Last Sent"
         expires_at: "Expires"
-        edit: "Edit"
+        edit: "संपादित करें"
         remove: "Remove"
         copy_link: "Get Link"
         reinvite: "Resend Email"
@@ -1655,7 +1655,7 @@ hi_IN:
           invite_saved: "Invite saved."
 
         bulk_invite:
-          none: "No invitations to display on this page."
+          none: "इस पेज पर दिखाने योग्य कोई आमंत्रण नहीं हैं।"
 
           text: "Bulk Invite"
           instructions: |
@@ -1668,12 +1668,12 @@ hi_IN:
           error: "Sorry, file should be CSV format."
 
       password:
-        title: "Password"
-        too_short: "Your password is too short."
-        common: "That password is too common."
+        title: "पासवर्ड"
+        too_short: "आपका पासवर्ड बहुत छोटा है।"
+        common: "यह पासवर्ड बहुत आम है।"
         same_as_username: "Your password is the same as your username."
         same_as_email: "Your password is the same as your email."
-        ok: "Your password looks good."
+        ok: "आपका पासवर्ड ठीक लग रहा है।"
         instructions: "at least %{count} characters"
         required: "Please enter a password"
 
@@ -1704,23 +1704,23 @@ hi_IN:
           one: "post read"
           other: "posts read"
         bookmark_count:
-          one: "bookmark"
-          other: "bookmarks"
+          one: "बुकमार्क"
+          other: "बुकमार्क्स"
         top_replies: "Top Replies"
-        no_replies: "No replies yet."
+        no_replies: "अभी तक कोई रिप्लाई नहीं किया।"
         more_replies: "More Replies"
         top_topics: "टॉप टॉपिक्स"
-        no_topics: "No topics yet."
+        no_topics: "अभी तक कोई टॉपिक नहीं।"
         more_topics: "और टॉपिक्स"
         top_badges: "Top Badges"
-        no_badges: "No badges yet."
+        no_badges: "अभी तक कोई पदक नहीं।"
         more_badges: "More Badges"
         top_links: "Top Links"
-        no_links: "No links yet."
+        no_links: "अभी तक कोई लिंक नहीं।"
         most_liked_by: "Most Liked By"
         most_liked_users: "Most Liked"
         most_replied_to_users: "Most Replied To"
-        no_likes: "No likes yet."
+        no_likes: "अभी तक कोई लाइक नहीं।"
         top_categories: "Top Categories"
         topics: "टॉपिक्स"
         replies: "रिप्लाई"
@@ -1832,7 +1832,7 @@ hi_IN:
     signup_cta:
       sign_up: "साइन अप"
       hide_session: "Remind me tomorrow"
-      hide_forever: "no thanks"
+      hide_forever: "जी नहीं, धन्यवाद"
       hidden_for_session: "OK, we'll ask you tomorrow. You can always use 'Log In' to create an account, too."
       intro: "Hello! Looks like you’re enjoying the discussion, but you haven’t signed up for an account yet."
       value_prop: "जब आप एक अकाउंट बना लेते हैं, तो हमें याद रहता है कि आपने क्या-क्या पढ़ लिया है, इसलिए आप हमेशा वहीं वापस आते हैं जहां आपने छोड़ा था। साथ ही, जब कोई आपको रिप्लाई देता है, तो आपको यहाँ और ईमेल के माध्यम से नोटिफिकेशन प्राप्त होते हैं। और सबसे बड़ी बात, आप प्यार बांटने के लिए पोस्ट को लाइक कर सकते हैं। :heartpulse:"
@@ -1870,11 +1870,11 @@ hi_IN:
     last_seen: "ऑनलाइन"
     created: "Created"
     created_lowercase: "created"
-    trust_level: "Trust Level"
+    trust_level: "विश्वास स्तर"
     search_hint: "username, email or IP address"
 
     create_account:
-      header_title: "Welcome!"
+      header_title: "स्वागतम!"
       subheader_title: "Let's create your account"
       disclaimer: "By registering, you agree to the <a href='%{privacy_link}' target='blank'>privacy policy</a> and <a href='%{tos_link}' target='blank'>terms of service</a>."
       title: "Create your account"
@@ -1883,16 +1883,16 @@ hi_IN:
 
     forgot_password:
       title: "Password Reset"
-      action: "I forgot my password"
+      action: "मैं अपना पासवर्ड भूल गया/गई हूँ"
       invite: "अपना यूजरनाम या ईमेल पता दर्ज करें, और हम आपको एक पासवर्ड रीसेट ईमेल भेजेंगे।"
       invite_no_username: "Enter your email address, and we'll send you a password reset email."
-      reset: "Reset Password"
+      reset: "पासवर्ड रीसेट करें"
       complete_username: "If an account matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
       complete_email: "If an account matches <b>%{email}</b>, you should receive an email with instructions on how to reset your password shortly."
       complete_username_found: "We found an account that matches the username <b>%{username}</b>. You should receive an email with instructions on how to reset your password shortly."
       complete_email_found: "We found an account that matches <b>%{email}</b>. You should receive an email with instructions on how to reset your password shortly."
 
-      complete_username_not_found: "No account matches the username <b>%{username}</b>"
+      complete_username_not_found: "<b>%{username}</b> यूजरनाम से कोई अकाउंट नहीं है"
       complete_email_not_found: "<b>%{email}</b> ईमेल का कोई अकाउंट नहीं है"
       help: "Email not arriving? Be sure to check your spam folder first.<p>Not sure which email address you used? Enter an email address and we’ll let you know if it exists here.</p><p>If you no longer have access to the email address on your account, please contact <a href='%{basePath}/about'>our helpful staff.</a></p>"
       button_ok: "OK"
@@ -1907,7 +1907,7 @@ hi_IN:
       complete_email: "If an account matches <b>%{email}</b>, you should receive an email with a login link shortly."
       complete_username_found: "We found an account that matches the username <b>%{username}</b>, you should receive an email with a login link shortly."
       complete_email_found: "We found an account that matches <b>%{email}</b>, you should receive an email with a login link shortly."
-      complete_username_not_found: "No account matches the username <b>%{username}</b>"
+      complete_username_not_found: "<b>%{username}</b> यूजरनाम से कोई अकाउंट नहीं है"
       complete_email_not_found: "<b>%{email}</b> ईमेल का कोई अकाउंट नहीं है"
       confirm_title: Continue to %{site_name}
       logging_in_as: Logging in as %{email}
@@ -1918,7 +1918,7 @@ hi_IN:
       subheader_title: "Log in to your account"
       title: "लॉग इन"
       username: "User"
-      password: "Password"
+      password: "पासवर्ड"
       second_factor_title: "Two-Factor Authentication"
       second_factor_description: "Please enter the authentication code from your app:"
       second_factor_backup: "Log in using a backup code"
@@ -1938,7 +1938,7 @@ hi_IN:
       rate_limit: "Please wait before trying to log in again."
       blank_username: "Please enter your email or username."
       blank_username_or_password: "Please enter your email or username, and password."
-      reset_password: "Reset Password"
+      reset_password: "पासवर्ड रीसेट करें"
       logging_in: "Signing In..."
       or: "या"
       authenticating: "Authenticating..."
@@ -1999,7 +1999,7 @@ hi_IN:
       accept_invite: "Accept Invitation"
       success: "Your account has been created and you're now logged in."
       name_label: "नाम"
-      password_label: "Password"
+      password_label: "पासवर्ड"
 
     password_reset:
       continue: "Continue to %{site_name}"
@@ -2167,12 +2167,12 @@ hi_IN:
 
       users_placeholder: "Add a user"
       title_placeholder: "What is this discussion about in one brief sentence?"
-      title_or_link_placeholder: "Type title, or paste a link here"
+      title_or_link_placeholder: "यहाँ टाइटल टाइप करें, या लिंक पेस्ट करें"
       edit_reason_placeholder: "why are you editing?"
       topic_featured_link_placeholder: "Enter link shown with title."
       remove_featured_link: "Remove link from topic."
-      reply_placeholder: "Type here. Use Markdown, BBCode, or HTML to format. Drag or paste images."
-      reply_placeholder_no_images: "Type here. Use Markdown, BBCode, or HTML to format."
+      reply_placeholder: "यहाँ टाइप करें। प्रारूप बदलने के लिए मार्कडाउन, BBCode या HTML का इस्तेमाल करें। इमेज के लिए पेस्ट या ड्रैग करें।"
+      reply_placeholder_no_images: "यहाँ टाइप करें। प्रारूप बदलने के लिए मार्कडाउन, BBCode या HTML का इस्तेमाल करें।"
       reply_placeholder_choose_category: "Select a category before typing here."
       view_new_post: "View your new post."
       saving: "Saving"
@@ -2551,27 +2551,27 @@ hi_IN:
           other: "Progress: <strong>%{count}</strong> topics"
 
       none:
-        unread: "You have no unread topics."
+        unread: "आपके पास कोई अपठित टॉपिक्स नहीं हैं।"
         unseen: "You have no unseen topics."
-        new: "You have no new topics."
+        new: "आपके पास कोई नए टॉपिक्स नहीं हैं।"
         read: "You haven't read any topics yet."
         posted: "You haven't posted in any topics yet."
         latest: "You're all caught up!"
         bookmarks: "You have no bookmarked topics yet."
-        category: "There are no %{category} topics."
+        category: "%{category} श्रेणी में कोई टॉपिक्स नहीं हैं।"
         top: "कोई टॉप टॉपिक्स नहीं हैं।"
         educate:
           new: '<p>Your new topics will appear here. By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;"></span> indicator if they were created in the last 2 days.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
           unread: '<p>Your unread topics appear here.</p><p>By default, topics are considered unread and will show unread counts <span class="badge unread-posts badge-notification">1</span> if you:</p><ul><li>Created the topic</li><li>Replied to the topic</li><li>Read the topic for more than 4 minutes</li></ul><p>Or if you have explicitly set the topic to Tracked or Watched via the 🔔 in each topic.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
       bottom:
-        latest: "There are no more latest topics."
+        latest: "और अधिक नवीनतम टॉपिक्स नहीं हैं।"
         posted: "There are no more posted topics."
         read: "There are no more read topics."
         new: "There are no more new topics."
         unread: "There are no more unread topics."
         unseen: "There are no more unseen topics."
-        category: "There are no more %{category} topics."
-        tag: "There are no more %{tag} topics."
+        category: "कोई और %{category} टॉपिक्स नहीं हैं।"
+        tag: "कोई और %{tag} टॉपिक्स नहीं हैं।"
         top: "There are no more top topics."
         bookmarks: "There are no more bookmarked topics."
 
@@ -2591,7 +2591,7 @@ hi_IN:
         help: "Move message back to Inbox"
       edit_message:
         help: "Edit first post of the message"
-        title: "Edit"
+        title: "संपादित करें"
       defer:
         help: "Mark as unread"
         title: "Defer"
@@ -2627,7 +2627,7 @@ hi_IN:
       show_links: "show links within this topic"
       collapse_details: "collapse topic details"
       expand_details: "expand topic details"
-      read_more_in_category: "Want to read more? Browse other topics in %{catLink} or %{latestLink}."
+      read_more_in_category: "क्या आप और पढ़ना चाहते हैं? %{catLink} में अन्य टॉपिक्स खोलें या %{latestLink}।"
       read_more: "Want to read more? %{catLink} or %{latestLink}."
       unread_indicator: "No member has read the last post of this topic yet."
 
@@ -2745,7 +2745,7 @@ hi_IN:
         auto_delete: "This topic will be automatically deleted %{timeLeft}."
         auto_bump: "This topic will be automatically bumped %{timeLeft}."
         auto_reminder: "You will be reminded about this topic %{timeLeft}."
-        auto_delete_replies: "Replies on this topic are automatically deleted after %{duration}."
+        auto_delete_replies: "इस टॉपिक के रिप्लाई %{duration} के बाद अपनेआप डिलीट हो जाते हैं।"
       auto_close_title: "Auto-Close Settings"
       auto_close_immediate:
         one: "The last post in the topic is already %{count} hour old, so the topic will be closed immediately."
@@ -2778,13 +2778,13 @@ hi_IN:
           "3_6": "You will receive notifications because you are watching this category."
           "3_6_stale": "You will receive notifications because you were watching this category in the past."
           "3_5": "You will receive notifications because you started watching this topic automatically."
-          "3_2": "You will receive notifications because you are watching this topic."
+          "3_2": "आपको नोटिफिकेशन प्राप्त होंगे क्योंकि आप इस टॉपिक को वाच कर रहे हैं।"
           "3_1": "You will receive notifications because you created this topic."
-          "3": "You will receive notifications because you are watching this topic."
+          "3": "आपको नोटिफिकेशन प्राप्त होंगे क्योंकि आप इस टॉपिक को वाच कर रहे हैं।"
           "2_8": "You will see a count of new replies because you are tracking this category."
           "2_8_stale": "You will see a count of new replies because you were tracking this category in the past."
           "2_4": "You will see a count of new replies because you posted a reply to this topic."
-          "2_2": "You will see a count of new replies because you are tracking this topic."
+          "2_2": "आपको नए रिप्लाई की संख्या दिखाई जाएगी क्योंकि आप इस टॉपिक को ट्रैक कर रहे हैं।"
           "2": 'You will see a count of new replies because you <a href="%{basePath}/u/%{username}/preferences/notifications">read this topic</a>.'
           "1_2": "You will be notified if someone mentions your @name or replies to you."
           "1": "You will be notified if someone mentions your @name or replies to you."
@@ -2796,13 +2796,13 @@ hi_IN:
           description: "आपको इस संदेश में प्रत्येक नए रिप्लाई के बारे में सूचित किया जाएगा, और नए रिप्लाई की संख्या दिखाई जाएगी।"
         watching:
           title: "Watching"
-          description: "You will be notified of every new reply in this topic, and a count of new replies will be shown."
+          description: "आपको इस टॉपिक में प्रत्येक नए रिप्लाई के बारे में सूचित किया जाएगा, और नए रिप्लाई की संख्या दिखाई जाएगी।"
         tracking_pm:
           title: "Tracking"
           description: "A count of new replies will be shown for this message. You will be notified if someone mentions your @name or replies to you."
         tracking:
           title: "Tracking"
-          description: "A count of new replies will be shown for this topic. You will be notified if someone mentions your @name or replies to you."
+          description: "इस टॉपिक के लिए नए रिप्लाई की संख्या दिखाई जाएगी। यदि कोई आपके @यूजरनाम का उल्लेख करता है या आपको रिप्लाई करता है, तो आपको सूचित किया जाएगा।"
         regular:
           title: "Normal"
           description: "You will be notified if someone mentions your @name or replies to you."
@@ -3049,7 +3049,7 @@ hi_IN:
     post:
       quote_reply: "Quote"
       quote_reply_shortcut: "Or press q"
-      quote_edit: "Edit"
+      quote_edit: "संपादित करें"
       quote_edit_shortcut: "Or press e"
       quote_share: "Share"
       edit_reason: "Reason: "
@@ -3153,7 +3153,7 @@ hi_IN:
         read_indicator: "members who read this post"
         undo_like: "undo like"
         edit: "edit this post"
-        edit_action: "Edit"
+        edit_action: "संपादित करें"
         edit_anonymous: "Sorry, but you need to be logged in to edit this post."
         flag: "privately flag this post for attention or send a private notification about it"
         delete: "delete this post"
@@ -3271,7 +3271,7 @@ hi_IN:
       bookmarks:
         create: "Create bookmark"
         create_for_topic: "Create bookmark for topic"
-        edit: "Edit bookmark"
+        edit: "बुकमार्क संपादित करें"
         edit_for_topic: "Edit bookmark for topic"
         created: "Created"
         updated: "Updated"
@@ -3281,11 +3281,11 @@ hi_IN:
         options: "Options"
         actions:
           delete_bookmark:
-            name: "Delete bookmark"
+            name: "बुकमार्क हटाएं"
             description: "Removes the bookmark from your profile and stops all reminders for the bookmark"
           edit_bookmark:
-            name: "Edit bookmark"
-            description: "Edit the bookmark name or change the reminder date and time"
+            name: "बुकमार्क संपादित करें"
+            description: "बुकमार्क का नाम संपादित करें या रिमाइंडर की दिनांक और समय बदलें"
           clear_bookmark_reminder:
             name: "Clear reminder"
             description: "Clear the reminder date and time"
@@ -3311,12 +3311,12 @@ hi_IN:
       none: "(no category)"
       all: "All categories"
       choose: "category&hellip;"
-      edit: "Edit"
+      edit: "संपादित करें"
       edit_dialog_title: "Edit: %{categoryName}"
       view: "View Topics in Category"
       back: "Back to category"
       general: "General"
-      settings: "Settings"
+      settings: "सेटिंग"
       topic_template: "Topic Template"
       tags: "टैग्स"
       tags_allowed_tags: "Restrict these tags to this category:"
@@ -3408,7 +3408,7 @@ hi_IN:
         title: "change notification level for this category"
         watching:
           title: "Watching"
-          description: "You will automatically watch all topics in this category. You will be notified of every new post in every topic, and a count of new replies will be shown."
+          description: "आप इस श्रेणी के सभी टॉपिक को स्वचालित रूप से वाच करेंगे। आपको हर टॉपिक में हर नई पोस्ट की सूचना दी जाएगी, और नए रिप्लाई की गिनती दिखाई जाएगी।"
         watching_first_post:
           title: "Watching First Post"
           description: "You will be notified of new topics in this category but not replies to the topics."
@@ -3534,10 +3534,10 @@ hi_IN:
         help: "This topic is closed and archived; it no longer accepts new replies and cannot be changed"
       unpinned:
         title: "Unpinned"
-        help: "This topic is unpinned for you; it will display in regular order"
+        help: "यह टॉपिक आपके लिए अनपिन किया गया है; यह नियमित क्रम में प्रदर्शित होगा"
       pinned_globally:
         title: "Pinned Globally"
-        help: "This topic is pinned globally; it will display at the top of latest and its category"
+        help: "इस टॉपिक को वैश्विक रूप से पिन किया गया है; यह नवीनतम और इसकी श्रेणी के शीर्ष पर प्रदर्शित होगा"
       pinned:
         title: "Pinned"
         help: "This topic is pinned for you; it will display at the top of its category"
@@ -3562,8 +3562,8 @@ hi_IN:
     views: "Views"
     sr_views: "Sort by views"
     views_lowercase:
-      one: "view"
-      other: "views"
+      one: "व्यू"
+      other: "व्यू"
     replies: "रिप्लाई"
     sr_replies: "Sort by replies"
     views_long:
@@ -3594,13 +3594,13 @@ hi_IN:
 
     filters:
       with_topics: "%{filter} टॉपिक्स"
-      with_category: "%{filter} %{category} topics"
+      with_category: "%{filter} %{category} टॉपिक्स"
       latest:
-        title: "Latest"
+        title: "नवीनतम"
         title_with_count:
           one: "Latest (%{count})"
           other: "Latest (%{count})"
-        help: "topics with recent posts"
+        help: "नवीनतम पोस्ट वाले टॉपिक्स"
       read:
         title: "पढ़े"
         help: "topics you've read, in the order that you last read them"
@@ -3630,12 +3630,12 @@ hi_IN:
         title_with_count:
           one: "New (%{count})"
           other: "New (%{count})"
-        help: "topics created in the last few days"
+        help: "पिछले कुछ दिनों में बनाए गए टॉपिक्स"
       posted:
         title: "My Posts"
         help: "topics you have posted in"
       bookmarks:
-        title: "Bookmarks"
+        title: "बुकमार्क्स"
         help: "topics you have bookmarked"
       category:
         title: "%{categoryName}"
@@ -3645,9 +3645,9 @@ hi_IN:
         help: "latest topics in the %{categoryName} category"
       top:
         title: "टॉप"
-        help: "the most active topics in the last year, month, week or day"
+        help: "पिछले वर्ष, महीने, सप्ताह या दिन में सबसे सक्रिय टॉपिक्स"
         all:
-          title: "All Time"
+          title: "अब तक"
         yearly:
           title: "Yearly"
         quarterly:
@@ -3658,7 +3658,7 @@ hi_IN:
           title: "साप्ताहिक"
         daily:
           title: "Daily"
-        all_time: "All Time"
+        all_time: "अब तक"
         this_year: "Year"
         this_quarter: "Quarter"
         this_month: "Month"
@@ -3884,7 +3884,7 @@ hi_IN:
       delete_unused_description: "Delete all tags which are not attached to any topics or personal messages"
       cancel_delete_unused: "रद्द करें"
       filters:
-        without_category: "%{filter} %{tag} topics"
+        without_category: ""%{filter} %{tag} टॉपिक्स"
         with_category: "%{filter} %{tag} topics in %{category}"
         untagged_without_category: "%{filter} untagged topics"
         untagged_with_category: "%{filter} untagged topics in %{category}"
@@ -3934,9 +3934,9 @@ hi_IN:
 
       topics:
         none:
-          unread: "You have no unread topics."
+          unread: "आपके पास कोई अपठित टॉपिक्स नहीं हैं।"
           unseen: "You have no unseen topics."
-          new: "You have no new topics."
+          new: "आपके पास कोई नए टॉपिक्स नहीं हैं।"
           read: "You haven't read any topics yet."
           posted: "You haven't posted in any topics yet."
           latest: "There are no latest topics."
@@ -3980,7 +3980,7 @@ hi_IN:
       names:
         newuser: "new user"
         basic: "basic user"
-        member: "member"
+        member: "सदस्य"
         regular: "regular"
         leader: "लीडर"
       detailed_name: "%{level}: %{name}"
@@ -4044,7 +4044,7 @@ hi_IN:
         stale_data: "A check for updates has not been performed lately. Ensure sidekiq is running."
         version_check_pending: "Looks like you upgraded recently. Fantastic!"
         installed_version: "Installed"
-        latest_version: "Latest"
+        latest_version: "नवीनतम"
         problems_found: "Some advice based on your current site settings"
         new_features:
           title: "🎁 New Features"
@@ -4067,7 +4067,7 @@ hi_IN:
         backup_count:
           one: "%{count} backup on %{location}"
           other: "%{count} backups on %{location}"
-        lastest_backup: "Latest: %{date}"
+        lastest_backup: "नवीनतम: %{date}"
         traffic_short: "Traffic"
         traffic: "Application web requests"
         page_views: "Pageviews"
@@ -4096,7 +4096,7 @@ hi_IN:
           yesterday: "Yesterday"
           last_7_days: "Last 7"
           last_30_days: "Last 30"
-          all_time: "All Time"
+          all_time: "अब तक"
           7_days_ago: "7 Days Ago"
           30_days_ago: "30 Days Ago"
           all: "सभी"
@@ -4388,7 +4388,7 @@ hi_IN:
         is_enabled: "Y"
         not_enabled: "N"
         change_settings: "Change Settings"
-        change_settings_short: "Settings"
+        change_settings_short: "सेटिंग"
         howto: "How do I install plugins?"
         official: "Official Plugin"
 
@@ -4512,14 +4512,14 @@ hi_IN:
           create_type: "Type"
           create_name: "नाम"
           long_title: "Amend colors, CSS and HTML contents of your site"
-          edit: "Edit"
+          edit: "संपादित करें"
           edit_confirm: "This is a remote theme, if you edit CSS/HTML your changes will be erased next time you update the theme."
           update_confirm: "These local changes will be erased by the update. Are you sure you want to continue?"
           update_confirm_yes: "Yes, continue with the update"
           common: "Common"
           desktop: "Desktop"
           mobile: "Mobile"
-          settings: "Settings"
+          settings: "सेटिंग"
           translations: "Translations"
           extra_scss: "Extra SCSS"
           extra_files: "Extra files"
@@ -4738,7 +4738,7 @@ hi_IN:
 
       email:
         title: "Emails"
-        settings: "Settings"
+        settings: "सेटिंग"
         templates: "Templates"
         preview_digest: "Preview Summary"
         advanced_test:
@@ -4830,7 +4830,7 @@ hi_IN:
         post_id: "Post ID"
         category_id: "Category ID"
         delete: "Delete"
-        edit: "Edit"
+        edit: "संपादित करें"
         save: "Save"
         screened_actions:
           block: "block"
@@ -5060,7 +5060,7 @@ hi_IN:
           staged: "Staged"
         approved: "Approved?"
         titles:
-          active: "Active Users"
+          active: "सक्रिय उपयोगकर्ता"
           new: "New Users"
           pending: "Users Pending Review"
           newuser: "Users at Trust Level 0 (New User)"
@@ -5292,7 +5292,7 @@ hi_IN:
           topics_viewed: "टॉपिक्स देखे"
           topics_viewed_all_time: "टॉपिक्स देखे (अब तक)"
           posts_read: "Posts Read"
-          posts_read_all_time: "Posts Read (all time)"
+          posts_read_all_time: "पोस्ट पढ़ीं (अब तक)"
           flagged_posts: "Flagged Posts"
           flagged_by_users: "Users Who Flagged"
           likes_given: "Likes Given"
@@ -5328,7 +5328,7 @@ hi_IN:
         type: "Field Type"
         description: "Field Description"
         save: "Save"
-        edit: "Edit"
+        edit: "संपादित करें"
         delete: "Delete"
         cancel: "रद्द करें"
         delete_confirm: "Are you sure you want to delete that user field?"
@@ -5364,7 +5364,7 @@ hi_IN:
         description: "You can customize any of the text on your forum. Please start by searching below:"
         search: "Search for the text you'd like to edit"
         title: "Text"
-        edit: "edit"
+        edit: "संपादित करें"
         revert: "Revert Changes"
         revert_confirm: "Are you sure you want to revert your changes?"
         go_back: "Back to Search"
@@ -5384,7 +5384,7 @@ hi_IN:
           invalid_input: "Emoji list should only contain valid emoji names, eg: hugs"
           add_emoji_button:
             label: "Add Emoji"
-        title: "Settings"
+        title: "सेटिंग"
         no_results: "No results found."
         more_than_30_results: "There are more than 30 results. Please refine your search or select a category."
         clear_filter: "Clear"
@@ -5550,7 +5550,7 @@ hi_IN:
         host: "Allowed Hosts"
         class_name: "Class Name"
         allowed_paths: "Path Allowlist"
-        edit: "edit"
+        edit: "संपादित करें"
         category: "Post to Category"
         add_host: "Add Host"
         settings: "Embedding Settings"
