@@ -336,8 +336,8 @@ hi_IN:
     imported_from: "This is a companion discussion topic for the original entry at %{link}"
     in_reply_to: "▶ %{username}"
     replies:
-      one: "%{count} reply"
-      other: "%{count} replies"
+      one: "%{count} रिप्लाई"
+      other: "%{count} रिप्लाई"
     likes:
       one: "%{count} like"
       other: "%{count} लाइक्स"
@@ -444,7 +444,7 @@ hi_IN:
       next_business_day: "Next business day"
       tomorrow: "Tomorrow"
       next_week: "Next week"
-      next_month: "Next month"
+      next_month: "अगले महीने"
       custom: "Custom date and time"
 
   groups:
@@ -2417,7 +2417,7 @@ hi_IN:
     extreme_load_error: "Site is under extreme load, search is disabled, try again later"
     within_post: "#%{post_number} by %{username}"
     types:
-      category: "Categories"
+      category: "श्रेणियाँ"
       topic: "Results"
       user: "उपयोगकर्ता"
     results_page: "Search results for '%{term}'"
