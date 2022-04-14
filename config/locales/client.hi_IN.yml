@@ -387,17 +387,18 @@ hi_IN:
     preview: "preview"
     cancel: "cancel"
 
-    deleting: "Deleting..."
+    deleting: "डिलीट कर रहे हैं..."
 
     save: "Save Changes"
     saving: "Saving..."
     saved: "Saved!"
 
-    upload: "Upload"
-    uploading: "Uploading..."
-    uploading_filename: "Uploading: %{filename}..."
-    processing_filename: "Processing: %{filename}..."
-    clipboard: "clipboard"
+    upload: "अपलोड"
+    uploading: "अपलोड कर रहे हैं..."
+    processing: "प्रोसेस कर रहे हैं..."
+    uploading_filename: "अपलोड कर रहे हैं: %{filename}..."
+    processing_filename: "प्रोसेस कर रहे हैं: %{filename}..."
+    clipboard: "क्लिपबोर्ड"
     uploaded: "Uploaded!"
 
     pasting: "Pasting..."
