@@ -130,7 +130,7 @@ hi_IN:
           one: "%{count} साल बाद"
           other: "%{count} साल बाद"
       previous_month: "Previous Month"
-      next_month: "Next Month"
+      next_month: "अगले महीने"
       placeholder: date
       from_placeholder: "from date"
       to_placeholder: "to date"
@@ -524,8 +524,8 @@ hi_IN:
           one: "%{count} user"
           other: "%{count} users"
       replies:
-        one: "%{count} reply"
-        other: "%{count} replies"
+        one: "%{count} रिप्लाई"
+        other: "%{count} रिप्लाई"
       edit: "संपादित करें"
       save: "Save"
       cancel: "रद्द करें"
@@ -566,7 +566,7 @@ hi_IN:
 
       statuses:
         pending:
-          title: "Pending"
+          title: "लंबित"
         approved:
           title: "Approved"
         rejected:
@@ -632,7 +632,7 @@ hi_IN:
       start_of_next_business_week: "Monday"
       start_of_next_business_week_alt: "Next Monday"
       two_weeks: "Two weeks"
-      next_month: "Next month"
+      next_month: "अगले महीने"
       six_months: "Six months"
       custom: "Custom date and time"
       relative: "Relative time"
@@ -668,7 +668,7 @@ hi_IN:
       topic_count: "टॉपिक्स"
       topic_count_long: "टॉपिक्स बनाये"
       post_count: "रिप्लाई"
-      post_count_long: "Replies Posted"
+      post_count_long: "रिप्लाई पोस्ट किये"
       no_results: "No results were found."
       days_visited: "Visits"
       days_visited_long: "Days Visited"
@@ -879,7 +879,7 @@ hi_IN:
         remove_all_primary: "Remove as Primary"
         remove_all_primary_description: "Remove this group as primary"
         owner: "मालिक"
-        primary: "Primary"
+        primary: "मुख्य"
         forbidden: "You're not allowed to view the members."
         no_filter_matches: "No members match that search."
       topics: "टॉपिक्स"
@@ -940,8 +940,8 @@ hi_IN:
       "9": "Quotes"
       "11": "Edits"
       "12": "Sent Items"
-      "13": "Inbox"
-      "14": "Pending"
+      "13": "इनबॉक्स"
+      "14": "लंबित"
       "15": "ड्राफ्ट"
 
     categories:
@@ -960,7 +960,7 @@ hi_IN:
       topics: "टॉपिक्स"
       latest: "नवीनतम"
       subcategories: "Subcategories"
-      muted: "Muted categories"
+      muted: "म्यूट की गईं श्रेणियाँ"
       topic_sentence:
         one: "%{count} topic"
         other: "%{count} topics"
@@ -1085,7 +1085,7 @@ hi_IN:
         disable: "Disable Notifications"
         enable: "Enable Notifications"
         each_browser_note: 'Note: You have to change this setting on every browser you use. All notifications will be disabled when in "do not disturb", regardless of this setting.'
-        consent_prompt: "Do you want live notifications when people reply to your posts?"
+        consent_prompt: "जब लोग आपकी पोस्ट को रिप्लाई करें, तो क्या आप लाइव नोटिफिकेशन प्राप्त करना चाहते हैं?"
       dismiss: "Dismiss"
       dismiss_notifications: "Dismiss All"
       dismiss_notifications_tooltip: "Mark all unread notifications as read"
@@ -1213,7 +1213,7 @@ hi_IN:
 
       messages:
         all: "all inboxes"
-        inbox: "Inbox"
+        inbox: "इनबॉक्स"
         personal: "Personal"
         latest: "नवीनतम"
         sent: "Sent"
@@ -1271,7 +1271,7 @@ hi_IN:
         profile: "प्रोफाइल"
         emails: "Emails"
         notifications: "Notifications"
-        categories: "Categories"
+        categories: "श्रेणियाँ"
         users: "उपयोगकर्ता"
         tags: "टैग्स"
         interface: "Interface"
@@ -1406,7 +1406,7 @@ hi_IN:
         title: "ईमेल"
         primary: "Primary Email"
         secondary: "Secondary Emails"
-        primary_label: "primary"
+        primary_label: "मुख्य"
         unconfirmed_label: "unconfirmed"
         resend_label: "resend confirmation email"
         resending_label: "sending..."
@@ -1545,7 +1545,7 @@ hi_IN:
       email_in_reply_to: "Include an excerpt of replied to post in emails"
 
       other_settings: "Other"
-      categories_settings: "Categories"
+      categories_settings: "श्रेणियाँ"
 
       new_topic_duration:
         label: "टॉपिक्स को नया मानें जब"
@@ -1572,7 +1572,7 @@ hi_IN:
 
       invited:
         title: "आमंत्रण"
-        pending_tab: "Pending"
+        pending_tab: "लंबित"
         pending_tab_with_count: "Pending (%{count})"
         expired_tab: "Expired"
         expired_tab_with_count: "Expired (%{count})"
@@ -1706,7 +1706,7 @@ hi_IN:
         bookmark_count:
           one: "बुकमार्क"
           other: "बुकमार्क्स"
-        top_replies: "Top Replies"
+        top_replies: "टॉप रिप्लाई"
         no_replies: "अभी तक कोई रिप्लाई नहीं किया।"
         more_replies: "More Replies"
         top_topics: "टॉप टॉपिक्स"
@@ -1719,9 +1719,9 @@ hi_IN:
         no_links: "अभी तक कोई लिंक नहीं।"
         most_liked_by: "Most Liked By"
         most_liked_users: "Most Liked"
-        most_replied_to_users: "Most Replied To"
+        most_replied_to_users: "को सबसे ज्यादा रिप्लाई किये"
         no_likes: "अभी तक कोई लाइक नहीं।"
-        top_categories: "Top Categories"
+        top_categories: "टॉप श्रेणियाँ"
         topics: "टॉपिक्स"
         replies: "रिप्लाई"
 
@@ -2396,7 +2396,7 @@ hi_IN:
       search_google_button: "Google"
       search_button: "Search"
       search_term_label: "enter search keyword"
-      categories: "Categories"
+      categories: "श्रेणियाँ"
       tags: "टैग्स"
       in: "in"
       in_this_topic: "in this topic"
@@ -2412,7 +2412,7 @@ hi_IN:
       type:
         default: "Topics/posts"
         users: "उपयोगकर्ता"
-        categories: "Categories"
+        categories: "श्रेणियाँ"
         categories_and_tags: "Categories/tags"
 
       context:
@@ -2562,7 +2562,7 @@ hi_IN:
         top: "कोई टॉप टॉपिक्स नहीं हैं।"
         educate:
           new: '<p>Your new topics will appear here. By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;"></span> indicator if they were created in the last 2 days.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
-          unread: '<p>Your unread topics appear here.</p><p>By default, topics are considered unread and will show unread counts <span class="badge unread-posts badge-notification">1</span> if you:</p><ul><li>Created the topic</li><li>Replied to the topic</li><li>Read the topic for more than 4 minutes</li></ul><p>Or if you have explicitly set the topic to Tracked or Watched via the 🔔 in each topic.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
+          unread: '<p>आपके अपठित विषय यहां दिखाई देते हैं।</p><p>डिफॉल्ट रूप से, सभी टॉपिक्स को अपठित माना जाता है और अपठित संख्या <span class="badge unread-posts badge-notification">2</span> के साथ दिखाई देते हैं, यदि आपने:</p><ul><li>उस टॉपिक को बनाया हो</li><li>उस टॉपिक पर रिप्लाई किया हो</li><li>उस टॉपिक को 4 मिनट से अधिक समय तक पढ़ा हो</li></ul><p>या आप उस टॉपिक को 🔔 के माध्यम से वाच या ट्रैक कर रहे हों।</p><p>इसे बदलने के लिए अपनी <a href="%{userPrefsUrl}">प्राथमिकताओं</a> पर जाएं।</p>'
       bottom:
         latest: "और अधिक नवीनतम टॉपिक्स नहीं हैं।"
         posted: "There are no more posted topics."
@@ -2704,7 +2704,7 @@ hi_IN:
         this_weekend: "This weekend"
         next_week: "Next week"
         two_weeks: "Two weeks"
-        next_month: "Next month"
+        next_month: "अगले महीने"
         two_months: "Two months"
         three_months: "Three months"
         four_months: "Four months"
@@ -3084,8 +3084,8 @@ hi_IN:
 
       unread: "Post is unread"
       has_replies:
-        one: "%{count} Reply"
-        other: "%{count} Replies"
+        one: "%{count} रिप्लाई"
+        other: "%{count} रिप्लाई"
       has_replies_count: "%{count}"
 
       unknown_user: "(unknown/deleted user)"
@@ -3548,7 +3548,7 @@ hi_IN:
         help: "This topic is a personal message"
     posts: "पोस्ट"
     pending_posts:
-      label: "Pending"
+      label: "लंबित"
       label_with_count: "Pending (%{count})"
 
     # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
@@ -3590,7 +3590,7 @@ hi_IN:
       title: "Incoming Email"
       not_available: "Not available!"
 
-    categories_list: "Categories List"
+    categories_list: "श्रेणियाँ सूची"
 
     filters:
       with_topics: "%{filter} टॉपिक्स"
@@ -3605,7 +3605,7 @@ hi_IN:
         title: "पढ़े"
         help: "topics you've read, in the order that you last read them"
       categories:
-        title: "Categories"
+        title: "श्रेणियाँ"
         title_in: "Category - %{categoryName}"
         help: "श्रेणी के अनुसार समूहीकृत सभी टॉपिक्स"
       unread:
@@ -4678,7 +4678,7 @@ hi_IN:
           revert: "revert"
           revert_title: "Reset this color to Discourse's default color palette."
           primary:
-            name: "primary"
+            name: "मुख्य"
             description: "Most text, icons, and borders."
           primary-medium:
             name: "primary-medium"
@@ -5595,7 +5595,7 @@ hi_IN:
         modal:
           title: "Replace Text"
           subtitle: "Replace text of system generated categories and topics with latest translations"
-          categories: "Categories"
+          categories: "श्रेणियाँ"
           topics: "टॉपिक्स"
           replace: "Replace"
 
