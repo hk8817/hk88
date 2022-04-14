@@ -52,7 +52,7 @@ hi_IN:
   loading: "Loading"
   powered_by_html: 'Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
   sign_up: "साइन अप"
-  log_in: "Log In"
+  log_in: "लॉग इन"
   submit: "Submit"
   purge_reason: "Automatically deleted as abandoned, deactivated account"
   disable_remote_images_download_reason: "Remote images download was disabled because there wasn't enough disk space available."
@@ -1070,7 +1070,7 @@ hi_IN:
   user_api_key:
     title: "Authorize application access"
     authorize: "Authorize"
-    read: "read"
+    read: "पढ़े"
     read_write: "read/write"
     description: '"%{application_name}" is requesting the following access to your account:'
     instructions: 'We just generated a new user API key for you to use with "%{application_name}", please paste the following key into your application:'
@@ -1299,7 +1299,7 @@ hi_IN:
       xaxis: "Domain"
       num_clicks: "Clicks"
       num_topics: "Topics"
-      num_users: "Users"
+      num_users: "उपयोगकर्ता"
       labels:
         domain: Domain
         num_clicks: Clicks
@@ -2419,7 +2419,7 @@ hi_IN:
     types:
       category: "Categories"
       topic: "Results"
-      user: "Users"
+      user: "उपयोगकर्ता"
     results_page: "Search results for '%{term}'"
     audio: "[audio]"
     video: "[video]"
@@ -4169,8 +4169,8 @@ hi_IN:
   edit_this_page: "Edit this page"
 
   csv_export:
-    boolean_yes: "Yes"
-    boolean_no: "No"
+    boolean_yes: "हाँ"
+    boolean_no: "नहीं"
     rate_limit_error: "Posts can be downloaded once per day, please try again tomorrow."
 
   static_topic_first_reply: |
@@ -4799,7 +4799,7 @@ hi_IN:
     initial_topic_title: Website performance reports
 
   tags:
-    title: "Tags"
+    title: "टैग्स"
     restricted_tag_disallowed: 'You cannot apply the tag "%{tag}".'
     restricted_tag_remove_disallowed: 'You cannot remove the tag "%{tag}".'
     minimum_required_tags:
@@ -4861,7 +4861,7 @@ hi_IN:
             description: "What’s the default language for your community?"
 
       forum_title:
-        title: "Name"
+        title: "नाम"
         description: "Your name is a sign visible in the distance, the <i>first</i> thing potential visitors will notice about your community. What does your name and title say about your community?"
 
         fields:
