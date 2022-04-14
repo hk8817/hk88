@@ -407,7 +407,7 @@ hi_IN:
     top: "टॉप टॉपिक्स"
     top_all: "All time top topics"
     top_yearly: "Yearly top topics"
-    top_quarterly: "Quarterly top topics"
+    top_quarterly: "त्रैमासिक टॉप टॉपिक्स"
     top_monthly: "Monthly top topics"
     top_weekly: "Weekly top topics"
     top_daily: "Daily top topics"
@@ -415,7 +415,7 @@ hi_IN:
     private_posts: "Latest personal messages"
     group_posts: "Latest posts from %{group_name}"
     group_mentions: "Latest mentions from %{group_name}"
-    user_posts: "Latest posts by @%{username}"
+    user_posts: "@%{username} द्वारा नवीनतम पोस्ट"
     user_topics: "Latest topics by @%{username}"
     tag: "Tagged topics"
     badge: "%{display_name} badge on %{site_title}"
@@ -589,7 +589,7 @@ hi_IN:
               same_as_email: "is the same as your email. Please use a more secure password."
               same_as_current: "is the same as your current password."
               same_as_name: "is the same as your name."
-              unique_characters: "has too many repeated characters. Please use a more secure password."
+              unique_characters: "बहुत सारे दोहराए गए अक्षर हैं। कृपया अधिक सुरक्षित पासवर्ड का उपयोग करें।"
             username:
               same_as_password: "is the same as your password."
             name:
@@ -715,7 +715,7 @@ hi_IN:
         one: "Can't delete this category because it has %{count} topic. Oldest topic is %{topic_link}."
         other: "Can't delete this category because it has %{count} topics. Oldest topic is %{topic_link}."
       topic_exists_no_oldest: "Can't delete this category because topic count is %{count}."
-    uncategorized_description: "Topics that don't need a category, or don't fit into any other existing category."
+    uncategorized_description: "ऐसे टॉपिक्स जिन्हें किसी श्रेणी की आवश्यकता नहीं है, या जो किसी अन्य मौजूदा श्रेणी में फिट नहीं होते हैं।"
   trust_levels:
     admin: "एडमिन"
     staff: "Staff"
@@ -837,9 +837,9 @@ hi_IN:
     no_token: "Sorry, that password change link is too old. Select the Log In button and use 'I forgot my password' to get a new link."
     choose_new: "Choose a new password"
     choose: "Choose a password"
-    update: "Update Password"
-    save: "Set Password"
-    title: "Reset Password"
+    update: "पासवर्ड अपडेट करें"
+    save: "पासवर्ड सेट करें"
+    title: "पासवर्ड रीसेट करें"
     success: "You successfully changed your password and are now logged in."
     success_unapproved: "You successfully changed your password."
 
@@ -953,7 +953,7 @@ hi_IN:
       email_title: 'A post in "%{title}" requires staff attention'
       email_body: "%{link}\n\n%{message}"
     bookmark:
-      title: "Bookmark"
+      title: "बुकमार्क"
       description: "Bookmark this post"
       short_description: "Bookmark this post"
     like:
@@ -1218,13 +1218,13 @@ hi_IN:
       yaxis: "Number of flags"
       description: "Number of new flags."
     bookmarks:
-      title: "Bookmarks"
+      title: "बुकमार्क्स"
       xaxis: "दिन"
       yaxis: "Number of new bookmarks"
       description: "Number of new topics and posts bookmarked."
     users_by_trust_level:
       title: "Users per Trust Level"
-      xaxis: "Trust Level"
+      xaxis: "विश्वास स्तर"
       yaxis: "Number of Users"
       labels:
         level: Level
@@ -2057,7 +2057,7 @@ hi_IN:
     pop3_polling_password: "The password for the POP3 account to poll for email."
     pop3_polling_delete_from_server: "Delete emails from server. NOTE: If you disable this you should manually clean your mail inbox"
     log_mail_processing_failures: "Log all email processing failures to <a href='%{base_path}/logs' target='_blank'>/logs</a>"
-    email_in: 'Allow users to post new topics via email (requires manual or pop3 polling). Configure the addresses in the "Settings" tab of each category.'
+    email_in: 'Allow users to post new topics via email (requires manual or pop3 polling). Configure the addresses in the "सेटिंग" tab of each category.'
     email_in_min_trust: "The minimum trust level a user needs to have to be allowed to post new topics via email."
     email_in_authserv_id: "The identifier of the service doing authentication checks on incoming emails. See <a href='https://meta.discourse.org/t/134358'>https://meta.discourse.org/t/134358</a> for instructions on how to configure this."
     email_in_spam_header: "The email header to detect spam."
@@ -2551,7 +2551,7 @@ hi_IN:
     suspended_with_reason: "Account suspended until %{date}: %{reason}"
     suspended_with_reason_forever: "Account suspended: %{reason}"
     errors: "%{errors}"
-    not_available: "Not available. Try %{suggestion}?"
+    not_available: "उपलब्ध नहीं है। %{suggestion} डालकर देखें?"
     something_already_taken: "Something went wrong, perhaps the username or email is already registered. Try the forgot password link."
     omniauth_error:
       generic: "Sorry, there was an error authorizing your account. Please try again."
@@ -3875,7 +3875,7 @@ hi_IN:
         %{base_url}/session/email-login/%{email_token}
 
     set_password:
-      title: "Set Password"
+      title: "पासवर्ड सेट करें"
       subject_template: "[%{email_prefix}] Set Password"
       text_body_template: |
         Somebody asked to add a password to your account on [%{site_name}](%{base_url}). Alternatively, you can log in using any supported online service (Google, Facebook, etc) that is associated with this validated email address.
