@@ -239,7 +239,7 @@ hi_IN:
     log_in: "लॉग इन"
     age: "Age"
     joined: "जुड़े"
-    admin_title: "Admin"
+    admin_title: "एडमिन"
     show_more: "show more"
     show_help: "options"
     links: "Links"
@@ -250,7 +250,7 @@ hi_IN:
     guidelines: "Guidelines"
     privacy_policy: "Privacy Policy"
     privacy: "गोपनीयता"
-    tos: "Terms of Service"
+    tos: "सेवा की शर्तें"
     rules: "Rules"
     conduct: "Code of Conduct"
     mobile_view: "Mobile View"
@@ -266,8 +266,8 @@ hi_IN:
     every_30_minutes: "every 30 minutes"
     every_hour: "every hour"
     daily: "daily"
-    weekly: "weekly"
-    every_month: "every month"
+    weekly: "साप्ताहिक"
+    every_month: "हर महीने"
     every_six_months: "every six months"
     max_of_count: "max of %{count}"
     character_count:
@@ -281,7 +281,7 @@ hi_IN:
       see_all: 'See <a href="%{path}">all messages</a> from @%{username}...'
 
     suggested_topics:
-      title: "Suggested Topics"
+      title: "सुझाए गए टॉपिक्स"
       pm_title: "Suggested Messages"
 
     about:
@@ -297,7 +297,7 @@ hi_IN:
         last_7_days: "Last 7 days"
         last_30_days: "Last 30 days"
       like_count: "लाइक्स"
-      topic_count: "Topics"
+      topic_count: "टॉपिक्स"
       post_count: "पोस्ट"
       user_count: "उपयोगकर्ता"
       active_user_count: "Active Users"
@@ -351,7 +351,7 @@ hi_IN:
       fullscreen: "show code in full screen"
 
     drafts:
-      label: "Drafts"
+      label: "ड्राफ्ट"
       label_with_count: "Drafts (%{count})"
       resume: "Resume"
       remove: "Remove"
@@ -385,13 +385,13 @@ hi_IN:
       other: "See %{count} new topics"
 
     preview: "preview"
-    cancel: "cancel"
+    cancel: "रद्द करें"
 
     deleting: "डिलीट कर रहे हैं..."
 
     save: "Save Changes"
     saving: "Saving..."
-    saved: "Saved!"
+    saved: "सहेजा गया!"
 
     upload: "अपलोड"
     uploading: "अपलोड कर रहे हैं..."
@@ -483,8 +483,8 @@ hi_IN:
       topic_has_pending:
         one: "This topic has <b>%{count}</b> post pending approval"
         other: "This topic has <b>%{count}</b> posts pending approval"
-      title: "Review"
-      topic: "Topic:"
+      title: "रिव्यु"
+      topic: "टॉपिक:"
       filtered_topic: "You have filtered to reviewable content in a single topic."
       filtered_user: "User"
       filtered_reviewed_by: "Reviewed By"
@@ -514,7 +514,7 @@ hi_IN:
           one: "%{count}% ignore"
           other: "%{count}% ignore"
       topics:
-        topic: "Topic"
+        topic: "टॉपिक"
         reviewable_count: "Count"
         reported_by: "Reported by"
         deleted: "[Topic Deleted]"
@@ -528,7 +528,7 @@ hi_IN:
         other: "%{count} replies"
       edit: "Edit"
       save: "Save"
-      cancel: "Cancel"
+      cancel: "रद्द करें"
       new_topic: "Approving this item will create a new topic"
 
       filters:
@@ -612,7 +612,7 @@ hi_IN:
         one: "hour"
         other: "hours"
       days:
-        one: "day"
+        one: "दिन"
         other: "days"
       months:
         one: "month"
@@ -663,10 +663,10 @@ hi_IN:
       likes_given: "Given"
       likes_received: "Received"
       topics_entered: "Viewed"
-      topics_entered_long: "Topics Viewed"
+      topics_entered_long: "टॉपिक्स देखे"
       time_read: "Time Read"
-      topic_count: "Topics"
-      topic_count_long: "Topics Created"
+      topic_count: "टॉपिक्स"
+      topic_count_long: "टॉपिक्स बनाये"
       post_count: "रिप्लाई"
       post_count_long: "Replies Posted"
       no_results: "No results were found."
@@ -683,7 +683,7 @@ hi_IN:
         save: "Save"
         reset_to_default: "Reset to default"
       group:
-        all: "all groups"
+        all: "सभी समूह"
 
     group_histories:
       actions:
@@ -809,7 +809,7 @@ hi_IN:
       empty:
         posts: "There are no posts by members of this group."
         members: "There are no members in this group."
-        requests: "There are no membership requests for this group."
+        requests: "इस समूह के लिए कोई सदस्यता आवेदन नहीं हैं।"
         mentions: "There are no mentions of this group."
         messages: "There are no messages for this group."
         topics: "There are no topics by members of this group."
@@ -817,25 +817,25 @@ hi_IN:
       add: "Add"
       join: "Join"
       leave: "Leave"
-      request: "Request"
-      message: "Message"
+      request: "आवेदन"
+      message: "संदेश"
       confirm_leave: "Are you sure you want to leave this group?"
       allow_membership_requests: "Allow users to send membership requests to group owners (Requires publicly visible group)"
       membership_request_template: "Custom template to display to users when sending a membership request"
       membership_request:
-        submit: "Submit Request"
-        title: "Request to join @%{group_name}"
-        reason: "Let the group owners know why you belong in this group"
+        submit: "आवेदन भेजें"
+        title: "@%{group_name} समूह से जुड़ने का आवेदन"
+        reason: "समूह के मालिकों को बताएं कि आप इस ग्रुप से क्यों जुड़ना चाहते हैं।"
       membership: "Membership"
       name: "नाम"
-      group_name: "Group name"
+      group_name: "समूह का नाम"
       user_count: "उपयोगकर्ता"
-      bio: "About Group"
+      bio: "समूह के बारे में"
       selector_placeholder: "enter username"
-      owner: "owner"
+      owner: "मालिक"
       index:
-        title: "Groups"
-        all: "All Groups"
+        title: "समूह"
+        all: "सभी समूह"
         empty: "There are no visible groups."
         filter: "Filter by group type"
         owner_groups: "Groups I own"
@@ -849,10 +849,10 @@ hi_IN:
         my_groups: "My Groups"
         group_type: "Group type"
         is_group_user: "Member"
-        is_group_owner: "Owner"
+        is_group_owner: "मालिक"
       title:
-        one: "Group"
-        other: "Groups"
+        one: "समूह"
+        other: "समूह"
       activity: "गतिविधि"
       members:
         title: "Members"
@@ -878,14 +878,14 @@ hi_IN:
         make_all_primary_description: "Make this the primary group for all selected users"
         remove_all_primary: "Remove as Primary"
         remove_all_primary_description: "Remove this group as primary"
-        owner: "Owner"
+        owner: "मालिक"
         primary: "Primary"
         forbidden: "You're not allowed to view the members."
         no_filter_matches: "No members match that search."
-      topics: "Topics"
+      topics: "टॉपिक्स"
       posts: "पोस्ट"
       mentions: "Mentions"
-      messages: "Messages"
+      messages: "संदेश"
       notification_level: "Default notification level for group messages"
       alias_levels:
         mentionable: "Who can @mention this group?"
@@ -899,7 +899,7 @@ hi_IN:
       notifications:
         watching:
           title: "Watching"
-          description: "You will be notified of every new post in every message, and a count of new replies will be shown."
+          description: "आपको हर संदेश में हर नई पोस्ट की सूचना दी जाएगी, और नए रिप्लाई की गिनती दिखाई जाएगी।"
         watching_first_post:
           title: "Watching First Post"
           description: "You will be notified of new messages in this group but not replies to the messages."
@@ -933,7 +933,7 @@ hi_IN:
       "1": "लाइक्स"
       "2": "लाइक्स"
       "3": "Bookmarks"
-      "4": "Topics"
+      "4": "टॉपिक्स"
       "5": "रिप्लाई"
       "6": "Responses"
       "7": "Mentions"
@@ -942,11 +942,11 @@ hi_IN:
       "12": "Sent Items"
       "13": "Inbox"
       "14": "Pending"
-      "15": "Drafts"
+      "15": "ड्राफ्ट"
 
     categories:
       all: "all categories"
-      all_subcategories: "all"
+      all_subcategories: "सभी"
       no_subcategory: "none"
       category: "Category"
       category_list: "Display category list"
@@ -957,7 +957,7 @@ hi_IN:
         apply_all: "Apply"
         position: "Position"
       posts: "पोस्ट"
-      topics: "Topics"
+      topics: "टॉपिक्स"
       latest: "Latest"
       subcategories: "Subcategories"
       muted: "Muted categories"
@@ -1014,14 +1014,14 @@ hi_IN:
         success: "Download initiated, you will be notified via message when the process is complete."
         rate_limit_error: "Posts can be downloaded once per day, please try again tomorrow."
       new_private_message: "New Message"
-      private_message: "Message"
-      private_messages: "Messages"
+      private_message: "संदेश"
+      private_messages: "संदेश"
       user_notifications:
         filters:
           filter_by: "Filter By"
-          all: "All"
+          all: "सभी"
           read: "पढ़े"
-          unread: "Unread"
+          unread: "अपठित"
           unseen: "Unseen"
         ignore_duration_title: "Ignore User"
         ignore_duration_username: "यूजरनाम"
@@ -1053,7 +1053,7 @@ hi_IN:
         to: "to"
       activity_stream: "गतिविधि"
       read: "पढ़े"
-      read_help: "Recently read topics"
+      read_help: "हाल के पढ़े टॉपिक्स"
       preferences: "Preferences"
       feature_topic_on_profile:
         open_search: "Select a New Topic"
@@ -1071,7 +1071,7 @@ hi_IN:
       sr_collapse_profile: "Collapse profile details"
       bookmarks: "Bookmarks"
       bio: "About me"
-      timezone: "Timezone"
+      timezone: "टाइमजोन"
       invited_by: "Invited By"
       trust_level: "Trust Level"
       notifications: "Notifications"
@@ -1181,7 +1181,7 @@ hi_IN:
       delete_account_confirm: "Are you sure you want to permanently delete your account? This action cannot be undone!"
       deleted_yourself: "Your account has been deleted successfully."
       delete_yourself_not_allowed: "Please contact a staff member if you wish your account to be deleted."
-      unread_message_count: "Messages"
+      unread_message_count: "संदेश"
       admin_delete: "Delete"
       users: "उपयोगकर्ता"
       muted_users: "Muted"
@@ -1217,7 +1217,7 @@ hi_IN:
         personal: "Personal"
         latest: "Latest"
         sent: "Sent"
-        unread: "Unread"
+        unread: "अपठित"
         unread_with_count:
           one: "Unread (%{count})"
           other: "Unread (%{count})"
@@ -1233,7 +1233,7 @@ hi_IN:
         tags: "टैग्स"
         warnings: "Official Warnings"
         read_more_in_group: "Want to read more? Browse other messages in %{groupLink}."
-        read_more: "Want to read more? Browse other messages in <a href='%{basePath}/u/%{username}/messages'>personal messages</a>."
+        read_more: "क्या आप और पढ़ना चाहते हैं? <a href="%{basePath}/u/%{username}/messages/personal">व्यक्तिगत संदेशों</a> में अन्य संदेश खोलें।"
 
         read_more_group_pm_MF: "There {
           UNREAD, plural,
@@ -1282,7 +1282,7 @@ hi_IN:
         in_progress: "(sending email)"
         error: "(error)"
         emoji: "lock emoji"
-        action: "Send Password Reset Email"
+        action: "पासवर्ड रीसेट ईमेल भेजें"
         set_password: "Set Password"
         choose_new: "Choose a new password"
         choose: "Choose a password"
@@ -1403,7 +1403,7 @@ hi_IN:
         instructions: "A link to this topic will be on your user card, and profile."
 
       email:
-        title: "Email"
+        title: "ईमेल"
         primary: "Primary Email"
         secondary: "Secondary Emails"
         primary_label: "primary"
@@ -1419,7 +1419,7 @@ hi_IN:
         no_secondary: "No secondary emails"
         instructions: "Never shown to the public."
         admin_note: "Note: An admin user changing another non-admin user's email indicates the user has lost access to their original email account, so a reset password email will be sent to their new address. The user's email will not change until they complete the reset password process."
-        ok: "We will email you to confirm"
+        ok: "पुष्टि करने के लिए हम आपको ईमेल करेंगे"
         required: "Please enter an email address"
         invalid: "Please enter a valid email address"
         authenticated: "Your email has been authenticated by %{provider}"
@@ -1434,7 +1434,7 @@ hi_IN:
         title: "Associated Accounts"
         connect: "Connect"
         revoke: "Revoke"
-        cancel: "Cancel"
+        cancel: "रद्द करें"
         not_connected: "(not connected)"
         confirm_modal_title: "Connect %{provider} Account"
         confirm_description:
@@ -1479,7 +1479,7 @@ hi_IN:
       auth_tokens:
         title: "Recently Used Devices"
         details: "Details"
-        log_out_all: "Log out all"
+        log_out_all: "सभी को लॉग आउट करें"
         not_you: "Not you?"
         show_all: "Show all (%{count})"
         show_few: "Show fewer"
@@ -1493,13 +1493,13 @@ hi_IN:
         browser_last_seen: "%{browser} | %{date}"
 
       last_posted: "आखिरी पोस्ट"
-      last_seen: "Seen"
+      last_seen: "ऑनलाइन"
       created: "जुड़े"
-      log_out: "Log Out"
+      log_out: "लॉग आउट"
       location: "Location"
 
       website: "Web Site"
-      email_settings: "Email"
+      email_settings: "ईमेल"
       hide_profile_and_presence: "Hide my public profile and presence features"
       enable_physical_keyboard: "Enable physical keyboard support on iPad"
 
@@ -1532,8 +1532,8 @@ hi_IN:
         every_30_minutes: "every 30 minutes"
         every_hour: "hourly"
         daily: "daily"
-        weekly: "weekly"
-        every_month: "every month"
+        weekly: "साप्ताहिक"
+        every_month: "हर महीने"
         every_six_months: "every six months"
       email_level:
         title: "Email me when I am quoted, replied to, my @username is mentioned, or when there is new activity in my watched categories, tags or topics"
@@ -1580,8 +1580,8 @@ hi_IN:
         redeemed_tab_with_count: "Redeemed (%{count})"
         invited_via: "Invitation"
         invited_via_link: "link %{key} (%{count} / %{max} redeemed)"
-        groups: "Groups"
-        topic: "Topic"
+        groups: "समूह"
+        topic: "टॉपिक"
         sent: "Created/Last Sent"
         expires_at: "Expires"
         edit: "Edit"
@@ -1599,7 +1599,7 @@ hi_IN:
         redeemed: "Redeemed Invites"
         redeemed_at: "Redeemed"
         pending: "Pending Invites"
-        topics_entered: "Topics Viewed"
+        topics_entered: "टॉपिक्स देखे"
         posts_read_count: "Posts Read"
         expired: "This invite has expired."
         remove_all: "Remove Expired Invites"
@@ -1683,8 +1683,8 @@ hi_IN:
         time_read: "read time"
         recent_time_read: "recent read time"
         topic_count:
-          one: "topic created"
-          other: "topics created"
+          one: "टॉपिक बनाया"
+          other: "टॉपिक्स बनाये"
         post_count:
           one: "post created"
           other: "posts created"
@@ -1699,7 +1699,7 @@ hi_IN:
           other: "days visited"
         topics_entered:
           one: "topic viewed"
-          other: "topics viewed"
+          other: "टॉपिक्स देखे"
         posts_read:
           one: "post read"
           other: "posts read"
@@ -1709,9 +1709,9 @@ hi_IN:
         top_replies: "Top Replies"
         no_replies: "No replies yet."
         more_replies: "More Replies"
-        top_topics: "Top Topics"
+        top_topics: "टॉप टॉपिक्स"
         no_topics: "No topics yet."
-        more_topics: "More Topics"
+        more_topics: "और टॉपिक्स"
         top_badges: "Top Badges"
         no_badges: "No badges yet."
         more_badges: "More Badges"
@@ -1722,7 +1722,7 @@ hi_IN:
         most_replied_to_users: "Most Replied To"
         no_likes: "No likes yet."
         top_categories: "Top Categories"
-        topics: "Topics"
+        topics: "टॉपिक्स"
         replies: "रिप्लाई"
 
       ip_address:
@@ -1747,12 +1747,12 @@ hi_IN:
         none: "(none)"
 
       filters:
-        all: "All"
+        all: "सभी"
 
       stream:
         posted_by: "Posted by"
         sent_by: "Sent by"
-        private_message: "message"
+        private_message: "संदेश"
         the_topic: "the topic"
 
     loading: "Loading..."
@@ -1835,7 +1835,7 @@ hi_IN:
       hide_forever: "no thanks"
       hidden_for_session: "OK, we'll ask you tomorrow. You can always use 'Log In' to create an account, too."
       intro: "Hello! Looks like you’re enjoying the discussion, but you haven’t signed up for an account yet."
-      value_prop: "When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications, here and via email, whenever someone replies to you. And you can like posts to share the love. :heartpulse:"
+      value_prop: "जब आप एक अकाउंट बना लेते हैं, तो हमें याद रहता है कि आपने क्या-क्या पढ़ लिया है, इसलिए आप हमेशा वहीं वापस आते हैं जहां आपने छोड़ा था। साथ ही, जब कोई आपको रिप्लाई देता है, तो आपको यहाँ और ईमेल के माध्यम से नोटिफिकेशन प्राप्त होते हैं। और सबसे बड़ी बात, आप प्यार बांटने के लिए पोस्ट को लाइक कर सकते हैं। :heartpulse:"
 
     summary:
       enabled_description: "You're viewing a summary of this topic: the most interesting posts as determined by the community."
@@ -1856,7 +1856,7 @@ hi_IN:
       disable: "Show Deleted Posts"
 
     private_message_info:
-      title: "Message"
+      title: "संदेश"
       invite: "Invite Others..."
       edit: "Add or Remove..."
       remove: "Remove..."
@@ -1865,9 +1865,9 @@ hi_IN:
       remove_allowed_user: "Do you really want to remove %{name} from this message?"
       remove_allowed_group: "Do you really want to remove %{name} from this message?"
 
-    email: "Email"
+    email: "ईमेल"
     username: "यूजरनाम"
-    last_seen: "Seen"
+    last_seen: "ऑनलाइन"
     created: "Created"
     created_lowercase: "created"
     trust_level: "Trust Level"
@@ -1884,7 +1884,7 @@ hi_IN:
     forgot_password:
       title: "Password Reset"
       action: "I forgot my password"
-      invite: "Enter your username or email address, and we'll send you a password reset email."
+      invite: "अपना यूजरनाम या ईमेल पता दर्ज करें, और हम आपको एक पासवर्ड रीसेट ईमेल भेजेंगे।"
       invite_no_username: "Enter your email address, and we'll send you a password reset email."
       reset: "Reset Password"
       complete_username: "If an account matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
@@ -1893,7 +1893,7 @@ hi_IN:
       complete_email_found: "We found an account that matches <b>%{email}</b>. You should receive an email with instructions on how to reset your password shortly."
 
       complete_username_not_found: "No account matches the username <b>%{username}</b>"
-      complete_email_not_found: "No account matches <b>%{email}</b>"
+      complete_email_not_found: "<b>%{email}</b> ईमेल का कोई अकाउंट नहीं है"
       help: "Email not arriving? Be sure to check your spam folder first.<p>Not sure which email address you used? Enter an email address and we’ll let you know if it exists here.</p><p>If you no longer have access to the email address on your account, please contact <a href='%{basePath}/about'>our helpful staff.</a></p>"
       button_ok: "OK"
       button_help: "Help"
@@ -1908,7 +1908,7 @@ hi_IN:
       complete_username_found: "We found an account that matches the username <b>%{username}</b>, you should receive an email with a login link shortly."
       complete_email_found: "We found an account that matches <b>%{email}</b>, you should receive an email with a login link shortly."
       complete_username_not_found: "No account matches the username <b>%{username}</b>"
-      complete_email_not_found: "No account matches <b>%{email}</b>"
+      complete_email_not_found: "<b>%{email}</b> ईमेल का कोई अकाउंट नहीं है"
       confirm_title: Continue to %{site_name}
       logging_in_as: Logging in as %{email}
       confirm_button: Finish Login
@@ -1931,7 +1931,7 @@ hi_IN:
       security_key_not_allowed_error: "The security key authentication process either timed out or was cancelled."
       security_key_no_matching_credential_error: "No matching credentials could be found in the provided security key."
       security_key_support_missing_error: "Your current device or browser does not support the use of security keys. Please use a different method."
-      email_placeholder: "Email / Username"
+      email_placeholder: "ईमेल / यूजरनाम"
       caps_lock_warning: "Caps Lock is on"
       error: "Unknown error"
       cookies_error: "Your browser seems to have cookies disabled. You might not be able to log in without enabling them first."
@@ -2157,9 +2157,9 @@ hi_IN:
       reply_original: "Reply on Original Topic"
       reply_here: "Reply Here"
       reply: "Reply"
-      cancel: "Cancel"
+      cancel: "रद्द करें"
       create_topic: "Create Topic"
-      create_pm: "Message"
+      create_pm: "संदेश"
       create_whisper: "Whisper"
       create_shared_draft: "Create Shared Draft"
       edit_shared_draft: "Edit Shared Draft"
@@ -2176,7 +2176,7 @@ hi_IN:
       reply_placeholder_choose_category: "Select a category before typing here."
       view_new_post: "View your new post."
       saving: "Saving"
-      saved: "Saved!"
+      saved: "सहेजा गया!"
       saved_draft: "Post draft in progress. Tap to resume."
       uploading: "Uploading..."
       show_preview: "show preview"
@@ -2214,7 +2214,7 @@ hi_IN:
       show_toolbar: "show composer toolbar"
       hide_toolbar: "hide composer toolbar"
       modal_ok: "OK"
-      modal_cancel: "Cancel"
+      modal_cancel: "रद्द करें"
       cant_send_pm: "Sorry, you can't send a message to %{username}."
       yourself_confirm:
         title: "Did you forget to add recipients?"
@@ -2248,7 +2248,7 @@ hi_IN:
           label: Toggle whisper
           desc: Whispers are only visible to staff members
         create_topic:
-          label: "New Topic"
+          label: "नया टॉपिक"
         shared_draft:
           label: "Shared Draft"
           desc: "Draft a topic that will only be visible to allowed users"
@@ -2315,7 +2315,7 @@ hi_IN:
           one: "Are you sure? You have %{count} important notification."
           other: "Are you sure? You have %{count} important notifications."
         dismiss: "Dismiss"
-        cancel: "Cancel"
+        cancel: "रद्द करें"
 
       group_message_summary:
         one: "%{count} message in your %{group_name} inbox"
@@ -2352,7 +2352,7 @@ hi_IN:
         invited_to_topic: "invited to topic"
         group_mentioned: "group mentioned"
         group_message_summary: "new group messages"
-        watching_first_post: "new topic"
+        watching_first_post: "नया टॉपिक"
         topic_reminder: "topic reminder"
         liked_consolidated: "new likes"
         post_approved: "post approved"
@@ -2370,7 +2370,7 @@ hi_IN:
       sort_by: "Sort by"
       relevance: "Relevance"
       latest_post: "नवीनतम पोस्ट"
-      latest_topic: "Latest Topic"
+      latest_topic: "नवीनतम टॉपिक"
       most_viewed: "Most Viewed"
       most_liked: "Most Liked"
       select_all: "Select All"
@@ -2559,7 +2559,7 @@ hi_IN:
         latest: "You're all caught up!"
         bookmarks: "You have no bookmarked topics yet."
         category: "There are no %{category} topics."
-        top: "There are no top topics."
+        top: "कोई टॉप टॉपिक्स नहीं हैं।"
         educate:
           new: '<p>Your new topics will appear here. By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;"></span> indicator if they were created in the last 2 days.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
           unread: '<p>Your unread topics appear here.</p><p>By default, topics are considered unread and will show unread counts <span class="badge unread-posts badge-notification">1</span> if you:</p><ul><li>Created the topic</li><li>Replied to the topic</li><li>Read the topic for more than 4 minutes</li></ul><p>Or if you have explicitly set the topic to Tracked or Watched via the 🔔 in each topic.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
@@ -2579,7 +2579,7 @@ hi_IN:
       filter_to:
         one: "%{count} post in topic"
         other: "%{count} posts in topic"
-      create: "New Topic"
+      create: "नया टॉपिक"
       create_long: "Create a new Topic"
       open_draft: "Open Draft"
       private_message: "Start a message"
@@ -2596,16 +2596,16 @@ hi_IN:
         help: "Mark as unread"
         title: "Defer"
 
-      list: "Topics"
-      new: "new topic"
-      unread: "unread"
+      list: "टॉपिक्स"
+      new: "नया टॉपिक"
+      unread: "अपठित"
       new_topics:
         one: "%{count} new topic"
         other: "%{count} new topics"
       unread_topics:
         one: "%{count} unread topic"
         other: "%{count} unread topics"
-      title: "Topic"
+      title: "टॉपिक"
       invalid_access:
         title: "Topic is private"
         description: "Sorry, you don't have access to that topic!"
@@ -2793,7 +2793,7 @@ hi_IN:
           "0": "You are ignoring all notifications on this topic."
         watching_pm:
           title: "Watching"
-          description: "You will be notified of every new reply in this message, and a count of new replies will be shown."
+          description: "आपको इस संदेश में प्रत्येक नए रिप्लाई के बारे में सूचित किया जाएगा, और नए रिप्लाई की संख्या दिखाई जाएगी।"
         watching:
           title: "Watching"
           description: "You will be notified of every new reply in this topic, and a count of new replies will be shown."
@@ -2910,7 +2910,7 @@ hi_IN:
         success_group: "We've invited that group to participate in this message."
         error: "Sorry, there was an error inviting that user."
         not_allowed: "Sorry, that user can't be invited."
-        group_name: "group name"
+        group_name: "समूह का नाम"
 
       controls: "Topic Controls"
 
@@ -2949,7 +2949,7 @@ hi_IN:
         title: "Move to New Topic"
         action: "move to new topic"
         topic_name: "New Topic Title"
-        radio_label: "New Topic"
+        radio_label: "नया टॉपिक"
         error: "There was an error moving posts to the new topic."
         instructions:
           one: "You are about to create a new topic and populate it with the post you've selected."
@@ -3358,7 +3358,7 @@ hi_IN:
       security: "Security"
       security_add_group: "Add a group"
       permissions:
-        group: "Group"
+        group: "समूह"
         see: "See"
         reply: "Reply"
         create: "Create"
@@ -3391,7 +3391,7 @@ hi_IN:
       allow_badges_label: "Allow badges to be awarded in this category"
       edit_permissions: "Edit Permissions"
       reviewable_by_group: "In addition to staff, content in this category can also be reviewed by:"
-      review_group_name: "group name"
+      review_group_name: "समूह का नाम"
       require_topic_approval: "Require moderator approval of all new topics"
       require_reply_approval: "Require moderator approval of all new replies"
       this_year: "this year"
@@ -3451,9 +3451,9 @@ hi_IN:
         general: "General"
         moderation: "Moderation"
         appearance: "Appearance"
-        email: "Email"
+        email: "ईमेल"
       list_filters:
-        all: "all topics"
+        all: "सभी टॉपिक्स"
         none: "no subcategories"
       colors_disabled: "You can’t select colors because you have a category style of none."
 
@@ -3471,7 +3471,7 @@ hi_IN:
         silence:
           title: "Silence User"
           details: "Reach the flag threshold, and silence the user"
-      notify_action: "Message"
+      notify_action: "संदेश"
       official_warning: "Official Warning"
       delete_spammer: "Delete Spammer"
       flag_for_review: "Queue For Review"
@@ -3505,7 +3505,7 @@ hi_IN:
     flagging_topic:
       title: "Thanks for helping to keep our community civil!"
       action: "Flag Topic"
-      notify_action: "Message"
+      notify_action: "संदेश"
 
     topic_map:
       title: "Topic Summary"
@@ -3593,7 +3593,7 @@ hi_IN:
     categories_list: "Categories List"
 
     filters:
-      with_topics: "%{filter} topics"
+      with_topics: "%{filter} टॉपिक्स"
       with_category: "%{filter} %{category} topics"
       latest:
         title: "Latest"
@@ -3607,9 +3607,9 @@ hi_IN:
       categories:
         title: "Categories"
         title_in: "Category - %{categoryName}"
-        help: "all topics grouped by category"
+        help: "श्रेणी के अनुसार समूहीकृत सभी टॉपिक्स"
       unread:
-        title: "Unread"
+        title: "अपठित"
         title_with_count:
           one: "Unread (%{count})"
           other: "Unread (%{count})"
@@ -3626,7 +3626,7 @@ hi_IN:
           one: "%{count} new"
           other: "%{count} new"
         lower_title: "new"
-        title: "New"
+        title: "नए"
         title_with_count:
           one: "New (%{count})"
           other: "New (%{count})"
@@ -3644,7 +3644,7 @@ hi_IN:
           other: "%{categoryName} (%{count})"
         help: "latest topics in the %{categoryName} category"
       top:
-        title: "Top"
+        title: "टॉप"
         help: "the most active topics in the last year, month, week or day"
         all:
           title: "All Time"
@@ -3655,7 +3655,7 @@ hi_IN:
         monthly:
           title: "Monthly"
         weekly:
-          title: "Weekly"
+          title: "साप्ताहिक"
         daily:
           title: "Daily"
         all_time: "All Time"
@@ -3663,7 +3663,7 @@ hi_IN:
         this_quarter: "Quarter"
         this_month: "Month"
         this_week: "Week"
-        today: "Today"
+        today: "आज"
         other_periods: "see top:"
 
     browser_update: 'Unfortunately, <a href="https://www.discourse.org/faq/#browser">your browser is too old to work on this site</a>. Please <a href="https://browsehappy.com">upgrade your browser</a> to view rich content, log in and reply.'
@@ -3882,7 +3882,7 @@ hi_IN:
       tag_list_joiner: ", "
       delete_unused: "Delete Unused Tags"
       delete_unused_description: "Delete all tags which are not attached to any topics or personal messages"
-      cancel_delete_unused: "Cancel"
+      cancel_delete_unused: "रद्द करें"
       filters:
         without_category: "%{filter} %{tag} topics"
         with_category: "%{filter} %{tag} topics in %{category}"
@@ -3911,7 +3911,7 @@ hi_IN:
         about_heading: "Select a tag group or create a new one"
         about_heading_empty: "Create a new tag group to get started"
         about_description: "Tag groups help you manage permissions for many tags in one place."
-        new: "New Group"
+        new: "नया समूह"
         new_title: "Create New Group"
         edit_title: "Edit Tag Group"
         tags_label: "Tags in this group"
@@ -3941,7 +3941,7 @@ hi_IN:
           posted: "You haven't posted in any topics yet."
           latest: "There are no latest topics."
           bookmarks: "You have no bookmarked topics yet."
-          top: "There are no top topics."
+          top: "कोई टॉप टॉपिक्स नहीं हैं।"
 
     invite:
       custom_message: "Make your invite a little bit more personal by writing a <a href>custom message</a>."
@@ -3982,7 +3982,7 @@ hi_IN:
         basic: "basic user"
         member: "member"
         regular: "regular"
-        leader: "leader"
+        leader: "लीडर"
       detailed_name: "%{level}: %{name}"
 
     pick_files_button:
@@ -4058,7 +4058,7 @@ hi_IN:
         silenced: "Silenced:"
         suspended: "Suspended:"
         private_messages_short: "Msgs"
-        private_messages_title: "Messages"
+        private_messages_title: "संदेश"
         mobile_title: "Mobile"
         space_used: "%{usedSize} used"
         space_used_and_free: "%{usedSize} (%{freeSize} free)"
@@ -4092,14 +4092,14 @@ hi_IN:
 
         reports:
           trend_title: "%{percent} change. Currently %{current}, was %{prev} in previous period."
-          today: "Today"
+          today: "आज"
           yesterday: "Yesterday"
           last_7_days: "Last 7"
           last_30_days: "Last 30"
           all_time: "All Time"
           7_days_ago: "7 Days Ago"
           30_days_ago: "30 Days Ago"
-          all: "All"
+          all: "सभी"
           view_table: "table"
           view_graph: "graph"
           refresh_report: "Refresh Report"
@@ -4107,7 +4107,7 @@ hi_IN:
           monthly: Monthly
           weekly: Weekly
           dates: "Dates (UTC)"
-          groups: "All groups"
+          groups: "सभी समूह"
           disabled: "This report is disabled"
           totals_for_sample: "Totals for sample"
           average_for_sample: "Average for sample"
@@ -4129,7 +4129,7 @@ hi_IN:
 
       groups:
         new:
-          title: "New Group"
+          title: "नया समूह"
           create: "Create"
           name:
             too_short: "Group name is too short"
@@ -4171,7 +4171,7 @@ hi_IN:
         name_placeholder: "Group name, no spaces, same as username rule"
         primary: "Primary Group"
         no_primary: "(no primary group)"
-        title: "Groups"
+        title: "समूह"
         edit: "Edit Groups"
         refresh: "Refresh"
         about: "Edit your group membership and names here"
@@ -4363,7 +4363,7 @@ hi_IN:
           completed_in:
             one: "Completed in %{count} second."
             other: "Completed in %{count} seconds."
-          request: "Request"
+          request: "आवेदन"
           response: "Response"
           redeliver_confirm: "Are you sure you want to redeliver the same payload?"
           headers: "Headers"
@@ -4422,7 +4422,7 @@ hi_IN:
           is_running: "An operation is currently running..."
           failed: "The %{operation} failed. Please check the logs."
           cancel:
-            label: "Cancel"
+            label: "रद्द करें"
             title: "Cancel the current operation"
             confirm: "Are you sure you want to cancel the current operation?"
           backup:
@@ -4487,7 +4487,7 @@ hi_IN:
         copy_to_clipboard_error: "Error copying data to Clipboard"
         theme_owner: "Not editable, owned by:"
         email_templates:
-          title: "Email"
+          title: "ईमेल"
           subject: "Subject"
           multiple_subjects: "This email template has multiple subjects."
           body: "Body"
@@ -4836,7 +4836,7 @@ hi_IN:
           block: "block"
           do_nothing: "do nothing"
         staff_actions:
-          all: "all"
+          all: "सभी"
           filter: "Filter:"
           title: "Staff Actions"
           clear_filters: "Show Everything"
@@ -5134,12 +5134,12 @@ hi_IN:
         admin: "Admin?"
         suspended: "Suspended?"
         staged: "Staged?"
-        show_admin_profile: "Admin"
+        show_admin_profile: "एडमिन"
         show_public_profile: "Show Public Profile"
         impersonate: "Impersonate"
         action_logs: "Action Logs"
         ip_lookup: "IP Lookup"
-        log_out: "Log Out"
+        log_out: "लॉग आउट"
         logged_out: "User was logged out on all devices"
         revoke_admin: "Revoke Admin"
         grant_admin: "Grant Admin"
@@ -5195,7 +5195,7 @@ hi_IN:
 
             text: "delete posts by @%{username}"
             delete: "Delete posts by @%{username}"
-            cancel: "Cancel"
+            cancel: "रद्द करें"
         merge:
           button: "Merge"
           prompt:
@@ -5207,7 +5207,7 @@ hi_IN:
 
             target_username_placeholder: "Username of new owner"
             transfer_and_delete: "Transfer & Delete @%{username}"
-            cancel: "Cancel"
+            cancel: "रद्द करें"
           progress:
             title: "Merge progress"
           confirmation:
@@ -5221,7 +5221,7 @@ hi_IN:
 
             text: "transfer @%{username} to @%{targetUsername}"
             transfer_and_delete: "Transfer & Delete @%{username}"
-            cancel: "Cancel"
+            cancel: "रद्द करें"
 
         merging_user: "Merging user..."
         merge_failed: "There was an error while merging the users."
@@ -5289,8 +5289,8 @@ hi_IN:
           visits: "Visits"
           days: "days"
           topics_replied_to: "Topics Replied To"
-          topics_viewed: "Topics Viewed"
-          topics_viewed_all_time: "Topics Viewed (all time)"
+          topics_viewed: "टॉपिक्स देखे"
+          topics_viewed_all_time: "टॉपिक्स देखे (अब तक)"
           posts_read: "Posts Read"
           posts_read_all_time: "Posts Read (all time)"
           flagged_posts: "Flagged Posts"
@@ -5313,7 +5313,7 @@ hi_IN:
           external_id: "External ID"
           external_username: "यूजरनाम"
           external_name: "नाम"
-          external_email: "Email"
+          external_email: "ईमेल"
           external_avatar_url: "Profile Picture URL"
           last_payload: "Last Payload"
           delete_sso_record: "Delete SSO Record"
@@ -5330,7 +5330,7 @@ hi_IN:
         save: "Save"
         edit: "Edit"
         delete: "Delete"
-        cancel: "Cancel"
+        cancel: "रद्द करें"
         delete_confirm: "Are you sure you want to delete that user field?"
         options: "Options"
         required:
@@ -5400,13 +5400,13 @@ hi_IN:
         selectable_avatars:
           title: "List of avatars users can choose from"
         categories:
-          all_results: "All"
+          all_results: "सभी"
           required: "Required"
           branding: "Branding"
           basic: "Basic Setup"
           users: "उपयोगकर्ता"
           posting: "Posting"
-          email: "Email"
+          email: "ईमेल"
           files: "Files"
           trust: "Trust Levels"
           security: "Security"
@@ -5426,7 +5426,7 @@ hi_IN:
           user_preferences: "User Preferences"
           tags: "टैग्स"
           search: "Search"
-          groups: "Groups"
+          groups: "समूह"
           dashboard: "Dashboard"
         secret_list:
           invalid_input: "Input fields cannot be empty or contain vertical bar character."
@@ -5537,7 +5537,7 @@ hi_IN:
         choose_files: "Choose Files"
         uploading: "Uploading..."
         name: "नाम"
-        group: "Group"
+        group: "समूह"
         image: "Image"
         alt: "custom emoji preview"
         delete_confirm: "Are you sure you want to delete the :%{name}: emoji?"
@@ -5572,7 +5572,7 @@ hi_IN:
         description: "Redirections to apply for URLs not known by the forum."
         url: "URL"
         topic_id: "Topic ID"
-        topic_title: "Topic"
+        topic_title: "टॉपिक"
         post_id: "Post ID"
         post_title: "पोस्ट"
         category_id: "Category ID"
@@ -5596,7 +5596,7 @@ hi_IN:
           title: "Replace Text"
           subtitle: "Replace text of system generated categories and topics with latest translations"
           categories: "Categories"
-          topics: "Topics"
+          topics: "टॉपिक्स"
           replace: "Replace"
 
   wizard_js:
@@ -5619,7 +5619,7 @@ hi_IN:
         add_user: "add"
         none_added: "You haven’t invited any staff. Are you sure you want to continue?"
         roles:
-          admin: "Admin"
+          admin: "एडमिन"
           moderator: "Moderator"
           regular: "Regular User"
 
