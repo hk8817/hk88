@@ -418,7 +418,7 @@ hi_IN:
       edit: "संपादित करें"
 
     pwa:
-      install_banner: "क्या आप इस डिवाइस पर <a href="">%{title} को इंस्टॉल करना चाहते हैं?</a>"
+      install_banner: "क्या आप इस डिवाइस पर <a href>%{title} को इंस्टॉल करना चाहते हैं?</a>"
 
     choose_topic:
       none_found: "No topics found."
