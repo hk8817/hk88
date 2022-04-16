@@ -637,7 +637,7 @@ hi_IN:
             base:
               invalid_url: "Replacement URL is invalid"
 
-  uncategorized_category_name: "Uncategorized"
+  uncategorized_category_name: "सामान्य"
 
   vip_category_name: "Lounge"
   vip_category_description: "A category exclusive to members with trust level 3 and higher."
@@ -785,10 +785,10 @@ hi_IN:
         other: "%{count}d"
       about_x_months:
         one: "%{count}mon"
-        other: "%{count}mon"
+        other: "%{count} महीने"
       x_months:
         one: "%{count}mon"
-        other: "%{count}mon"
+        other: "%{count} महीने"
       about_x_years:
         one: "%{count}y"
         other: "%{count}y"
@@ -4453,7 +4453,7 @@ hi_IN:
       Once you get notice of an update to these terms, you must agree to the new terms in order to keep using the forum.
 
   privacy_topic:
-    title: "Privacy Policy"
+    title: "गोपनीयता नीति"
     body: |
       <a name="collect"></a>
 
