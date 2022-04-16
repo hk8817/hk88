@@ -165,10 +165,10 @@ hi_IN:
         disabled: "unarchived %{when}"
       pinned:
         enabled: "pinned %{when}"
-        disabled: "unpinned %{when}"
+        disabled: "अनपिन किया गया %{when}"
       pinned_globally:
-        enabled: "pinned globally %{when}"
-        disabled: "unpinned %{when}"
+        enabled: "वैश्विक रूप से पिन किया गया %{when}"
+        disabled: "अनपिन किया गया %{when}"
       visible:
         enabled: "listed %{when}"
         disabled: "unlisted %{when}"
@@ -263,12 +263,12 @@ hi_IN:
       one: "%{count} More"
       other: "%{count} More"
     never: "never"
-    every_30_minutes: "every 30 minutes"
+    every_30_minutes: "प्रत्येक 30 मिनट"
     every_hour: "every hour"
     daily: "daily"
     weekly: "साप्ताहिक"
     every_month: "हर महीने"
-    every_six_months: "every six months"
+    every_six_months: "प्रत्येक छह महीने में"
     max_of_count: "max of %{count}"
     character_count:
       one: "%{count} character"
@@ -285,17 +285,17 @@ hi_IN:
       pm_title: "Suggested Messages"
 
     about:
-      simple_title: "About"
+      simple_title: "हमारे बारे में"
       title: "%{title} के बारे में"
       stats: "साइट के आंकड़े"
       our_admins: "संस्थापक"
-      our_moderators: "Our Moderators"
+      our_moderators: "सुपर मॉडरेटर"
       moderators: "Moderators"
       stat:
         all_time: "अब तक"
-        last_day: "Last 24 hours"
-        last_7_days: "Last 7 days"
-        last_30_days: "Last 30 days"
+        last_day: "पिछले 24 घंटे"
+        last_7_days: "पिछले 7 दिन"
+        last_30_days: "पिछले 30 दिन"
       like_count: "लाइक्स"
       topic_count: "टॉपिक्स"
       post_count: "पोस्ट"
@@ -389,7 +389,7 @@ hi_IN:
 
     deleting: "डिलीट कर रहे हैं..."
 
-    save: "Save Changes"
+    save: "बदलाव सहेजें"
     saving: "Saving..."
     saved: "सहेजा गया!"
 
@@ -418,7 +418,7 @@ hi_IN:
       edit: "संपादित करें"
 
     pwa:
-      install_banner: "Do you want to <a href>install %{title} on this device?</a>"
+      install_banner: "क्या आप इस डिवाइस पर <a href="">%{title} को इंस्टॉल करना चाहते हैं?</a>"
 
     choose_topic:
       none_found: "No topics found."
@@ -470,7 +470,7 @@ hi_IN:
       delete: "Delete"
       settings:
         saved: "सहेजा गया"
-        save_changes: "Save Changes"
+        save_changes: "बदलाव सहेजें"
         title: "सेटिंग"
         priorities:
           title: "Reviewable Priorities"
@@ -616,7 +616,7 @@ hi_IN:
         other: "days"
       months:
         one: "महीना"
-        other: "months"
+        other: "महीने"
       years:
         one: "वर्ष"
         other: "years"
@@ -629,11 +629,11 @@ hi_IN:
       post_local_date: "Date in post"
       later_this_week: "Later this week"
       this_weekend: "This weekend"
-      start_of_next_business_week: "Monday"
+      start_of_next_business_week: "सोमवार"
       start_of_next_business_week_alt: "Next Monday"
       two_weeks: "Two weeks"
       next_month: "अगले महीने"
-      six_months: "Six months"
+      six_months: "छह महीने"
       custom: "Custom date and time"
       relative: "Relative time"
       none: "None needed"
@@ -661,7 +661,7 @@ hi_IN:
       filter_name: "filter by username"
       title: "उपयोगकर्ता"
       likes_given: "दिए"
-      likes_received: "Received"
+      likes_received: "प्राप्त कीं"
       topics_entered: "देखे"
       topics_entered_long: "टॉपिक्स देखे"
       time_read: "Time Read"
@@ -673,8 +673,8 @@ hi_IN:
       days_visited: "दिन आये"
       days_visited_long: "दिन आये"
       posts_read: "पढ़े"
-      posts_read_long: "Posts Read"
-      last_updated: "Last Updated:"
+      posts_read_long: "पोस्ट पढ़ीं"
+      last_updated: "आखरी अपडेट:"
       total_rows:
         one: "%{count} user"
         other: "%{count} users"
@@ -706,10 +706,10 @@ hi_IN:
       requests:
         title: "Requests"
         reason: "Reason"
-        accept: "Accept"
-        accepted: "accepted"
-        deny: "Deny"
-        denied: "denied"
+        accept: "स्वीकार करें"
+        accepted: "स्वीकार किया गया"
+        deny: "अस्वीकार करें"
+        denied: "अस्वीकार किया गया"
         undone: "request undone"
         handle: "handle membership request"
       manage:
@@ -717,7 +717,7 @@ hi_IN:
         name: "नाम"
         full_name: "Full Name"
         add_members: "उपयोगकर्ताओं को जोड़ें"
-        invite_members: "Invite"
+        invite_members: "आमंत्रित करें"
         delete_member_confirm: "Remove '%{username}' from the '%{group}' group?"
         profile:
           title: Profile
@@ -732,7 +732,7 @@ hi_IN:
           enable_imap: "Enable IMAP"
           test_settings: "Test Settings"
           save_settings: "Save Settings"
-          last_updated: "Last updated:"
+          last_updated: "आखरी अपडेट:"
           last_updated_by: "by"
           settings_required: "All settings are required, please fill in all fields before validation."
           smtp_settings_valid: "SMTP settings valid."
@@ -898,13 +898,13 @@ hi_IN:
         everyone: "Everyone"
       notifications:
         watching:
-          title: "Watching"
+          title: "वाचिंग"
           description: "आपको हर संदेश में हर नई पोस्ट की सूचना दी जाएगी, और नए रिप्लाई की गिनती दिखाई जाएगी।"
         watching_first_post:
           title: "Watching First Post"
           description: "You will be notified of new messages in this group but not replies to the messages."
         tracking:
-          title: "Tracking"
+          title: "ट्रैकिंग"
           description: "You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
         regular:
           title: "Normal"
@@ -1007,7 +1007,7 @@ hi_IN:
       said: "%{username}:"
       profile: "प्रोफाइल"
       mute: "म्यूट"
-      edit: "Edit Preferences"
+      edit: "प्राथमिकताएँ सम्पादित करें"
       download_archive:
         button_text: "सभी डाउनलोड करें"
         confirm: "क्या आप वाकई में अपनी सभी पोस्ट डाउनलोड करना चाहते हैं?"
@@ -1043,13 +1043,13 @@ hi_IN:
         tip: "Outside of these hours you will be put in 'do not disturb' automatically."
         midnight: "Midnight"
         none: "None"
-        monday: "Monday"
-        tuesday: "Tuesday"
-        wednesday: "Wednesday"
-        thursday: "Thursday"
-        friday: "Friday"
-        saturday: "Saturday"
-        sunday: "Sunday"
+        monday: "सोमवार"
+        tuesday: "मंगलवार"
+        wednesday: "बुधवार"
+        thursday: "गुरूवार"
+        friday: "शुक्रवार"
+        saturday: "शनिवार"
+        sunday: "रविवार"
         to: "to"
       activity_stream: "गतिविधि"
       read: "पढ़े"
@@ -1083,7 +1083,7 @@ hi_IN:
         perm_denied_btn: "Permission Denied"
         perm_denied_expl: "You denied permission for notifications. Allow notifications via your browser settings."
         disable: "Disable Notifications"
-        enable: "Enable Notifications"
+        enable: "नोटिफिकेशंस चालू करें"
         each_browser_note: 'Note: You have to change this setting on every browser you use. All notifications will be disabled when in "do not disturb", regardless of this setting.'
         consent_prompt: "जब लोग आपकी पोस्ट को रिप्लाई करें, तो क्या आप लाइव नोटिफिकेशन प्राप्त करना चाहते हैं?"
       dismiss: "Dismiss"
@@ -1177,7 +1177,7 @@ hi_IN:
       regular_categories: "Regular"
       regular_categories_instructions: "You will see these categories in the “Latest” and “Top” topic lists."
       no_category_access: "As a moderator you have limited category access, save is disabled."
-      delete_account: "Delete My Account"
+      delete_account: "मेरा एकाउंट डिलीट करें"
       delete_account_confirm: "Are you sure you want to permanently delete your account? This action cannot be undone!"
       deleted_yourself: "Your account has been deleted successfully."
       delete_yourself_not_allowed: "Please contact a staff member if you wish your account to be deleted."
@@ -1204,7 +1204,7 @@ hi_IN:
       staged: "Staged"
 
       staff_counters:
-        flags_given: "helpful flags"
+        flags_given: "मददगार फ्लैग"
         flagged_posts: "flagged posts"
         deleted_posts: "deleted posts"
         suspensions: "suspensions"
@@ -1266,7 +1266,7 @@ hi_IN:
           } remaining, or browse other <a href='{basePath}/u/{username}/messages'>personal messages</a>"
 
       preferences_nav:
-        account: "Account"
+        account: "अकाउंट"
         security: "Security"
         profile: "प्रोफाइल"
         emails: "Emails"
@@ -1310,8 +1310,8 @@ hi_IN:
           description: "Each of these backup codes can only be used once. Keep them somewhere safe but accessible."
 
       second_factor:
-        title: "Two-Factor Authentication"
-        enable: "Manage Two-Factor Authentication"
+        title: "टू-फैक्टर ऑथेंटिकेशन"
+        enable: "टू-फैक्टर ऑथेंटिकेशन प्रबंधित करें"
         disable_all: "Disable All"
         forgot_password: "Forgot password?"
         confirm_password_description: "Please confirm your password to continue"
@@ -1355,7 +1355,7 @@ hi_IN:
           name_required_error: "You must provide a name for your security key."
 
       change_about:
-        title: "Change About Me"
+        title: "मेरे बारे में बदलाव करें"
         error: "There was an error changing this value."
 
       change_username:
@@ -1421,7 +1421,7 @@ hi_IN:
         admin_note: "Note: An admin user changing another non-admin user's email indicates the user has lost access to their original email account, so a reset password email will be sent to their new address. The user's email will not change until they complete the reset password process."
         ok: "पुष्टि करने के लिए हम आपको ईमेल करेंगे"
         required: "Please enter an email address"
-        invalid: "Please enter a valid email address"
+        invalid: "कृपया एक वैध ई-मेल डालें"
         authenticated: "Your email has been authenticated by %{provider}"
         invite_auth_email_invalid: "Your invitation email does not match the email authenticated by %{provider}"
         authenticated_by_invite: "Your email has been authenticated by the invitation"
@@ -1451,8 +1451,8 @@ hi_IN:
         ok: "Your name looks good"
       username:
         title: "यूजरनाम"
-        instructions: "unique, no spaces, short"
-        short_instructions: "People can mention you as @%{username}"
+        instructions: "अद्वितीय, बिना स्पेस का और छोटा"
+        short_instructions: "लोग आपको @%{username} के जरिये मेंशन कर सकते हैं"
         available: "आपका यूजरनाम उपलब्ध है"
         not_available: "उपलब्ध नहीं है। %{suggestion} डालकर देखें?"
         not_available_no_suggestion: "उपलब्ध नहीं है।"
@@ -1477,7 +1477,7 @@ hi_IN:
         instructions: "Account registration requires an invite code"
 
       auth_tokens:
-        title: "Recently Used Devices"
+        title: "हाल में उपयोग किये गए डिवाइस"
         details: "Details"
         log_out_all: "सभी को लॉग आउट करें"
         not_you: "Not you?"
@@ -1529,12 +1529,12 @@ hi_IN:
         never: "never"
       email_digests:
         title: "When I don’t visit here, send me an email summary of popular topics and replies"
-        every_30_minutes: "every 30 minutes"
+        every_30_minutes: "प्रत्येक 30 मिनट"
         every_hour: "hourly"
         daily: "daily"
         weekly: "साप्ताहिक"
         every_month: "हर महीने"
-        every_six_months: "every six months"
+        every_six_months: "प्रत्येक छह महीने में"
       email_level:
         title: "Email me when I am quoted, replied to, my @username is mentioned, or when there is new activity in my watched categories, tags or topics"
         always: "always"
@@ -1549,12 +1549,12 @@ hi_IN:
 
       new_topic_duration:
         label: "टॉपिक्स को नया मानें जब"
-        not_viewed: "I haven't viewed them yet"
-        last_here: "created since I was here last"
-        after_1_day: "created in the last day"
-        after_2_days: "created in the last 2 days"
-        after_1_week: "created in the last week"
-        after_2_weeks: "created in the last 2 weeks"
+        not_viewed: "मैंने उन्हें अभी तक न देखा हो"
+        last_here: "मैं पिछली बार जब ऑनलाइन था तब से बनाये गए हों"
+        after_1_day: "पिछले दिन में बनाये गए हों"
+        after_2_days: "पिछले 2 दिन में बनाये गए हों"
+        after_1_week: "पिछले हफ्ते में बनाये गए हों"
+        after_2_weeks: "पिछले 2 हफ्तों में बनाये गए हों"
 
       auto_track_topics: "मेरे द्वारा देखे गए टॉपिक्स को स्वचालित रूप से ट्रैक करें"
       auto_track_options:
@@ -1573,11 +1573,11 @@ hi_IN:
       invited:
         title: "आमंत्रण"
         pending_tab: "लंबित"
-        pending_tab_with_count: "Pending (%{count})"
-        expired_tab: "Expired"
-        expired_tab_with_count: "Expired (%{count})"
-        redeemed_tab: "Redeemed"
-        redeemed_tab_with_count: "Redeemed (%{count})"
+        pending_tab_with_count: "लंबित (%{count})"
+        expired_tab: "एक्स्पायर्ड"
+        expired_tab_with_count: "एक्स्पायर्ड (%{count})"
+        redeemed_tab: "स्वीकृत"
+        redeemed_tab_with_count: "स्वीकृत (%{count})"
         invited_via: "Invitation"
         invited_via_link: "link %{key} (%{count} / %{max} redeemed)"
         groups: "समूह"
@@ -1597,10 +1597,10 @@ hi_IN:
           one: "Showing the first invite."
           other: "Showing the first %{count} invites."
         redeemed: "Redeemed Invites"
-        redeemed_at: "Redeemed"
+        redeemed_at: "स्वीकृत"
         pending: "Pending Invites"
         topics_entered: "टॉपिक्स देखे"
-        posts_read_count: "Posts Read"
+        posts_read_count: "पोस्ट पढ़ीं"
         expired: "This invite has expired."
         remove_all: "Remove Expired Invites"
         removed_all: "All Expired Invites removed!"
@@ -1611,7 +1611,7 @@ hi_IN:
         time_read: "पढ़ने का समय"
         days_visited: "दिन आये"
         account_age_days: "Account age in days"
-        create: "Invite"
+        create: "आमंत्रित करें"
         generate_link: "Create Invite Link"
         link_generated: "Here's your invite link!"
         valid_for: "Invite link is only valid for this email address: %{email}"
@@ -1674,7 +1674,7 @@ hi_IN:
         same_as_username: "Your password is the same as your username."
         same_as_email: "Your password is the same as your email."
         ok: "आपका पासवर्ड ठीक लग रहा है।"
-        instructions: "at least %{count} characters"
+        instructions: "कम से कम %{count} अक्षरों का"
         required: "Please enter a password"
 
       summary:
@@ -1686,14 +1686,14 @@ hi_IN:
           one: "टॉपिक बनाया"
           other: "टॉपिक्स बनाये"
         post_count:
-          one: "post created"
-          other: "posts created"
+          one: "पोस्ट बनाई"
+          other: "पोस्ट बनाईं"
         likes_given:
           one: "दिए"
           other: "दिए"
         likes_received:
-          one: "received"
-          other: "received"
+          one: "प्राप्त किये"
+          other: "प्राप्त किये"
         days_visited:
           one: "दिन आये"
           other: "दिन आये"
@@ -1701,8 +1701,8 @@ hi_IN:
           one: "topic viewed"
           other: "टॉपिक्स देखे"
         posts_read:
-          one: "post read"
-          other: "posts read"
+          one: "पोस्ट पढ़ीं"
+          other: "पोस्ट पढ़ीं"
         bookmark_count:
           one: "बुकमार्क"
           other: "बुकमार्क्स"
@@ -1717,8 +1717,8 @@ hi_IN:
         more_badges: "More Badges"
         top_links: "टॉप लिंक"
         no_links: "अभी तक कोई लिंक नहीं।"
-        most_liked_by: "Most Liked By"
-        most_liked_users: "Most Liked"
+        most_liked_by: "के द्वारा सबसे ज्यादा लाइक प्राप्त किये"
+        most_liked_users: "सबसे ज्यादा लाइक"
         most_replied_to_users: "को सबसे ज्यादा रिप्लाई किये"
         no_likes: "अभी तक कोई लाइक नहीं।"
         top_categories: "टॉप श्रेणियाँ"
@@ -1730,10 +1730,10 @@ hi_IN:
       registration_ip_address:
         title: "Registration IP Address"
       avatar:
-        title: "Profile Picture"
+        title: "प्रोफाइल पिक्चर"
         header_title: "profile, messages, bookmarks and preferences"
         name_and_description: "%{name} - %{description}"
-        edit: "Edit Profile Picture"
+        edit: "प्रोफाइल पिक्चर सम्पादित करें"
       title:
         title: "Title"
         none: "(none)"
@@ -1831,7 +1831,7 @@ hi_IN:
 
     signup_cta:
       sign_up: "साइन अप"
-      hide_session: "Remind me tomorrow"
+      hide_session: "मुझे कल याद दिलाएं"
       hide_forever: "जी नहीं, धन्यवाद"
       hidden_for_session: "OK, we'll ask you tomorrow. You can always use 'Log In' to create an account, too."
       intro: "नमस्कार! ऐसा लगता है कि आप चर्चा का आनंद ले रहे हैं, लेकिन आपने अभी तक किसी अकाउंट के लिए साइन अप नहीं किया है।"
@@ -1875,9 +1875,9 @@ hi_IN:
 
     create_account:
       header_title: "स्वागतम!"
-      subheader_title: "Let's create your account"
-      disclaimer: "By registering, you agree to the <a href='%{privacy_link}' target='blank'>privacy policy</a> and <a href='%{tos_link}' target='blank'>terms of service</a>."
-      title: "Create your account"
+      subheader_title: "चलिए आपका अकाउंट बनाते हैं"
+      disclaimer: "अकाउंट बनाने पर, आप हमारी <a href='%{privacy_link}' target='blank'>गोपनीयता नीति</a> और <a href='%{tos_link}' target='blank'>सेवा की शर्तों</a> से सहमत होते हैं।"
+      title: "अपना अकाउंट बनायें"
       failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
       associate: "Already have an account? <a href='%{associate_link}'>Log In</a> to link your %{provider} account."
 
@@ -1915,11 +1915,11 @@ hi_IN:
 
     login:
       header_title: "स्वागतम!"
-      subheader_title: "Log in to your account"
+      subheader_title: "अपने अकाउंट में लॉग इन करें"
       title: "लॉग इन"
       username: "User"
       password: "पासवर्ड"
-      second_factor_title: "Two-Factor Authentication"
+      second_factor_title: "टू-फैक्टर ऑथेंटिकेशन"
       second_factor_description: "Please enter the authentication code from your app:"
       second_factor_backup: "Log in using a backup code"
       second_factor_backup_title: "Two-Factor Backup"
@@ -1939,7 +1939,7 @@ hi_IN:
       blank_username: "Please enter your email or username."
       blank_username_or_password: "Please enter your email or username, and password."
       reset_password: "पासवर्ड रीसेट करें"
-      logging_in: "Signing In..."
+      logging_in: "लॉग इन कर रहे हैं..."
       or: "या"
       authenticating: "Authenticating..."
       awaiting_activation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
@@ -1958,33 +1958,33 @@ hi_IN:
 
       sent_activation_email_again: "We sent another activation email to you at <b>%{currentEmail}</b>. It might take a few minutes for it to arrive; be sure to check your spam folder."
       sent_activation_email_again_generic: "We sent another activation email. It might take a few minutes for it to arrive; be sure to check your spam folder."
-      to_continue: "Please Log In"
-      preferences: "You need to be logged in to change your user preferences."
+      to_continue: "कृपया लॉग इन करें"
+      preferences: "अपनी उपयोगकर्ता प्राथमिकताएं बदलने के लिए आपको लॉग इन करने की आवश्यकता है।"
       not_approved: "Your account hasn't been approved yet. You will be notified by email when you are ready to log in."
       google_oauth2:
         name: "Google"
-        title: "Sign in with Google"
-        sr_title: "Sign in with Google"
+        title: "Google के जरिये लॉगिन करें"
+        sr_title: "Google के जरिये लॉगिन करें"
       twitter:
         name: "Twitter"
-        title: "Sign in with Twitter"
-        sr_title: "Sign in with Twitter"
+        title: "Twitter के जरिये लॉगिन करें"
+        sr_title: "Twitter के जरिये लॉगिन करें"
       instagram:
         name: "Instagram"
-        title: "Login with Instagram"
-        sr_title: "Login with Instagram"
+        title: "Instagram के जरिये लॉगिन करें"
+        sr_title: "Login के जरिये लॉगिन करें"
       facebook:
         name: "Facebook"
-        title: "Login with Facebook"
-        sr_title: "Login with Facebook"
+        title: "Facebook के जरिये लॉगिन करें"
+        sr_title: "Facebook के जरिये लॉगिन करें"
       github:
         name: "GitHub"
-        title: "Login with GitHub"
-        sr_title: "Login with GitHub"
+        title: "GitHub के जरिये लॉगिन करें"
+        sr_title: "GitHub के जरिये लॉगिन करें"
       discord:
         name: "Discord"
-        title: "Login with Discord"
-        sr_title: "Login with Discord"
+        title: "Discord के जरिये लॉगिन करें"
+        sr_title: "Discord के जरिये लॉगिन करें"
       second_factor_toggle:
         totp: "Use an authenticator app instead"
         backup_code: "Use a backup code instead"
@@ -1992,7 +1992,7 @@ hi_IN:
     invites:
       accept_title: "Invitation"
       emoji: "envelope emoji"
-      welcome_to: "Welcome to %{site_name}!"
+      welcome_to: "%{site_name} में आपका स्वागत है!"
       invited_by: "You were invited by:"
       social_login_available: "You'll also be able to sign in with any social login using that email."
       your_email: "Your account email address is <b>%{email}</b>."
@@ -2330,7 +2330,7 @@ hi_IN:
         private_message: '%{username} sent you a personal message in "%{topic}" - %{site_title}'
         linked: '%{username} linked to your post from "%{topic}" - %{site_title}'
         watching_first_post: '%{username} created a new topic "%{topic}" - %{site_title}'
-        confirm_title: "Notifications enabled - %{site_title}"
+        confirm_title: "नोटिफिकेशंस चालू हो गए - %{site_title}"
         confirm_body: "Success! Notifications have been enabled."
         custom: "Notification from %{username} on %{site_title}"
 
@@ -2338,12 +2338,12 @@ hi_IN:
         mentioned: "mentioned"
         replied: "new reply"
         quoted: "quoted"
-        edited: "edited"
+        edited: "संपादित"
         liked: "new like"
         private_message: "new private message"
         invited_to_private_message: "invited to private message"
         invitee_accepted: "invite accepted"
-        posted: "new post"
+        posted: "नई पोस्ट"
         moved_post: "post moved"
         linked: "linked"
         bookmark_reminder: "bookmark reminder"
@@ -2502,7 +2502,7 @@ hi_IN:
     view_all: "view all %{tab}"
 
     topics:
-      new_messages_marker: "last visit"
+      new_messages_marker: "पिछला आगमन"
       bulk:
         select_all: "Select All"
         clear_all: "Clear All"
@@ -2628,7 +2628,7 @@ hi_IN:
       collapse_details: "collapse topic details"
       expand_details: "expand topic details"
       read_more_in_category: "क्या आप और पढ़ना चाहते हैं? %{catLink} में अन्य टॉपिक्स खोलें या %{latestLink}।"
-      read_more: "Want to read more? %{catLink} or %{latestLink}."
+      read_more: "क्या आप और पढ़ना चाहते हैं? %{catLink} या %{latestLink}।"
       unread_indicator: "No member has read the last post of this topic yet."
 
       # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
@@ -2670,16 +2670,16 @@ hi_IN:
         minutes: "Minutes:"
         seconds: "Seconds:"
         durations:
-          10_minutes: "10 Minutes"
-          15_minutes: "15 Minutes"
-          30_minutes: "30 Minutes"
-          45_minutes: "45 Minutes"
-          1_hour: "1 Hour"
-          2_hours: "2 Hours"
-          4_hours: "4 Hours"
-          8_hours: "8 Hours"
-          12_hours: "12 Hours"
-          24_hours: "24 Hours"
+          10_minutes: "10 मिनट"
+          15_minutes: "15 मिनट"
+          30_minutes: "30 मिनट"
+          45_minutes: "45 मिनट"
+          1_hour: "1 घंटा"
+          2_hours: "2 घंटे"
+          4_hours: "4 घंटे"
+          8_hours: "8 घंटे"
+          12_hours: "12 घंटे"
+          24_hours: "24 घंटे"
           custom: "Custom Duration"
       slow_mode_notice:
         duration: "Please wait %{duration} between posts in this topic"
@@ -2708,7 +2708,7 @@ hi_IN:
         two_months: "Two months"
         three_months: "Three months"
         four_months: "Four months"
-        six_months: "Six months"
+        six_months: "छह महीने"
         one_year: "One year"
         forever: "Forever"
         pick_date_and_time: "Pick date and time"
@@ -2792,16 +2792,16 @@ hi_IN:
           "0_2": "You are ignoring all notifications on this topic."
           "0": "You are ignoring all notifications on this topic."
         watching_pm:
-          title: "Watching"
+          title: "वाचिंग"
           description: "आपको इस संदेश में प्रत्येक नए रिप्लाई के बारे में सूचित किया जाएगा, और नए रिप्लाई की संख्या दिखाई जाएगी।"
         watching:
-          title: "Watching"
+          title: "वाचिंग"
           description: "आपको इस टॉपिक में प्रत्येक नए रिप्लाई के बारे में सूचित किया जाएगा, और नए रिप्लाई की संख्या दिखाई जाएगी।"
         tracking_pm:
-          title: "Tracking"
+          title: "ट्रैकिंग"
           description: "A count of new replies will be shown for this message. You will be notified if someone mentions your @name or replies to you."
         tracking:
-          title: "Tracking"
+          title: "ट्रैकिंग"
           description: "इस टॉपिक के लिए नए रिप्लाई की संख्या दिखाई जाएगी। यदि कोई आपके @यूजरनाम का उल्लेख करता है या आपको रिप्लाई करता है, तो आपको सूचित किया जाएगा।"
         regular:
           title: "Normal"
@@ -2856,7 +2856,7 @@ hi_IN:
         restricted_groups:
           one: "Only visible to members of group: %{groupNames}"
           other: "Only visible to members of groups: %{groupNames}"
-        invite_users: "Invite"
+        invite_users: "आमंत्रित करें"
 
       print:
         title: "Print"
@@ -2905,7 +2905,7 @@ hi_IN:
         title: "Invite to Message"
         email_or_username: "Invitee's Email or Username"
         email_or_username_placeholder: "email address or username"
-        action: "Invite"
+        action: "आमंत्रित करें"
         success: "We've invited that user to participate in this message."
         success_group: "We've invited that group to participate in this message."
         error: "Sorry, there was an error inviting that user."
@@ -2915,7 +2915,7 @@ hi_IN:
       controls: "Topic Controls"
 
       invite_reply:
-        title: "Invite"
+        title: "आमंत्रित करें"
         username_placeholder: "यूजरनाम"
         action: "Send Invite"
         help: "invite others to this topic via email or notifications"
@@ -3070,7 +3070,7 @@ hi_IN:
       sr_expand_replies:
         one: "This post has %{count} reply. Click to expand"
         other: "This post has %{count} replies. Click to expand"
-      expand_collapse: "expand/collapse"
+      expand_collapse: "खोलें/बंद करें"
       sr_below_embedded_posts_description: "post #%{post_number} replies"
       sr_embedded_reply_description: "reply by @%{username} to post #%{post_number}"
       locked: "a staff member has locked this post from being edited"
@@ -3079,7 +3079,7 @@ hi_IN:
         other: "view %{count} hidden replies"
 
       notice:
-        new_user: "This is the first time %{user} has posted — let’s welcome them to our community!"
+        new_user: "%{user} जी ने पहली बार पोस्ट किया है — आइए उनका हमारे समुदाय में स्वागत करें!"
         returning_user: "It’s been a while since we’ve seen %{user} — their last post was %{time}."
 
       unread: "Post is unread"
@@ -3274,7 +3274,7 @@ hi_IN:
         edit: "बुकमार्क संपादित करें"
         edit_for_topic: "Edit bookmark for topic"
         created: "Created"
-        updated: "Updated"
+        updated: "अपडेट किया गया"
         name: "नाम"
         name_placeholder: "What is this bookmark for?"
         set_reminder: "Remind me"
@@ -3290,11 +3290,11 @@ hi_IN:
             name: "Clear reminder"
             description: "Clear the reminder date and time"
           pin_bookmark:
-            name: "Pin bookmark"
-            description: "Pin the bookmark. This will make it appear at the top of your bookmarks list."
+            name: "बुकमार्क पिन करें"
+            description: "बुकमार्क पिन करें। ऐसा करने से यह बुकमार्क आपकी बुकमार्क सूची में सबसे ऊपर दिखाई देगा।"
           unpin_bookmark:
-            name: "Unpin bookmark"
-            description: "Unpin the bookmark. It will no longer appear at the top of your bookmarks list."
+            name: "बुकमार्क अनपिन करें"
+            description: "बुकमार्क अनपिन करें। ऐसा करने से  यह बुकमार्क आपकी बुकमार्क सूची में सबसे ऊपर दिखाई नहीं देगा।"
 
       filtered_replies:
         viewing_posts_by: "Viewing %{post_count} posts by"
@@ -3407,13 +3407,13 @@ hi_IN:
       notifications:
         title: "change notification level for this category"
         watching:
-          title: "Watching"
+          title: "वाचिंग"
           description: "आप इस श्रेणी के सभी टॉपिक को स्वचालित रूप से वाच करेंगे। आपको हर टॉपिक में हर नई पोस्ट की सूचना दी जाएगी, और नए रिप्लाई की गिनती दिखाई जाएगी।"
         watching_first_post:
           title: "Watching First Post"
           description: "You will be notified of new topics in this category but not replies to the topics."
         tracking:
-          title: "Tracking"
+          title: "ट्रैकिंग"
           description: "You will automatically track all topics in this category. You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
         regular:
           title: "Normal"
@@ -3487,8 +3487,8 @@ hi_IN:
       notify_staff: "Notify staff privately"
       formatted_name:
         off_topic: "It's Off-Topic"
-        inappropriate: "It's Inappropriate"
-        spam: "It's Spam"
+        inappropriate: "यह अनुचित है"
+        spam: "यह स्पैम है"
       custom_placeholder_notify_user: "Be specific, be constructive, and always be kind."
       custom_placeholder_notify_moderators: "Let us know specifically what you are concerned about, and provide relevant links and examples where possible."
       custom_message:
@@ -3533,10 +3533,10 @@ hi_IN:
       locked_and_archived:
         help: "This topic is closed and archived; it no longer accepts new replies and cannot be changed"
       unpinned:
-        title: "Unpinned"
+        title: "अनपिन किया गया"
         help: "यह टॉपिक आपके लिए अनपिन किया गया है; यह नियमित क्रम में प्रदर्शित होगा"
       pinned_globally:
-        title: "Pinned Globally"
+        title: "वैश्विक रूप से पिन किया गया"
         help: "इस टॉपिक को वैश्विक रूप से पिन किया गया है; यह नवीनतम और इसकी श्रेणी के शीर्ष पर प्रदर्शित होगा"
       pinned:
         title: "Pinned"
@@ -3651,7 +3651,7 @@ hi_IN:
         yearly:
           title: "Yearly"
         quarterly:
-          title: "Quarterly"
+          title: "त्रैमासिक"
         monthly:
           title: "Monthly"
         weekly:
@@ -3664,9 +3664,9 @@ hi_IN:
         this_month: "महीना"
         this_week: "सप्ताह"
         today: "आज"
-        other_periods: "see top:"
+        other_periods: "टॉप देखें:"
 
-    browser_update: 'Unfortunately, <a href="https://www.discourse.org/faq/#browser">your browser is too old to work on this site</a>. Please <a href="https://browsehappy.com">upgrade your browser</a> to view rich content, log in and reply.'
+    browser_update: 'दुर्भाग्य से, आपका ब्राउज़र इस साइट को पूरा खोलने के लिए बहुत पुराना है। समृद्ध सामग्री देखने, लॉग इन करने और उत्तर देने के लिए कृपया अपने ब्राउज़र को अपग्रेड करें।'
 
     permission_types:
       full: "Create / Reply / See"
@@ -3691,7 +3691,7 @@ hi_IN:
       shortcut_delimiter_or: "%{shortcut1} or %{shortcut2}"
       shortcut_delimiter_slash: "%{shortcut1}/%{shortcut2}"
       shortcut_delimiter_space: "%{shortcut1} %{shortcut2}"
-      title: "Keyboard Shortcuts"
+      title: "कीबोर्ड शॉर्टकट्स"
       jump_to:
         title: "Jump To"
         home: "%{shortcut} Home"
@@ -3891,13 +3891,13 @@ hi_IN:
 
       notifications:
         watching:
-          title: "Watching"
+          title: "वाचिंग"
           description: "You will automatically watch all topics with this tag. You will be notified of all new posts and topics, plus the count of unread and new posts will also appear next to the topic."
         watching_first_post:
           title: "Watching First Post"
           description: "You will be notified of new topics in this tag but not replies to the topics."
         tracking:
-          title: "Tracking"
+          title: "ट्रैकिंग"
           description: "You will automatically track all topics with this tag. A count of unread and new posts will appear next to the topic."
         regular:
           title: "Regular"
@@ -3927,7 +3927,7 @@ hi_IN:
         usable_only_by_groups: "Tags are visible to everyone, but only the following groups can use them"
         visible_only_to_groups: "Tags are visible only to the following groups"
         cannot_save: "Cannot save tag group. Make sure that there is at least one tag present, tag group name is not empty, and a group is selected for tags permission."
-        tags_placeholder: "Search or create tags"
+        tags_placeholder: "टैग खोजें या बनाएं"
         parent_tag_placeholder: "Optional"
         select_groups_placeholder: "Select groups..."
         disabled: "Tagging is disabled. "
@@ -3965,14 +3965,14 @@ hi_IN:
     image_removed: "(image removed)"
 
     do_not_disturb:
-      title: "Do not disturb for..."
-      label: "Do not disturb"
+      title: "तक परेशान न करें..."
+      label: "परेशान न करें"
       remaining: "%{remaining} remaining"
       options:
-        half_hour: "30 minutes"
-        one_hour: "1 hour"
-        two_hours: "2 hours"
-        tomorrow: "Until tomorrow"
+        half_hour: "30 मिनट"
+        one_hour: "1 घंटा"
+        two_hours: "2 घंटे"
+        tomorrow: "कल तक"
         custom: "Custom"
       set_schedule: "नोटिफिकेशन शेड्यूल सेट करें"
 
@@ -4032,7 +4032,7 @@ hi_IN:
         title: "List of available reports"
 
       dashboard:
-        title: "Dashboard"
+        title: "डैशबोर्ड"
         last_updated: "Dashboard updated:"
         discourse_last_updated: "Discourse updated:"
         version: "Version"
@@ -4491,7 +4491,7 @@ hi_IN:
           subject: "Subject"
           multiple_subjects: "This email template has multiple subjects."
           body: "Body"
-          revert: "Revert Changes"
+          revert: "बदलाव वापिस लें"
           revert_confirm: "Are you sure you want to revert your changes?"
 
         theme:
@@ -4902,7 +4902,7 @@ hi_IN:
             post_edit: "post edit"
             post_unlocked: "post unlocked"
             check_personal_message: "check personal message"
-            disabled_second_factor: "disable Two-Factor Authentication"
+            disabled_second_factor: "टू-फैक्टर ऑथेंटिकेशन असक्षम करें"
             topic_published: "topic published"
             post_approved: "post approved"
             post_rejected: "post rejected"
@@ -5291,7 +5291,7 @@ hi_IN:
           topics_replied_to: "Topics Replied To"
           topics_viewed: "टॉपिक्स देखे"
           topics_viewed_all_time: "टॉपिक्स देखे (अब तक)"
-          posts_read: "Posts Read"
+          posts_read: "पोस्ट पढ़ीं"
           posts_read_all_time: "पोस्ट पढ़ीं (अब तक)"
           flagged_posts: "Flagged Posts"
           flagged_by_users: "Users Who Flagged"
@@ -5365,7 +5365,7 @@ hi_IN:
         search: "Search for the text you'd like to edit"
         title: "Text"
         edit: "संपादित करें"
-        revert: "Revert Changes"
+        revert: "बदलाव वापिस लें"
         revert_confirm: "Are you sure you want to revert your changes?"
         go_back: "Back to Search"
         recommended: "We recommend customizing the following text to suit your needs:"
@@ -5427,7 +5427,7 @@ hi_IN:
           tags: "टैग्स"
           search: "Search"
           groups: "समूह"
-          dashboard: "Dashboard"
+          dashboard: "डैशबोर्ड"
         secret_list:
           invalid_input: "Input fields cannot be empty or contain vertical bar character."
         default_categories:
