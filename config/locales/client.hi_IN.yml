@@ -248,7 +248,7 @@ hi_IN:
       other: "links"
     faq: "नियम"
     guidelines: "दिशा निर्देश"
-    privacy_policy: "Privacy Policy"
+    privacy_policy: "गोपनीयता नीति"
     privacy: "गोपनीयता"
     tos: "सेवा की शर्तें"
     rules: "Rules"
@@ -286,7 +286,7 @@ hi_IN:
 
     about:
       simple_title: "About"
-      title: "About %{title}"
+      title: "%{title} के बारे में"
       stats: "साइट के आंकड़े"
       our_admins: "संस्थापक"
       our_moderators: "Our Moderators"
@@ -469,7 +469,7 @@ hi_IN:
       awaiting_approval: "Awaiting Approval"
       delete: "Delete"
       settings:
-        saved: "Saved"
+        saved: "सहेजा गया"
         save_changes: "Save Changes"
         title: "सेटिंग"
         priorities:
@@ -479,7 +479,7 @@ hi_IN:
       view_all: "सभी देखें"
       grouped_by_topic: "Grouped by Topic"
       none: "There are no items to review."
-      view_pending: "view pending"
+      view_pending: "लंबित देखें"
       topic_has_pending:
         one: "This topic has <b>%{count}</b> post pending approval"
         other: "This topic has <b>%{count}</b> posts pending approval"
@@ -615,7 +615,7 @@ hi_IN:
         one: "दिन"
         other: "days"
       months:
-        one: "month"
+        one: "महीना"
         other: "months"
       years:
         one: "वर्ष"
@@ -662,7 +662,7 @@ hi_IN:
       title: "उपयोगकर्ता"
       likes_given: "दिए"
       likes_received: "Received"
-      topics_entered: "Viewed"
+      topics_entered: "देखे"
       topics_entered_long: "टॉपिक्स देखे"
       time_read: "Time Read"
       topic_count: "टॉपिक्स"
@@ -670,8 +670,8 @@ hi_IN:
       post_count: "रिप्लाई"
       post_count_long: "रिप्लाई पोस्ट किये"
       no_results: "No results were found."
-      days_visited: "Visits"
-      days_visited_long: "Days Visited"
+      days_visited: "दिन आये"
+      days_visited_long: "दिन आये"
       posts_read: "पढ़े"
       posts_read_long: "Posts Read"
       last_updated: "Last Updated:"
@@ -968,8 +968,8 @@ hi_IN:
         one: "%{number} / %{unit}"
         other: "%{number} / %{unit}"
       topic_stat_unit:
-        week: "week"
-        month: "month"
+        week: "सप्ताह"
+        month: "महीना"
       topic_stat_all_time:
         one: "%{number} total"
         other: "%{number} total"
@@ -992,7 +992,7 @@ hi_IN:
       delete_other_accounts: "Delete %{count}"
       username: "यूजरनाम"
       trust_level: "TL"
-      read_time: "read time"
+      read_time: "पढ़ने का समय"
       topics_entered: "topics entered"
       post_count: "# posts"
       confirm_delete_other_accounts: "Are you sure you want to delete these accounts?"
@@ -1009,8 +1009,8 @@ hi_IN:
       mute: "म्यूट"
       edit: "Edit Preferences"
       download_archive:
-        button_text: "Download All"
-        confirm: "Are you sure you want to download your posts?"
+        button_text: "सभी डाउनलोड करें"
+        confirm: "क्या आप वाकई में अपनी सभी पोस्ट डाउनलोड करना चाहते हैं?"
         success: "Download initiated, you will be notified via message when the process is complete."
         rate_limit_error: "Posts can be downloaded once per day, please try again tomorrow."
       new_private_message: "New Message"
@@ -1054,7 +1054,7 @@ hi_IN:
       activity_stream: "गतिविधि"
       read: "पढ़े"
       read_help: "हाल के पढ़े टॉपिक्स"
-      preferences: "Preferences"
+      preferences: "प्राथमिकताएँ"
       feature_topic_on_profile:
         open_search: "Select a New Topic"
         title: "Select a Topic"
@@ -1074,7 +1074,7 @@ hi_IN:
       timezone: "टाइमजोन"
       invited_by: "Invited By"
       trust_level: "विश्वास स्तर"
-      notifications: "Notifications"
+      notifications: "नोटिफिकेशन"
       statistics: "आँकड़े"
       desktop_notifications:
         label: "Live Notifications"
@@ -1121,7 +1121,7 @@ hi_IN:
         default_description: "Theme default"
         disable_dark_scheme: "Same as regular"
         dark_instructions: "You can preview the dark mode color scheme by toggling your device's dark mode."
-        undo: "Reset"
+        undo: "रीसेट"
         regular: "Regular"
         dark: "Dark mode"
         default_dark_scheme: "(site default)"
@@ -1270,7 +1270,7 @@ hi_IN:
         security: "Security"
         profile: "प्रोफाइल"
         emails: "Emails"
-        notifications: "Notifications"
+        notifications: "नोटिफिकेशन"
         categories: "श्रेणियाँ"
         users: "उपयोगकर्ता"
         tags: "टैग्स"
@@ -1608,8 +1608,8 @@ hi_IN:
         reinvite_all: "Resend All Invites"
         reinvite_all_confirm: "Are you sure you want to resend all invites?"
         reinvited_all: "All Invites Sent!"
-        time_read: "Read Time"
-        days_visited: "Days Visited"
+        time_read: "पढ़ने का समय"
+        days_visited: "दिन आये"
         account_age_days: "Account age in days"
         create: "Invite"
         generate_link: "Create Invite Link"
@@ -1680,8 +1680,8 @@ hi_IN:
       summary:
         title: "सारांश"
         stats: "आँकड़े"
-        time_read: "read time"
-        recent_time_read: "recent read time"
+        time_read: "पढ़ने का समय"
+        recent_time_read: "हाल का पढ़ने का समय"
         topic_count:
           one: "टॉपिक बनाया"
           other: "टॉपिक्स बनाये"
@@ -1695,8 +1695,8 @@ hi_IN:
           one: "received"
           other: "received"
         days_visited:
-          one: "day visited"
-          other: "days visited"
+          one: "दिन आये"
+          other: "दिन आये"
         topics_entered:
           one: "topic viewed"
           other: "टॉपिक्स देखे"
@@ -1715,7 +1715,7 @@ hi_IN:
         top_badges: "Top Badges"
         no_badges: "अभी तक कोई पदक नहीं।"
         more_badges: "More Badges"
-        top_links: "Top Links"
+        top_links: "टॉप लिंक"
         no_links: "अभी तक कोई लिंक नहीं।"
         most_liked_by: "Most Liked By"
         most_liked_users: "Most Liked"
@@ -2184,8 +2184,8 @@ hi_IN:
 
       quote_post_title: "Quote whole post"
       bold_label: "B"
-      bold_title: "Strong"
-      bold_text: "strong text"
+      bold_title: "बोल्ड"
+      bold_text: "बोल्ड शब्द"
       italic_label: "I"
       italic_title: "Emphasis"
       italic_text: "emphasized text"
@@ -2203,7 +2203,7 @@ hi_IN:
       upload_description: "enter upload description here"
       olist_title: "Numbered List"
       ulist_title: "Bulleted List"
-      list_item: "List item"
+      list_item: "लिस्ट आइटम"
       toggle_direction: "Toggle Direction"
       help: "Markdown Editing Help"
       collapse: "minimize the composer panel"
@@ -3282,7 +3282,7 @@ hi_IN:
         actions:
           delete_bookmark:
             name: "बुकमार्क हटाएं"
-            description: "Removes the bookmark from your profile and stops all reminders for the bookmark"
+            description: "आपकी प्रोफाइल से बुकमार्क हटा दिया जायेगा और इसके सभी रिमाइंडर बंद कर दिए जायेंगे"
           edit_bookmark:
             name: "बुकमार्क संपादित करें"
             description: "बुकमार्क का नाम संपादित करें या रिमाइंडर की दिनांक और समय बदलें"
@@ -3660,9 +3660,9 @@ hi_IN:
           title: "Daily"
         all_time: "अब तक"
         this_year: "वर्ष"
-        this_quarter: "Quarter"
-        this_month: "Month"
-        this_week: "Week"
+        this_quarter: "त्रिमास"
+        this_month: "महीना"
+        this_week: "सप्ताह"
         today: "आज"
         other_periods: "see top:"
 
@@ -3826,7 +3826,7 @@ hi_IN:
       selector_no_tags: "no tags"
       changed: "tags changed:"
       tags: "टैग्स"
-      choose_for_topic: "optional tags"
+      choose_for_topic: "वैकल्पिक टैग्स"
       choose_for_topic_required:
         one: "select at least %{count} tag..."
         other: "select at least %{count} tags..."
@@ -3974,7 +3974,7 @@ hi_IN:
         two_hours: "2 hours"
         tomorrow: "Until tomorrow"
         custom: "Custom"
-      set_schedule: "Set a notification schedule"
+      set_schedule: "नोटिफिकेशन शेड्यूल सेट करें"
 
     trust_levels:
       names:
@@ -5172,7 +5172,7 @@ hi_IN:
         approved_by: "approved by"
         approve_success: "User approved and email sent with activation instructions."
         approve_bulk_success: "Success! All selected users have been approved and notified."
-        time_read: "Read Time"
+        time_read: "पढ़ने का समय"
         post_edits_count: "Post Edits"
         anonymize: "Anonymize User"
         anonymize_confirm: "Are you SURE you want to anonymize this account? This will change the username and email, and reset all profile information."
@@ -5255,7 +5255,7 @@ hi_IN:
         silence_accept: "Yes, silence this user"
         bounce_score: "Bounce Score"
         reset_bounce_score:
-          label: "Reset"
+          label: "रीसेट"
           title: "Reset bounce score back to 0"
         visit_profile: "Visit <a href='%{url}'>this user's preferences page</a> to edit their profile"
 
@@ -5286,7 +5286,7 @@ hi_IN:
             other: "In the last %{count} days:"
           value_heading: "Value"
           requirement_heading: "Requirement"
-          visits: "Visits"
+          visits: "दिन आये"
           days: "days"
           topics_replied_to: "Topics Replied To"
           topics_viewed: "टॉपिक्स देखे"
@@ -5377,7 +5377,7 @@ hi_IN:
       settings: # used by theme and site settings
         show_overriden: "Only show overridden"
         history: "View change history"
-        reset: "reset"
+        reset: "रीसेट"
         none: "none"
       site_settings:
         emoji_list:
