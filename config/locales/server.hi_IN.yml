@@ -752,52 +752,52 @@ hi_IN:
       topic_invitations_per_day: "You’ve reached the maximum number of topic invitations. You can send more invitations in %{time_left}."
 
     hours:
-      one: "%{count} hour"
-      other: "%{count} hours"
+      one: "%{count} घंटा"
+      other: "%{count} घंटे"
     minutes:
-      one: "%{count} minute"
-      other: "%{count} minutes"
+      one: "%{count} मिनट"
+      other: "%{count} मिनट"
     seconds:
-      one: "%{count} second"
-      other: "%{count} seconds"
+      one: "%{count} सेकंड"
+      other: "%{count} सेकंड"
     short_time: "a few seconds"
 
   datetime:
     distance_in_words:
-      half_a_minute: "< 1m"
+      half_a_minute: "< 1 मिनट"
       less_than_x_seconds:
-        one: "< %{count}s"
-        other: "< %{count}s"
+        one: "< %{count} सेकंड"
+        other: "< %{count} सेकंड"
       x_seconds:
-        one: "%{count}s"
-        other: "%{count}s"
+        one: "%{count} सेकंड"
+        other: "%{count} सेकंड"
       less_than_x_minutes:
-        one: "< %{count}m"
-        other: "< %{count}m"
+        one: "< %{count} मिनट"
+        other: "< %{count} मिनट"
       x_minutes:
-        one: "%{count}m"
-        other: "%{count}m"
+        one: "%{count} मिनट"
+        other: "%{count} मिनट"
       about_x_hours:
-        one: "%{count}h"
-        other: "%{count}h"
+        one: "%{count} घंटा"
+        other: "%{count} घंटे"
       x_days:
-        one: "%{count}d"
-        other: "%{count}d"
+        one: "%{count} दिन"
+        other: "%{count} दिन"
       about_x_months:
-        one: "%{count}mon"
+        one: "%{count} महीना"
         other: "%{count} महीने"
       x_months:
-        one: "%{count}mon"
+        one: "%{count} महीना"
         other: "%{count} महीने"
       about_x_years:
-        one: "%{count}y"
-        other: "%{count}y"
+        one: "%{count} साल"
+        other: "%{count} साल"
       over_x_years:
-        one: "> %{count}y"
-        other: "> %{count}y"
+        one: "> %{count} साल"
+        other: "> %{count} साल"
       almost_x_years:
-        one: "%{count}y"
-        other: "%{count}y"
+        one: "%{count} साल"
+        other: "%{count} साल"
 
     distance_in_words_verbose:
       half_a_minute: "बस अभी"
@@ -911,7 +911,7 @@ hi_IN:
     already_done: "Sorry, this account confirmation link is no longer valid. Perhaps your account is already active?"
     please_continue: "Your new account is confirmed; you will be redirected to the home page."
     continue_button: "Continue to %{site_name}"
-    welcome_to: "Welcome to %{site_name}!"
+    welcome_to: "%{site_name} में आपका स्वागत है!"
     approval_required: "A moderator must manually approve your new account before you can access this forum. You'll get an email when your account is approved!"
     missing_session: "We cannot detect if your account was created, please ensure you have cookies enabled."
     activated: "Sorry, this account has already been activated."
@@ -947,7 +947,7 @@ hi_IN:
       email_title: 'Your post in "%{title}"'
       email_body: "%{link}\n\n%{message}"
     notify_moderators:
-      title: "Something Else"
+      title: "कुछ और"
       description: "This post requires staff attention for another reason not listed above."
       short_description: "Requires staff attention for another reason"
       email_title: 'A post in "%{title}" requires staff attention'
@@ -1011,7 +1011,7 @@ hi_IN:
       long_form: "flagged this as inappropriate"
       short_description: 'A violation of <a href="%{base_path}/guidelines">our community guidelines</a>'
     notify_moderators:
-      title: "Something Else"
+      title: "कुछ और"
       description: 'This topic requires general staff attention based on the <a href="%{base_path}/guidelines">guidelines</a>, <a href="%{tos_url}">TOS</a>, or for another reason not listed above.'
       long_form: "flagged this for moderator attention"
       short_description: "Requires staff attention for another reason"
@@ -1060,12 +1060,12 @@ hi_IN:
       select_title: "Set summary emails frequency to:"
 
       never: "never"
-      every_30_minutes: "every 30 minutes"
+      every_30_minutes: "प्रत्येक 30 मिनट"
       every_hour: "hourly"
       daily: "daily"
       weekly: "साप्ताहिक"
       every_month: "हर महीने"
-      every_six_months: "every six months"
+      every_six_months: "प्रत्येक छह महीने में"
 
   user_api_key:
     title: "Authorize application access"
@@ -2603,7 +2603,7 @@ hi_IN:
         merging_post_timings: "Merging post timings..."
         merging_user_visits: "Merging user visits..."
         updating_site_settings: "Updating site settings..."
-        updating_user_stats: "Updating user stats..."
+        updating_user_stats: "उपयोगकर्ता आंकड़े अपडेट किए जा रहे हैं..."
         merging_user_attributes: "Merging user attributes..."
         updating_user_ids: "Updating user ids..."
         deleting_source_user: "Deleting source user..."
@@ -2621,7 +2621,7 @@ hi_IN:
       short: "must be at least %{min} characters"
       long: "must be no more than %{max} characters"
       too_long: "is too long"
-      characters: "must only include numbers, letters, dashes, dots, and underscores"
+      characters: "केवल अंग्रेजी के अक्षर, संख्याएं, डैश, बिंदु और अंडरस्कोर शामिल होने चाहिए"
       unique: "must be unique"
       blank: "must be present"
       must_begin_with_alphanumeric_or_underscore: "must begin with a letter, a number or an underscore"
@@ -2968,7 +2968,7 @@ hi_IN:
 
     welcome_user:
       title: "Welcome User"
-      subject_template: "Welcome to %{site_name}!"
+      subject_template: "%{site_name} में आपका स्वागत है!"
       text_body_template: |
         Thanks for joining %{site_name}, and welcome!
 
@@ -2997,7 +2997,7 @@ hi_IN:
         With great power comes great responsibility. If you’re new to moderating, please refer to the [Moderation Guide](https://meta.discourse.org/t/discourse-moderation-guide/63116).
     welcome_invite:
       title: "Welcome Invite"
-      subject_template: "Welcome to %{site_name}!"
+      subject_template: "%{site_name} में आपका स्वागत है!"
       text_body_template: |
         Thanks for accepting your invitation to %{site_name} -- welcome!
 
@@ -3801,7 +3801,7 @@ hi_IN:
         If you have any questions, [contact our friendly staff](%{base_url}/about).
 
     account_second_factor_disabled:
-      title: "Two-Factor Authentication disabled"
+      title: "टू-फैक्टर ऑथेंटिकेशन बंद है"
       subject_template: "[%{email_prefix}] Two-Factor Authentication disabled"
       text_body_template: |
         Two-factor authentication has been disabled on your account at %{site_name}. You can now log in with only your password; an additional authentication code is no longer required.
@@ -3887,7 +3887,7 @@ hi_IN:
 
     admin_login:
       title: "Admin Login"
-      subject_template: "[%{email_prefix}] Login"
+      subject_template: "[%{email_prefix}] लॉगिन"
       text_body_template: |
         Somebody asked to log in to your account on [%{site_name}](%{base_url}).
 
@@ -3898,7 +3898,7 @@ hi_IN:
 
     account_created:
       title: "Account Created"
-      subject_template: "[%{email_prefix}] Your New Account"
+      subject_template: "[%{email_prefix}] आपका नया अकाउंट"
       text_body_template: |
         A new account was created for you at %{site_name}
 
@@ -3975,7 +3975,7 @@ hi_IN:
 
     signup_after_approval:
       title: "Signup After Approval"
-      subject_template: "You've been approved on %{site_name}!"
+      subject_template: "आपको %{site_name} पर स्वीकृत किया गया है!"
       text_body_template: |
         Welcome to %{site_name}!
 
@@ -4002,7 +4002,7 @@ hi_IN:
 
     signup:
       title: "Signup"
-      subject_template: "[%{email_prefix}] Confirm your new account"
+      subject_template: "[%{email_prefix}] अपने नए अकाउंट की पुष्टि करें"
       text_body_template: |
         Welcome to %{site_name}!
 
@@ -4177,7 +4177,7 @@ hi_IN:
     Edit the first post in this topic to change the contents of the %{page_name} page.
 
   guidelines_topic:
-    title: "FAQ/Guidelines"
+    title: "नियम / दिशा निर्देश"
     body: |
       <a name="civilized"></a>
 
@@ -5027,7 +5027,7 @@ hi_IN:
       private_message: '%{username} sent you a private message in "%{topic}" - %{site_title}'
       linked: '%{username} linked to your post from "%{topic}" - %{site_title}'
       watching_first_post: '%{username} created a new topic "%{topic}" - %{site_title}'
-      confirm_title: "Notifications enabled - %{site_title}"
+      confirm_title: "नोटिफिकेशंस चालू हो गए - %{site_title}"
       confirm_body: "Success! Notifications have been enabled."
       custom: "Notification from %{username} on %{site_title}"
 
