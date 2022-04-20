@@ -50,7 +50,7 @@ hi_IN:
   posts: "posts"
   views: "views"
   loading: "Loading"
-  powered_by_html: 'Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
+  powered_by_html: '<a href="https://www.hindkuti.com">हिंदकुटी</a> द्वारा संचालित, JavaScript चालू होने पर बेहतर अनुभव मिलता है'
   sign_up: "साइन अप"
   log_in: "लॉग इन"
   submit: "Submit"
@@ -687,7 +687,7 @@ hi_IN:
 
       (For more information on trust levels, [see this topic][trust]. Please note that only members who continue to meet the requirements over time will remain regulars.)
 
-      [trust]: https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/
+      [trust]: https://www.hindkuti.com/t/20
 
   admin_quick_start_title: "READ ME FIRST: Admin Quick Start Guide"
 
@@ -1229,7 +1229,7 @@ hi_IN:
       labels:
         level: Level
       description: "Number of users grouped by trust level."
-      description_link: "https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/"
+      description_link: "https://www.hindkuti.com/t/20"
     users_by_type:
       title: "Users per Type"
       xaxis: "Type"
@@ -2964,7 +2964,7 @@ hi_IN:
       text_body_template: |
         For a few quick tips on getting started as a new user, [check out this blog post](https://blog.discourse.org/2016/12/discourse-new-user-tips-and-tricks/).
 
-        As you participate here, we’ll get to know you, and temporary new user limitations will be lifted. Over time you’ll gain [trust levels](https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/) that include special abilities to help us manage our community together.
+        As you participate here, we’ll get to know you, and temporary new user limitations will be lifted. Over time you’ll gain [trust levels](https://www.hindkuti.com/t/20) that include special abilities to help us manage our community together.
 
     welcome_user:
       title: "Welcome User"
@@ -2982,7 +2982,7 @@ hi_IN:
       title: "Welcome TL1 User"
       subject_template: "Thanks for spending time with us"
       text_body_template: |
-        Hey there. We see you’ve been busy reading, which is fantastic, so we’ve promoted you up a [trust level!](https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/)
+        Hey there. We see you’ve been busy reading, which is fantastic, so we’ve promoted you up a [trust level!](https://www.hindkuti.com/t/20)
 
         We’re really glad you’re spending time with us and we’d love to know more about you. Take a moment to [fill out your profile](%{base_url}/my/preferences/profile), or feel free to [start a new topic](%{base_url}/categories).
 
@@ -3016,7 +3016,7 @@ hi_IN:
     tl2_promotion_message:
       subject_template: "Congratulations on your trust level promotion!"
       text_body_template: |
-        We’ve promoted you up another [trust level](https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/)!
+        We’ve promoted you up another [trust level](https://www.hindkuti.com/t/20)!
 
         As an experienced user, you might appreciate [this list of handy tips and tricks](https://blog.discourse.org/2016/12/discourse-new-user-tips-and-tricks/).
 
@@ -3900,9 +3900,9 @@ hi_IN:
       title: "Account Created"
       subject_template: "[%{email_prefix}] आपका नया अकाउंट"
       text_body_template: |
-        A new account was created for you at %{site_name}
+        %{site_name} पर आपका एक नया अकाउंट बन चुका है।
 
-        Click the following link to choose a password for your new account:
+        अपने नए अकाउंट का पासवर्ड सेट करने के लिए निम्न लिंक पर क्लिक करें:
         %{base_url}/u/password-reset/%{email_token}
 
     confirm_new_email:
@@ -4546,32 +4546,32 @@ hi_IN:
         cant_grant_multiple_times: Can't grant the %{badge_name} badge multiple times to a single user.
     editor:
       name: Editor
-      description: First post edit
+      description: पहली पोस्ट संपादित की
       long_description: |
         This badge is granted the first time you edit one of your posts. While you won’t be able to edit your posts forever, editing is encouraged — you can improve the formatting, fix small mistakes, or add anything you missed when you originally posted. Edit to make your posts even better!
     wiki_editor:
-      name: Wiki Editor
+      name: विकी संपादक
       description: First wiki edit
       long_description: |
         This badge is granted the first time you edit one wiki post.
     basic_user:
       name: Basic
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> all essential community functions
+      description: <a href="https://www.hindkuti.com/t/20">Granted</a> all essential community functions
       long_description: |
         This badge is granted when you reach trust level 1. Thanks for sticking around and reading a few topics to learn what our community is about. New user restrictions have been lifted; you’ve been granted all essential community abilities, such as personal messaging, flagging, wiki editing, and the ability to post multiple images and links.
     member:
       name: Member
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> invitations, group messaging, more likes
+      description: <a href="https://www.hindkuti.com/t/20">Granted</a> invitations, group messaging, more likes
       long_description: |
         This badge is granted when you reach trust level 2. Thanks for participating over a period of weeks to truly join our community. You can now send invitations from your user page or individual topics, create group personal messages, and have more likes per day.
     regular:
       name: Regular
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> recategorize, rename, followed links, wiki, more likes
+      description: <a href="https://www.hindkuti.com/t/20">Granted</a> recategorize, rename, followed links, wiki, more likes
       long_description: |
         This badge is granted when you reach trust level 3. Thanks for being a regular part of our community over a period of months. You’re now one of the most active readers, and a reliable contributor that makes our community great. You can now recategorize and rename topics, take advantage of more powerful spam flags, access a private lounge area, and you’ll also get lots more likes per day.
     leader:
       name: Leader
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> global edit, pin, close, archive, split and merge, more likes
+      description: <a href="https://www.hindkuti.com/t/20">Granted</a> global edit, pin, close, archive, split and merge, more likes
       long_description: |
         This badge is granted when you reach trust level 4. You’re a leader in this community as selected by staff, and you set a positive example for the rest of the community in your actions and words here. You have the ability to edit all posts, take common topic moderator actions such as pin, close, unlist, archive, split, and merge.
     welcome:
@@ -4580,8 +4580,8 @@ hi_IN:
       long_description: |
         This badge is granted when you receive your first like on a post. Congratulations, you’ve posted something that your fellow community members found interesting, cool, or useful!
     autobiographer:
-      name: Autobiographer
-      description: Filled out <a href="%{base_uri}/my/preferences/profile">profile</a> information
+      name: आत्मकथाकार
+      description: अपनी <a href="%{base_uri}/my/preferences/profile">प्रोफाइल जानकारी</a> भरी
       long_description: |
         This badge is granted for filling out <a href="%{base_uri}/my/preferences/profile">your user profile</a> and selecting a profile picture. Letting the community know a bit more about who you are and what you’re interested in makes for a better, more connected community. Join us!
     anniversary:
@@ -4636,12 +4636,12 @@ hi_IN:
         This badge is granted for sharing a link that was clicked by 1000 outside visitors. Wow! You’ve promoted an interesting discussion to a huge new audience, and helped us grow our community in a big way!
     first_like:
       name: First Like
-      description: Liked a post
+      description: एक पोस्ट को लाइक किया
       long_description: |
         This badge is granted the first time you like a post using the :heart: button. Liking posts is a great way to let your fellow community members know that what they posted was interesting, useful, cool, or fun. Share the love!
     first_flag:
       name: First Flag
-      description: Flagged a post
+      description: एक पोस्ट को फ्लैग किया
       long_description: |
         This badge is granted the first time you flag a post. Flagging is how we all help keep this a nice place for everyone. If you notice any posts that require moderator attention for any reason please don’t hesitate to flag. If you see a problem, :flag_black: flag it!
     promoter:
@@ -4675,7 +4675,7 @@ hi_IN:
       long_description: |
         This badge is granted the first time you quote a post in your reply. Quoting relevant parts of earlier posts in your reply helps keep discussions connected together and on topic. The easiest way to quote is to highlight a section of a post, and then press any reply button. Quote generously!
     read_guidelines:
-      name: Read Guidelines
+      name: दिशा निर्देश पढ़ें
       description: Read the <a href="%{base_uri}/guidelines">community guidelines</a>
       long_description: |
         This badge is granted for <a href="%{base_uri}/guidelines">reading the community guidelines</a>. Following and sharing these simple guidelines helps build a safe, fun, and sustainable community for everyone. Always remember there’s another human being, one very much like yourself, on the other side of that screen. Be nice!
@@ -4745,8 +4745,8 @@ hi_IN:
       long_description: |
         This badge is granted when you have 500 liked posts and give 1000 or more likes in return. Wow! You’re a model of generosity and mutual appreciation :two_hearts:.
     first_emoji:
-      name: First Emoji
-      description: Used an Emoji in a Post
+      name: पहला इमोजी
+      description: पोस्ट में इमोजी का इस्तेमाल किया
       long_description: |
         This badge is granted the first time you add an Emoji to your post :thumbsup:. Emoji let you convey emotion in your posts, from happiness :smiley: to sadness :anguished: to anger :angry: and everything in between :sunglasses:. Just type a : (colon) or press the Emoji toolbar button in the editor to select from hundreds of choices :ok_hand:
     first_mention:
