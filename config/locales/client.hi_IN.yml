@@ -1712,9 +1712,9 @@ hi_IN:
         top_topics: "टॉप टॉपिक्स"
         no_topics: "अभी तक कोई टॉपिक नहीं।"
         more_topics: "और टॉपिक्स"
-        top_badges: "Top Badges"
+        top_badges: "टॉप पदक"
         no_badges: "अभी तक कोई पदक नहीं।"
-        more_badges: "More Badges"
+        more_badges: "और पदक"
         top_links: "टॉप लिंक"
         no_links: "अभी तक कोई लिंक नहीं।"
         most_liked_by: "के द्वारा सबसे ज्यादा लाइक प्राप्त किये"
@@ -2348,7 +2348,7 @@ hi_IN:
         linked: "linked"
         bookmark_reminder: "bookmark reminder"
         bookmark_reminder_with_name: "bookmark reminder - %{name}"
-        granted_badge: "badge granted"
+        granted_badge: "पदक दिया गया"
         invited_to_topic: "invited to topic"
         group_mentioned: "group mentioned"
         group_message_summary: "new group messages"
@@ -2561,7 +2561,7 @@ hi_IN:
         category: "%{category} श्रेणी में कोई टॉपिक्स नहीं हैं।"
         top: "कोई टॉप टॉपिक्स नहीं हैं।"
         educate:
-          new: '<p>Your new topics will appear here. By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;"></span> indicator if they were created in the last 2 days.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
+          new: '<p>आपके नए टॉपिक्स यहां दिखाई देंगे। डिफॉल्ट रूप से, टॉपिक्स को नया माना जाता है और यदि वे पिछले 2 दिनों में बनाए गए हैं तो वे एक संकेतक <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;"></span> के साथ दिखाई देंगे।</p><p>इसे बदलने के लिए अपनी <a href="%{userPrefsUrl}">प्राथमिकताओं</a> पर जाएं।</p>'
           unread: '<p>आपके अपठित विषय यहां दिखाई देते हैं।</p><p>डिफॉल्ट रूप से, सभी टॉपिक्स को अपठित माना जाता है और अपठित संख्या <span class="badge unread-posts badge-notification">2</span> के साथ दिखाई देते हैं, यदि आपने:</p><ul><li>उस टॉपिक को बनाया हो</li><li>उस टॉपिक पर रिप्लाई किया हो</li><li>उस टॉपिक को 4 मिनट से अधिक समय तक पढ़ा हो</li></ul><p>या आप उस टॉपिक को 🔔 के माध्यम से वाच या ट्रैक कर रहे हों।</p><p>इसे बदलने के लिए अपनी <a href="%{userPrefsUrl}">प्राथमिकताओं</a> पर जाएं।</p>'
       bottom:
         latest: "और अधिक नवीनतम टॉपिक्स नहीं हैं।"
@@ -3775,7 +3775,7 @@ hi_IN:
       earned_n_times:
         one: "Earned this badge %{count} time"
         other: "Earned this badge %{count} times"
-      granted_on: "Granted %{date}"
+      granted_on: "दिया गया %{date}"
       others_count: "Others with this badge (%{count})"
       title: पदक
       allow_title: "You can use this badge as a title"
@@ -3794,7 +3794,7 @@ hi_IN:
       successfully_granted: "Successfully granted %{badge} to %{username}"
       badge_grouping:
         getting_started:
-          name: Getting Started
+          name: शुरू करना
         community:
           name: Community
         trust_level:
