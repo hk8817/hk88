@@ -3777,7 +3777,7 @@ hi_IN:
         other: "Earned this badge %{count} times"
       granted_on: "Granted %{date}"
       others_count: "Others with this badge (%{count})"
-      title: Badges
+      title: पदक
       allow_title: "You can use this badge as a title"
       multiple_grant: "You can earn this multiple times"
       badge_count:
