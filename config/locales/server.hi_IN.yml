@@ -3977,20 +3977,20 @@ hi_IN:
       title: "Signup After Approval"
       subject_template: "आपको %{site_name} पर स्वीकृत किया गया है!"
       text_body_template: |
-        Welcome to %{site_name}!
+        %{site_name} में आपका स्वागत है!
 
-        A staff member approved your account on %{site_name}.
+        एक स्टाफ मेंबर ने %{site_name} पर आपके अकाउंट को स्वीकृत किया है।
 
-        You can now access your new account by logging in at:
+        अब आप यहां लॉग इन करके अपने नए अकाउंट तक पहुंच सकते हैं:
         %{base_url}
 
-        If the above link is not clickable, try copying and pasting it into the address bar of your web browser.
+        यदि उपरोक्त लिंक क्लिक करने योग्य नहीं है, तो इसे अपने वेब ब्राउज़र के एड्रेस बार में कॉपी और पेस्ट करने का प्रयास करें।
 
         %{new_user_tips}
 
-        We believe in [civilized community behavior](%{base_url}/guidelines) at all times.
+        हम हमेशा [सभ्य सामुदायिक व्यवहार](%{base_url}/guidelines) में विश्वास करते हैं।
 
-        Enjoy your stay!
+        यहां रहने का आनंद लें!
 
     signup_after_reject:
       title: "Signup After Reject"
@@ -4548,7 +4548,7 @@ hi_IN:
       name: Editor
       description: पहली पोस्ट संपादित की
       long_description: |
-        This badge is granted the first time you edit one of your posts. While you won’t be able to edit your posts forever, editing is encouraged — you can improve the formatting, fix small mistakes, or add anything you missed when you originally posted. Edit to make your posts even better!
+        जब आप पहली बार अपनी किसी पोस्ट को संपादित करते हैं, तो यह पदक प्रदान किया जाता है। हालाँकि आप अपनी पोस्ट को हमेशा के लिए संपादित नहीं कर पाएंगे, इसलिए जल्द से जल्द अपनी पोस्ट को संपादित करने को प्रोत्साहित किया जाता है। संपादन के जरिये आप स्वरूपण में सुधार कर सकते हैं, छोटी-छोटी गलतियों को सुधार सकते हैं, या जब आपने मूल रूप से पोस्ट किया था तो कुछ भी छूट हो उसे जोड़ सकते हैं। अपनी पोस्ट को और बेहतर बनाने के लिए उसे संपादित करें!
     wiki_editor:
       name: विकी संपादक
       description: First wiki edit
@@ -4643,7 +4643,7 @@ hi_IN:
       name: First Flag
       description: एक पोस्ट को फ्लैग किया
       long_description: |
-        This badge is granted the first time you flag a post. Flagging is how we all help keep this a nice place for everyone. If you notice any posts that require moderator attention for any reason please don’t hesitate to flag. If you see a problem, :flag_black: flag it!
+        जब आप पहली बार किसी पोस्ट को फ्लैग करते हैं, तो यह बैज प्रदान किया जाता है। फ्लैगिंग के जरिये हम सभी इस समुदाय को एक अच्छी जगह बनाए रखने में मदद करते हैं। यदि आपको कोई ऐसी पोस्ट दिखाई देती है, जिसमें किसी कारणवश मॉडरेटर का ध्यान आकर्षित करने की आवश्यकता है, तो कृपया फ्लैग करने में संकोच न करें। यदि आपको कोई भी समस्या दिखाई दे, तो उसे :flag_black: फ्लैग करें!
     promoter:
       name: Promoter
       description: Invited a user
@@ -4748,7 +4748,7 @@ hi_IN:
       name: पहला इमोजी
       description: पोस्ट में इमोजी का इस्तेमाल किया
       long_description: |
-        This badge is granted the first time you add an Emoji to your post :thumbsup:. Emoji let you convey emotion in your posts, from happiness :smiley: to sadness :anguished: to anger :angry: and everything in between :sunglasses:. Just type a : (colon) or press the Emoji toolbar button in the editor to select from hundreds of choices :ok_hand:
+        जब आप पहली बार अपनी पोस्ट में इमोजी जोड़ते हैं तो यह पदक दिया जाता है :thumbsup:। इमोजी आपको अपनी पोस्ट में भावनाओं को व्यक्त करने देता है, खुशी :smiley: से लेकर दुःख :anguished: और गुस्से :angry: तक, और इनके बीच में मौजूद सभी भावनाएं :sunglasses:। सैकड़ों इमोजी में से चुनने के लिए बस एक : (कोलन मार्क) टाइप करें या संपादक में इमोजी टूलबार बटन दबाएं :ok_hand:
     first_mention:
       name: First Mention
       description: Mentioned a user in a post
