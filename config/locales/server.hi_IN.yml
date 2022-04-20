@@ -2970,13 +2970,13 @@ hi_IN:
       title: "Welcome User"
       subject_template: "%{site_name} में आपका स्वागत है!"
       text_body_template: |
-        Thanks for joining %{site_name}, and welcome!
+        %{site_name} से जुड़ने के लिए धन्यवाद, और स्वागतम!
 
         %{new_user_tips}
 
-        We believe in [civilized community behavior](%{base_url}/guidelines) at all times.
+        हम हमेशा [सभ्य सामुदायिक व्यवहार](%{base_url}/guidelines) में विश्वास करते हैं।
 
-        Enjoy your stay!
+        यहां रहने का आनंद लें!
 
     welcome_tl1_user:
       title: "Welcome TL1 User"
@@ -3889,11 +3889,11 @@ hi_IN:
       title: "Admin Login"
       subject_template: "[%{email_prefix}] लॉगिन"
       text_body_template: |
-        Somebody asked to log in to your account on [%{site_name}](%{base_url}).
+        [%{site_name}](%{base_url}) पर किसी ने आपके अकाउंट में लॉगिन करने का अनुरोध किया है।
 
-        If you did not make this request, you can safely ignore this email.
+        यदि आपने यह अनुरोध नहीं किया है, तो आप इस ईमेल को सुरक्षित रूप से नजरअंदाज कर सकते हैं।
 
-        Click the following link to log in:
+        लॉगिन करने के लिए निम्न लिंक पर क्लिक करें:
         %{base_url}/session/email-login/%{email_token}
 
     account_created:
@@ -4004,25 +4004,25 @@ hi_IN:
       title: "Signup"
       subject_template: "[%{email_prefix}] अपने नए अकाउंट की पुष्टि करें"
       text_body_template: |
-        Welcome to %{site_name}!
+        %{site_name} में आपका स्वागत है!
 
-        Click the following link to confirm and activate your new account:
+        अपने नए अकाउंट की पुष्टि और सक्रिय करने के लिए निम्न लिंक पर क्लिक करें:
         %{base_url}/u/activate-account/%{email_token}
 
-        If the above link is not clickable, try copying and pasting it into the address bar of your web browser.
+        यदि उपरोक्त लिंक क्लिक करने योग्य नहीं है, तो इसे अपने वेब ब्राउज़र के एड्रेस बार में कॉपी और पेस्ट करने का प्रयास करें।
 
     activation_reminder:
       title: "Activation Reminder"
       subject_template: "[%{email_prefix}] Reminder to confirm your account"
       text_body_template: |
-        Welcome to %{site_name}!
+        %{site_name} में आपका स्वागत है!
 
-        This is a friendly reminder to activate your account.
+        यह आपके अकाउंट को सक्रिय करने का एक दोस्ताना रिमाइंडर है।
 
-        Click the following link to confirm and activate your new account:
+        अपने नए अकाउंट की पुष्टि और सक्रिय करने के लिए निम्न लिंक पर क्लिक करें:
         %{base_url}/u/activate-account/%{email_token}
 
-        If the above link is not clickable, try copying and pasting it into the address bar of your web browser.
+        यदि उपरोक्त लिंक क्लिक करने योग्य नहीं है, तो इसे अपने वेब ब्राउज़र के एड्रेस बार में कॉपी और पेस्ट करने का प्रयास करें।
 
     suspicious_login:
       title: "New Login Alert"
@@ -4583,7 +4583,7 @@ hi_IN:
       name: आत्मकथाकार
       description: अपनी <a href="%{base_uri}/my/preferences/profile">प्रोफाइल जानकारी</a> भरी
       long_description: |
-        This badge is granted for filling out <a href="%{base_uri}/my/preferences/profile">your user profile</a> and selecting a profile picture. Letting the community know a bit more about who you are and what you’re interested in makes for a better, more connected community. Join us!
+        यह पदक अपनी <a href="%{base_uri}/my/preferences/profile">उपयोगकर्ता प्रोफाइल भरने</a> और प्रोफाइल चित्र चुनने के लिए दिया जाता है। आप कौन हैं और किस चीज में रुचि रखते हैं, इस बारे में समुदाय को थोड़ा और बताकर एक बेहतर समुदाय बनाने में मदद मिलती है।
     anniversary:
       name: Anniversary
       description: Active member for a year, posted at least once
@@ -4638,7 +4638,7 @@ hi_IN:
       name: First Like
       description: एक पोस्ट को लाइक किया
       long_description: |
-        This badge is granted the first time you like a post using the :heart: button. Liking posts is a great way to let your fellow community members know that what they posted was interesting, useful, cool, or fun. Share the love!
+        यह पदक तब दिया जाता है जब आप पहली बार :heart: बटन का उपयोग करके कोई पोस्ट पसंद करते हैं। पोस्ट को लाइक करना, अपने साथी समुदाय के सदस्यों को यह बताने का एक शानदार तरीका है, कि उन्होंने जो पोस्ट किया वह दिलचस्प, उपयोगी, बढ़िया या मज़ेदार है।
     first_flag:
       name: First Flag
       description: एक पोस्ट को फ्लैग किया
@@ -4668,7 +4668,7 @@ hi_IN:
       name: First Link
       description: Added a link to another topic
       long_description: |
-        This badge is granted the first time you add a link to another topic. Linking topics helps fellow readers find interesting related conversations, by showing the connections between topics in both directions. Link freely!
+        जब आप पहली बार अपनी पोस्ट में किसी अन्य टॉपिक की लिंक जोड़ते हैं, तो यह पदक प्रदान किया जाता है। टॉपिक्स को एक दूसरे से जोड़ने से साथी पाठकों को दोनों दिशाओं में टॉपिक्स के बीच संबंध दिखाकर दिलचस्प संबंधित बातचीत खोजने में मदद मिलती है। इसलिए स्वतंत्र रूप से लिंक करें!
     first_quote:
       name: First Quote
       description: Quoted a post
