@@ -108,17 +108,17 @@ hi_IN:
           one: "%{count} दिन"
           other: "%{count} दिन"
         x_months:
-          one: "%{count} month"
-          other: "%{count} months"
+          one: "%{count} महीना"
+          other: "%{count} महीने"
         about_x_years:
-          one: "about %{count} year"
-          other: "about %{count} years"
+          one: "%{count} साल के बारे में"
+          other: "%{count} साल के बारे में"
         over_x_years:
-          one: "over %{count} year"
-          other: "over %{count} years"
+          one: "%{count} साल से ज्यादा"
+          other: "%{count} साल से ज्यादा"
         almost_x_years:
-          one: "almost %{count} year"
-          other: "almost %{count} years"
+          one: "लगभग %{count} साल"
+          other: "लगभग %{count} साल"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_year: "MMM D, 'YY"
       medium_with_ago:
@@ -147,56 +147,56 @@ hi_IN:
         x_years:
           one: "%{count} साल बाद"
           other: "%{count} साल बाद"
-      previous_month: "Previous Month"
+      previous_month: "पिछले महीने"
       next_month: "अगले महीने"
-      placeholder: date
-      from_placeholder: "from date"
-      to_placeholder: "to date"
+      placeholder: दिनांक
+      from_placeholder: "दिनांक से"
+      to_placeholder: "दिनांक तक"
     share:
-      topic_html: 'Topic: <span class="topic-title">%{topicTitle}</span>'
-      post: "post #%{postNumber} by @%{username}"
-      close: "close"
-      twitter: "Share on Twitter"
-      facebook: "Share on Facebook"
-      email: "Send via email"
-      url: "Copy and share URL"
+      topic_html: 'टॉपिक: <span class="topic-title">%{topicTitle}</span>'
+      post: "#%{postNumber} पोस्ट @%{username} द्वारा"
+      close: "बंद करे"
+      twitter: "Twitter पर साझा करें"
+      facebook: "Facebook पर साझा करें"
+      email: "ईमेल के माध्यम से भेजें"
+      url: "URL कॉपी और शेयर करें"
 
     action_codes:
-      public_topic: "made this topic public %{when}"
-      open_topic: "converted this to a topic %{when}"
-      private_topic: "made this topic a personal message %{when}"
-      split_topic: "split this topic %{when}"
-      invited_user: "invited %{who} %{when}"
-      invited_group: "invited %{who} %{when}"
-      user_left: "%{who} removed themselves from this message %{when}"
-      removed_user: "removed %{who} %{when}"
-      removed_group: "removed %{who} %{when}"
+      public_topic: "इस टॉपिक को सार्वजनिक किया %{when}"
+      open_topic: "इसे एक टॉपिक में बदला %{when}"
+      private_topic: "इस टॉपिक को एक व्यक्तिगत संदेश में बदला %{when}"
+      split_topic: "इस टॉपिक को विभाजित किया %{when}"
+      invited_user: "आमंत्रित %{who} %{when}"
+      invited_group: "आमंत्रित %{who} %{when}"
+      user_left: "%{who} ने इस संदेश से खुद को हटा लिया %{when}"
+      removed_user: "हटाया %{who} %{when}"
+      removed_group: "हटाया %{who} %{when}"
       autobumped: "automatically bumped %{when}"
       autoclosed:
-        enabled: "closed %{when}"
-        disabled: "opened %{when}"
+        enabled: "बंद किया %{when}"
+        disabled: "खोला %{when}"
       closed:
-        enabled: "closed %{when}"
-        disabled: "opened %{when}"
+        enabled: "बंद किय %{when}"
+        disabled: "खोल %{when}"
       archived:
-        enabled: "archived %{when}"
-        disabled: "unarchived %{when}"
+        enabled: "आर्काइव किया %{when}"
+        disabled: "आर्काइव से हटाया %{when}"
       pinned:
-        enabled: "pinned %{when}"
+        enabled: "पिन किया %{when}"
         disabled: "अनपिन किया गया %{when}"
       pinned_globally:
         enabled: "वैश्विक रूप से पिन किया गया %{when}"
         disabled: "अनपिन किया गया %{when}"
       visible:
-        enabled: "listed %{when}"
-        disabled: "unlisted %{when}"
+        enabled: "लिस्ट किया %{when}"
+        disabled: "लिस्ट से हटाया %{when}"
       banner:
-        enabled: "made this a banner %{when}. It will appear at the top of every page until it is dismissed by the user."
-        disabled: "removed this banner %{when}. It will no longer appear at the top of every page."
-      forwarded: "forwarded the above email"
+        enabled: "इसे बैनर बनाया %{when}। यह प्रत्येक पृष्ठ के शीर्ष पर तब तक दिखाई देगा जब तक कि इसे उपयोगकर्ता द्वारा खारिज नहीं कर दिया जाता।"
+        disabled: "इस बैनर को हटाया %{when}। यह अब प्रत्येक पृष्ठ के शीर्ष पर दिखाई नहीं देगा।"
+      forwarded: "उपरोक्त ईमेल को फॉरवर्ड किया"
 
-    topic_admin_menu: "topic actions"
-    skip_to_main_content: "Skip to main content"
+    topic_admin_menu: "टॉपिक कार्यवाहियाँ"
+    skip_to_main_content: "मुख्य सामग्री में जाएँ"
 
     wizard_required: "Welcome to your new Discourse! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
     emails_are_disabled: "All outgoing email has been globally disabled by an administrator. No email notifications of any kind will be sent."
