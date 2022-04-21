@@ -1681,7 +1681,9 @@ hi_IN:
         title: "सारांश"
         stats: "आँकड़े"
         time_read: "पढ़ने का समय"
+        time_read_title: "%{duration} (अब तक)"
         recent_time_read: "हाल का पढ़ने का समय"
+        recent_time_read_title: "%{duration} (पिछले 60 दिनों में)"
         topic_count:
           one: "टॉपिक बनाया"
           other: "टॉपिक्स बनाये"
