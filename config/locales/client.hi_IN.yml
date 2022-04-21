@@ -320,7 +320,7 @@ hi_IN:
       user_count: "उपयोगकर्ता"
       active_user_count: "सक्रिय उपयोगकर्ता"
       contact: "संपर्क करें"
-      contact_info: "इस साइट को प्रभावित करने वाली कोई गंभीर समस्या या जरूरी मामले की स्थिति में, कृपया हमसे <b>%{contact_info}</b> पर संपर्क करें। <br><br><b>हमारे सोशल अकाउंट</b><ul><li><a href="https://www.facebook.com/HindKuti/">Facebook</a></li><li><a href="https://twitter.com/HindKuti">Twitter</a></li><li><a href="https://www.instagram.com/hindkuti/">Instagram</a></li><li><a href="https://www.linkedin.com/company/hindkuti/">LinkedIn</a></li></ul><br>धन्यवाद!"
+      contact_info: "इस साइट को प्रभावित करने वाली कोई गंभीर समस्या या जरूरी मामले की स्थिति में, कृपया हमसे <b>%{contact_info}</b> पर संपर्क करें। <br><br><b>हमारे सोशल अकाउंट</b><ul><li><a href='https://www.facebook.com/HindKuti/'>Facebook</a></li><li><a href='https://twitter.com/HindKuti'>Twitter</a></li><li><a href='https://www.instagram.com/hindkuti/'>Instagram</a></li><li><a href='https://www.linkedin.com/company/hindkuti/'>LinkedIn</a></li></ul><br>धन्यवाद!"
 
     bookmarked:
       title: "बुकमार्क"
