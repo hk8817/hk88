@@ -11,8 +11,8 @@ hi_IN:
           format: "%n %u"
           units:
             byte:
-              one: Byte
-              other: Bytes
+              one: बिट
+              other: बिट्स
             gb: GB
             kb: KB
             mb: MB
@@ -52,8 +52,8 @@ hi_IN:
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
       long_date_with_year_with_linebreak: "MMM D, 'YY <br/>LT"
 
-      wrap_ago: "%{date} ago"
-      wrap_on: "on %{date}"
+      wrap_ago: "%{date} पहले"
+      wrap_on: "%{date} को"
 
       tiny:
         half_a_minute: "< 1मि"
@@ -88,7 +88,7 @@ hi_IN:
           one: "%{count}सा"
           other: "%{count}सा"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-        date_month: "MMM D"
+        date_month: "D MMM"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_year: "MMM 'YY"
       medium:
@@ -102,8 +102,8 @@ hi_IN:
           one: "%{count} घंटा"
           other: "%{count} घंटे"
         about_x_hours:
-          one: "about %{count} hour"
-          other: "about %{count} hours"
+          one: "लगभग %{count} घंटा"
+          other: "लगभग %{count} घंटे"
         x_days:
           one: "%{count} दिन"
           other: "%{count} दिन"
@@ -120,7 +120,7 @@ hi_IN:
           one: "लगभग %{count} साल"
           other: "लगभग %{count} साल"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-        date_year: "MMM D, 'YY"
+        date_year: "D MMM, 'YY"
       medium_with_ago:
         x_minutes:
           one: "%{count} मिनट पहले"
