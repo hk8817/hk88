@@ -303,7 +303,7 @@ hi_IN:
       pm_title: "Suggested Messages"
 
     about:
-      simple_title: "बारे में"
+      simple_title: "हमारे बारे में"
       title: "%{title} के बारे में"
       stats: "साइट के आंकड़े"
       our_admins: "संस्थापक"
