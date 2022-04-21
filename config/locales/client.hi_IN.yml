@@ -38,19 +38,19 @@ hi_IN:
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
       long_with_year: "MMM D, YYYY h:mm a"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_with_year_no_time: "MMM D, YYYY"
+      long_with_year_no_time: "D MMM, YYYY"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      full_with_year_no_time: "MMMM Do, YYYY"
+      full_with_year_no_time: "Do MMMM, YYYY"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_with_year: "MMM D, 'YY LT"
+      long_date_with_year: "D MMM, 'YY LT"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_without_year: "MMM D, LT"
+      long_date_without_year: "D MMM, LT"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_with_year_without_time: "MMM D, 'YY"
+      long_date_with_year_without_time: "D MMM, 'YY"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_without_year_with_linebreak: "MMM D <br/>LT"
+      long_date_without_year_with_linebreak: "D MMM <br/>LT"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_with_year_with_linebreak: "MMM D, 'YY <br/>LT"
+      long_date_with_year_with_linebreak: "D MMM, 'YY <br/>LT"
 
       wrap_ago: "%{date} पहले"
       wrap_on: "%{date} को"
@@ -93,8 +93,8 @@ hi_IN:
         date_year: "MMM 'YY"
       medium:
         less_than_x_minutes:
-          one: "less than %{count} min"
-          other: "less than %{count} mins"
+          one: "%{count} मिनट से कम"
+          other: "%{count} से कम"
         x_minutes:
           one: "%{count} मिनट"
           other: "%{count} मिनट"
@@ -198,24 +198,24 @@ hi_IN:
     topic_admin_menu: "टॉपिक कार्यवाहियाँ"
     skip_to_main_content: "मुख्य सामग्री में जाएँ"
 
-    wizard_required: "Welcome to your new Discourse! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
-    emails_are_disabled: "All outgoing email has been globally disabled by an administrator. No email notifications of any kind will be sent."
-    emails_are_disabled_non_staff: "Outgoing email has been disabled for non-staff users."
+    wizard_required: "आपके नए फोरम में आपका स्वागत है! चलिए <a href='%{url}' data-auto-route='true'>सेटअप विजार्ड</a> के साथ शुरुआत करते हैं ✨"
+    emails_are_disabled: "सभी आउटगोइंग ईमेल को एडमिन द्वारा अक्षम कर दिया गया है। किसी भी प्रकार के कोई भी ईमेल नोटिफिकेशन नहीं भेजे जायेंगे।"
+    emails_are_disabled_non_staff: "गैर-स्टाफ उपयोगकर्ताओं के लिए आउटगोइंग ईमेल अक्षम कर दिए गए हैं।"
 
     software_update_prompt:
-      message: "We've updated this site, <span>please refresh</span>, or you may experience unexpected behavior."
-      dismiss: "Dismiss"
+      message: "हमने इस साइट को अपडेट कर दिया है, किसी भी अप्रत्याशित व्यवहार से बचने के लिए <span>कृपया रिफ्रेश करें</span>!"
+      dismiss: "नकारें"
 
     bootstrap_mode_enabled:
-      one: "To make launching your new site easier, you are in bootstrap mode. All new users will be granted trust level 1 and have daily email summary emails enabled. This will be automatically turned off when %{count} user has joined."
-      other: "To make launching your new site easier, you are in bootstrap mode. All new users will be granted trust level 1 and have daily email summary emails enabled. This will be automatically turned off when %{count} users have joined."
-    bootstrap_mode_disabled: "Bootstrap mode will be disabled within 24 hours."
+      one: "अपनी साइट को लांच करना आसान बनाने के लिए, आप बूटस्ट्रैप मोड में हैं। सभी नए उपयोगकर्ताओं को विश्वास स्तर 1 प्रदान किया जायेगा, और उनके दैनिक ईमेल सारांश ईमेल सक्षम होंगे। यह स्वचालित रूप से बंद हो जायेगा, जब %{count} उपयोगकर्ता जुड़ जायेंगे।"
+      other: "अपनी साइट को लांच करना आसान बनाने के लिए, आप बूटस्ट्रैप मोड में हैं। सभी नए उपयोगकर्ताओं को विश्वास स्तर 1 प्रदान किया जायेगा, और उनके दैनिक ईमेल सारांश ईमेल सक्षम होंगे। यह स्वचालित रूप से बंद हो जायेगा, जब %{count} उपयोगकर्ता जुड़ जायेंगे।"
+    bootstrap_mode_disabled: "अगले 24 घंटों में बूटस्ट्रैप मोड बंद हो जायेगा।"
 
     themes:
-      default_description: "Default"
-      broken_theme_alert: "Your site may not work because a theme / component has errors."
-      error_caused_by: "Caused by '%{name}'. <a target='blank' href='%{path}'>Click here</a> to update, reconfigure or disable."
-      only_admins: "(this message is only shown to site administrators)"
+      default_description: "डिफॉल्ट"
+      broken_theme_alert: "आपकी साइट शायद ठीक से काम न करे क्योंकि किसी एक थीम / कॉम्पोनेन्ट में त्रुटियाँ हैं।"
+      error_caused_by: "'%{name}' की वजह से। अपडेट, फिर से कॉन्फ़िगर या अक्षम करने के लिए <a target='blank' href='%{path}'>यहाँ क्लिक करें</a>।"
+      only_admins: "(यह मैसेज केवल साइट के एडमिन को दिखेगा)"
       
     broken_decorator_alert: "Posts may not display correctly because one of the post content decorators on your site raised an error."
 
