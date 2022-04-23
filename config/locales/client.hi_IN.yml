@@ -374,35 +374,35 @@ hi_IN:
       resume: "रिज्यूम"
       remove: "हटाए"
       remove_confirmation: "क्या आप वाकई में इस ड्राफ़्ट को हटाना चाहते हैं?"
-      new_topic: "New topic draft"
-      new_private_message: "New personal message draft"
-      topic_reply: "Draft reply"
+      new_topic: "नया टॉपिक ड्राफ्ट"
+      new_private_message: "नया व्यक्तिगत संदेश ड्राफ्ट"
+      topic_reply: "ड्राफ्ट रिप्लाई"
       abandon:
-        confirm: "You have a draft in progress for this topic. What would you like to do with it?"
-        yes_value: "Discard"
-        no_value: "Resume editing"
+        confirm: "आपके पास इस टॉपिक के लिए एक ड्राफ्ट मौजूद है। आप इसके साथ क्या करना चाहेंगे?"
+        yes_value: "रद्द करें"
+        no_value: "संपादन जारी रखें"
 
     topic_count_categories:
-      one: "See %{count} new or updated topic"
-      other: "See %{count} new or updated topics"
+      one: "%{count} नए या अपडेटेड टॉपिक देखें"
+      other: "%{count} नए या अपडेटेड टॉपिक देखें"
 
     topic_count_latest:
-      one: "See %{count} new or updated topic"
-      other: "See %{count} new or updated topics"
+      one: "%{count} नए या अपडेटेड टॉपिक देखें"
+      other: "%{count} नए या अपडेटेड टॉपिक देखें"
 
     topic_count_unseen:
-      one: "See %{count} new or updated topic"
-      other: "See %{count} new or updated topics"
+      one: "%{count} नए या अपडेटेड टॉपिक देखें"
+      other: "%{count} नए या अपडेटेड टॉपिक देखें"
 
     topic_count_unread:
-      one: "See %{count} unread topic"
-      other: "See %{count} unread topics"
+      one: "%{count} अपठित टॉपिक देखें"
+      other: "%{count} अपठित टॉपिक्स देखें"
 
     topic_count_new:
-      one: "See %{count} new topic"
-      other: "See %{count} new topics"
+      one: "%{count} नया टॉपिक देखें"
+      other: "%{count} नए टॉपिक्स"
 
-    preview: "preview"
+    preview: "प्रीव्यू"
     cancel: "रद्द करें"
 
     deleting: "डिलीट कर रहे हैं..."
@@ -417,9 +417,9 @@ hi_IN:
     uploading_filename: "अपलोड कर रहे हैं: %{filename}..."
     processing_filename: "प्रोसेस कर रहे हैं: %{filename}..."
     clipboard: "क्लिपबोर्ड"
-    uploaded: "Uploaded!"
+    uploaded: "अपलोड किया गया!"
 
-    pasting: "Pasting..."
+    pasting: "पेस्ट कर रहे हैं..."
 
     enable: "Enable"
     disable: "Disable"
