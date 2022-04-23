@@ -408,7 +408,7 @@ hi_IN:
     deleting: "डिलीट कर रहे हैं..."
 
     save: "बदलाव सहेजें"
-    saving: "Saving..."
+    saving: "सहेज रहे हैं..."
     saved: "सहेजा गया!"
 
     upload: "अपलोड"
@@ -421,9 +421,9 @@ hi_IN:
 
     pasting: "पेस्ट कर रहे हैं..."
 
-    enable: "Enable"
-    disable: "Disable"
-    continue: "Continue"
+    enable: "सक्षम करें"
+    disable: "अक्षम करें"
+    continue: "जारी रखें"
     undo: "Undo"
     revert: "Revert"
     failed: "Failed"
