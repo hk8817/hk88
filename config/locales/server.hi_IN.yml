@@ -437,6 +437,7 @@ hi_IN:
       time_must_be_provided: "Time must be provided for all reminders"
       for_topic_must_use_first_post: "You can only use the first post to bookmark the topic."
       bookmarkable_id_type_required: "The name and type of the record to bookmark is required."
+      invalid_bookmarkable: "A %{type} cannot be bookmarked."
 
     reminders:
       at_desktop: "Next time I'm at my desktop"
@@ -2408,6 +2409,7 @@ hi_IN:
       google_oauth2_hd_groups: "You must first set 'google oauth2 hd' before enabling this setting."
       search_tokenize_chinese_enabled: "You must disable 'search_tokenize_chinese' before enabling this setting."
       search_tokenize_japanese_enabled: "You must disable 'search_tokenize_japanese' before enabling this setting."
+      discourse_connect_cannot_be_enabled_if_second_factor_enforced:  "You cannot enable DiscourseConnect if 2FA is enforced."
 
     placeholder:
       discourse_connect_provider_secrets:
