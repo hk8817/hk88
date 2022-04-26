@@ -451,19 +451,19 @@ hi_IN:
         placeholder: "यहाँ संदेश का टाइटल, यूआरएल या आईडी टाइप करें"
 
     review:
-      order_by: "Order by"
-      date_filter: "Posted between"
-      in_reply_to: "in reply to"
+      order_by: "ऑर्डर बाय"
+      date_filter: "के बीच पोस्ट किया गया"
+      in_reply_to: "इसके रिप्लाई में"
       explain:
-        why: "explain why this item ended up in the queue"
-        title: "Reviewable Scoring"
-        formula: "Formula"
-        subtotal: "Subtotal"
-        total: "Total"
-        min_score_visibility: "Minimum Score for Visibility"
-        score_to_hide: "Score to Hide Post"
+        why: "समझाएं कि यह आइटम कतार में क्यों आया"
+        title: "समीक्षा योग्य स्कोरिंग"
+        formula: "फॉर्मूला"
+        subtotal: "कुल"
+        total: "कुल"
+        min_score_visibility: "दृश्यता के लिए न्यूनतम स्कोर"
+        score_to_hide: "पोस्ट छिपाने के लिए स्कोर"
         take_action_bonus:
-          name: "took action"
+          name: "कार्रवाई की"
           title: "When a staff member chooses to take action the flag is given a bonus."
         user_accuracy_bonus:
           name: "user accuracy"
