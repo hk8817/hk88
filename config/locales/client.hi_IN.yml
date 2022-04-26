@@ -56,37 +56,37 @@ hi_IN:
       wrap_on: "%{date} को"
 
       tiny:
-        half_a_minute: "< 1मि"
+        half_a_minute: "< 1 मिनट"
         less_than_x_seconds:
-          one: "< %{count}से"
-          other: "< %{count}से"
+          one: "< %{count} सेकंड"
+          other: "< %{count} सेकंड"
         x_seconds:
-          one: "%{count}से"
-          other: "%{count}से"
+          one: "%{count} सेकंड"
+          other: "%{count} सेकंड"
         less_than_x_minutes:
-          one: "< %{count}मि"
-          other: "< %{count}मि"
+          one: "< %{count} मिनटि"
+          other: "< %{count} मिनटि"
         x_minutes:
-          one: "%{count}मि"
-          other: "%{count}मि"
+          one: "%{count} मिनट"
+          other: "%{count} मिनट"
         about_x_hours:
-          one: "%{count}घं"
-          other: "%{count}घं"
+          one: "%{count} घंटा"
+          other: "%{count} घंटे"
         x_days:
-          one: "%{count}दि"
-          other: "%{count}दि"
+          one: "%{count} दिन"
+          other: "%{count} दिन"
         x_months:
-          one: "%{count}म"
-          other: "%{count}म"
+          one: "%{count} महीना"
+          other: "%{count} महीने"
         about_x_years:
-          one: "%{count}सा"
-          other: "%{count}सा"
+          one: "%{count} साल"
+          other: "%{count} साल"
         over_x_years:
-          one: "> %{count}सा"
-          other: "> %{count}सा"
+          one: "> %{count} साल"
+          other: "> %{count} साल"
         almost_x_years:
-          one: "%{count}सा"
-          other: "%{count}सा"
+          one: "%{count} साल"
+          other: "%{count} साल"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_month: "D MMM"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
@@ -424,31 +424,31 @@ hi_IN:
     enable: "सक्षम करें"
     disable: "अक्षम करें"
     continue: "जारी रखें"
-    undo: "Undo"
-    revert: "Revert"
-    failed: "Failed"
+    undo: "पूर्ववत करें"
+    revert: "वापस लें"
+    failed: "फेल हुआ"
 
-    switch_to_anon: "Enter Anonymous Mode"
-    switch_from_anon: "Exit Anonymous Mode"
+    switch_to_anon: "बेनामी मोड में जाएँ"
+    switch_from_anon: "बेनामी मोड से बाहर निकलें"
 
     banner:
-      close: "Dismiss this banner"
+      close: "इस बैनर को खारिज करें"
       edit: "संपादित करें"
 
     pwa:
       install_banner: "क्या आप इस डिवाइस पर <a href>%{title} को इंस्टॉल करना चाहते हैं?</a>"
 
     choose_topic:
-      none_found: "No topics found."
+      none_found: "कोई टॉपिक्स नहीं मिले"
       title:
-        search: "Search for a Topic"
-        placeholder: "type the topic title, url or id here"
+        search: "एक टॉपिक खोजें"
+        placeholder: "यहाँ टॉपिक का टाइटल, यूआरएल या आईडी टाइप करें"
 
     choose_message:
-      none_found: "No messages found."
+      none_found: "कोई सन्देश नहीं मिला"
       title:
-        search: "Search for a Message"
-        placeholder: "type the message title, url or id here"
+        search: "संदेश खोजें"
+        placeholder: "यहाँ संदेश का टाइटल, यूआरएल या आईडी टाइप करें"
 
     review:
       order_by: "Order by"
