@@ -484,16 +484,16 @@ hi_IN:
         title: "इस टॉपिक पर दावा करें"
       unclaim:
         help: "इस दावे को हटाएँ"
-      awaiting_approval: "Awaiting Approval"
-      delete: "Delete"
+      awaiting_approval: "मंजूरी का इंतजार"
+      delete: "हटाएँ"
       settings:
         saved: "सहेजा गया"
         save_changes: "बदलाव सहेजें"
         title: "सेटिंग"
         priorities:
-          title: "Reviewable Priorities"
+          title: "समीक्षा योग्य प्राथमिकताएं"
 
-      moderation_history: "Moderation History"
+      moderation_history: "मॉडरेटर इतिहास"
       view_all: "सभी देखें"
       grouped_by_topic: "Grouped by Topic"
       none: "There are no items to review."
