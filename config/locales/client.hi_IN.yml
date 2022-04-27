@@ -464,26 +464,26 @@ hi_IN:
         score_to_hide: "पोस्ट छिपाने के लिए स्कोर"
         take_action_bonus:
           name: "कार्रवाई की"
-          title: "When a staff member chooses to take action the flag is given a bonus."
+          title: "जब कोई स्टाफ सदस्य कार्रवाई करना चुनता है तो फ्लैग को एक बोनस दिया जाता है।"
         user_accuracy_bonus:
-          name: "user accuracy"
-          title: "Users whose flags have been historically agreed with are given a bonus."
+          name: "उपयोगकर्ता सटीकता"
+          title: "जो उपयोगकर्ता फ्लैग करते हैं, वो ऐतिहासिक रूप से सहमत हैं कि उन्हें एक बोनस दिया जाता है।"
         trust_level_bonus:
           name: "विश्वास स्तर"
-          title: "Reviewable items created by higher trust level users have a higher score."
+          title: "उच्च विश्वास स्तर के उपयोगकर्ताओं द्वारा बनाए गए समीक्षा योग्य आइटम का स्कोर अधिक होता है।"
         type_bonus:
-          name: "type bonus"
-          title: "Certain reviewable types can be assigned a bonus by staff to make them a higher priority."
-      stale_help: "This reviewable has been resolved by <b>%{username}</b>."
+          name: "बोनस प्रकार"
+          title: "कुछ समीक्षा योग्य प्रकारों को उच्च प्राथमिकता देने के लिए उन्हें स्टाफ द्वारा एक बोनस सौंपा जा सकता है।"
+      stale_help: "इस समीक्षा को <b>%{username} द्वारा हल किया गया है।</b>."
       claim_help:
-        optional: "You can claim this item to prevent others from reviewing it."
-        required: "You must claim items before you can review them."
-        claimed_by_you: "You've claimed this item and can review it."
-        claimed_by_other: "This item can only be reviewed by <b>%{username}</b>."
+        optional: "दूसरों को इसकी समीक्षा करने से रोकने के लिए आप इस आइटम पर दावा कर सकते हैं।"
+        required: "आइटम्स की समीक्षा करने से पहले आपको उन पर दावा करना होगा।"
+        claimed_by_you: "आपने इस आइटम पर दावा किया है और आप इसकी समीक्षा कर सकते हैं।"
+        claimed_by_other: "इस आइटम की केवल <b>%{username}</b> द्वारा समीक्षा की जा सकती है।"
       claim:
-        title: "claim this topic"
+        title: "इस टॉपिक पर दावा करें"
       unclaim:
-        help: "remove this claim"
+        help: "इस दावे को हटाएँ"
       awaiting_approval: "Awaiting Approval"
       delete: "Delete"
       settings:
