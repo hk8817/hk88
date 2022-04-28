@@ -383,15 +383,15 @@ hi_IN:
         no_value: "संपादन जारी रखें"
 
     topic_count_categories:
-      one: "%{count} नए या अपडेटेड टॉपिक देखें"
+      one: "%{count} नया या अपडेटेड टॉपिक देखें"
       other: "%{count} नए या अपडेटेड टॉपिक देखें"
 
     topic_count_latest:
-      one: "%{count} नए या अपडेटेड टॉपिक देखें"
+      one: "%{count} नया या अपडेटेड टॉपिक देखें"
       other: "%{count} नए या अपडेटेड टॉपिक देखें"
 
     topic_count_unseen:
-      one: "%{count} नए या अपडेटेड टॉपिक देखें"
+      one: "%{count} नया या अपडेटेड टॉपिक देखें"
       other: "%{count} नए या अपडेटेड टॉपिक देखें"
 
     topic_count_unread:
