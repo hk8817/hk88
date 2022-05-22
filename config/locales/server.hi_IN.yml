@@ -2357,6 +2357,7 @@ hi_IN:
     allow_changing_staged_user_tracking: "Allow a staged user's category and tag notification preferences to be changed by an admin user."
     use_email_for_username_and_name_suggestions: "Use the first part of email addresses for username and name suggestions. Note that this makes it easier for the public to guess full user email addresses (because a large proportion of people share common services like `gmail.com`)."
     use_name_for_username_suggestions: "Use a user's full name when suggesting usernames."
+    suggest_weekends_in_date_pickers: "Include weekends (Saturday and Sunday) in date picker suggestions (disable this if you use Discourse only on weekdays, Monday through Friday)."
 
     errors:
       invalid_css_color: "Invalid color. Enter a color name or hex value."
@@ -2386,6 +2387,7 @@ hi_IN:
       email_polling_disabled: "You must enable either manual or POP3 polling before enabling reply by email."
       user_locale_not_enabled: "You must first enable 'allow user locale' before enabling this setting."
       invalid_regex: "Regex is invalid or not allowed."
+      invalid_regex_with_message: "The regex '%{regex}' has an error: %{message}"
       email_editable_enabled: "You must disable 'email editable' before enabling this setting."
       staged_users_disabled: "You must first enable 'staged users' before enabling this setting."
       reply_by_email_disabled: "You must first enable 'reply by email' before enabling this setting."
