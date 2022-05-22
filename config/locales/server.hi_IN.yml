@@ -249,7 +249,7 @@ hi_IN:
       <p>Otherwise please <a href="%{base_url}/password-reset">Reset Password</a>.</p>
     not_found_template_link: |
       <p>This invitation to <a href="%{base_url}">%{site_name}</a> can no longer be redeemed. Please ask the person who invited you to send you a new invitation.</p>
-    user_exists: "There's no need to invite <b>%{email}</b>, they <a href='%{base_path}/u/%{username}/summary'>already have an account!</a>"
+    user_exists: "There's no need to invite <b>%{email}</b>, they already have an account!"
     invite_exists: "You already invited <b>%{email}</b>."
     invalid_email: "%{email} isn't a valid email address."
     rate_limit:
@@ -2318,7 +2318,7 @@ hi_IN:
     tags_sort_alphabetically: "Show tags in alphabetical order. Default is to show in order of popularity."
     tags_listed_by_group: "List tags by tag group on the <a href='%{base_path}/tags' target='_blank'>Tags page</a>."
     tag_style: "Visual style for tag badges."
-    allow_staff_to_tag_pms: "Allow staff members to tag any personal message"
+    pm_tags_allowed_for_groups: "Allow members of included group(s) to tag any personal message"
     min_trust_level_to_tag_topics: "Minimum trust level required to tag topics"
     suppress_overlapping_tags_in_list: "If tags match exact words in topic titles, don't show the tag"
     remove_muted_tags_from_latest: "Don't show topics tagged only with muted tags in the latest topic list."
@@ -3024,6 +3024,8 @@ hi_IN:
       subject_template: "Congratulations on your trust level promotion!"
       text_body_template: |
         We’ve promoted you up another [trust level](https://www.hindkuti.com/t/20)!
+
+        Achieving Trust Level 2 means that you have read and actively participated enough to be considered a member of this community.
 
         As an experienced user, you might appreciate [this list of handy tips and tricks](https://blog.discourse.org/2016/12/discourse-new-user-tips-and-tricks/).
 
@@ -4063,6 +4065,7 @@ hi_IN:
   site_setting_missing: "`%{name}` site setting has to be set."
 
   page_not_found:
+    page_title: "Page Not Found"
     title: "Oops! That page doesn’t exist or is private."
     popular_topics: "Popular"
     recent_topics: "Recent"
