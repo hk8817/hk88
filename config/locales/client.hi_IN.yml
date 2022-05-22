@@ -642,6 +642,7 @@ hi_IN:
 
     time_shortcut:
       later_today: "Later today"
+      two_days: "Two days"
       next_business_day: "Next business day"
       tomorrow: "Tomorrow"
       post_local_date: "Date in post"
@@ -649,6 +650,7 @@ hi_IN:
       this_weekend: "This weekend"
       start_of_next_business_week: "सोमवार"
       start_of_next_business_week_alt: "Next Monday"
+      next_week: "Next week"
       two_weeks: "Two weeks"
       next_month: "अगले महीने"
       two_months: "दो महीने"
@@ -1156,6 +1158,7 @@ hi_IN:
       external_links_in_new_tab: "Open all external links in a new tab"
       enable_quoting: "Enable quote reply for highlighted text"
       enable_defer: "Enable defer to mark topics unread"
+      enable_experimental_sidebar: "Enable experimental sidebar"
       change: "change"
       featured_topic: "Featured Topic"
       moderator: "%{user} is a moderator"
@@ -2425,6 +2428,8 @@ hi_IN:
       in: "in"
       in_this_topic: "in this topic"
       in_this_topic_tooltip: "switch to searching all topics"
+      in_messages: "in messages"
+      in_messages_tooltip: "switch to searching regular topics"
       in_topics_posts: "in all topics and posts"
       enter_hint: "or press Enter"
       in_posts_by: "in posts by %{username}"
