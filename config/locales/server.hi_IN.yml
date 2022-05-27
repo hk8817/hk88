@@ -2715,46 +2715,46 @@ hi_IN:
 
   invite_forum_mailer:
     title: "Invite Forum Mailer"
-    subject_template: "%{inviter_name} invited you to join %{site_domain_name}"
+    subject_template: "%{inviter_name} ने आपको हिंदकुटी से जुड़ने के लिए आमंत्रित किया है"
     text_body_template: |
-      %{inviter_name} invited you to join
+      नमस्,ते %{inviter_name} ने आपको हिंदकुटी से जुड़ने के लिए आमंत्रण भेजा है 
 
       > **%{site_title}**
       >
       > %{site_description}
 
-      If you're interested, click the link below:
+      यदि आप रुचि रखते हैं, तो नीचे दी गई लिंक पर क्लिक करें:
 
       %{invite_link}
 
   custom_invite_forum_mailer:
     title: "Custom Invite Forum Mailer"
-    subject_template: "%{inviter_name} invited you to join %{site_domain_name}"
+    subject_template: "%{inviter_name} ने आपको हिंदकुटी से जुड़ने के लिए आमंत्रित किया है"
     text_body_template: |
-      %{inviter_name} invited you to join
+      नमस्ते, %{inviter_name} ने आपको हिंदकुटी से जुड़ने के लिए आमंत्रण भेजा है
 
       > **%{site_title}**
       >
       > %{site_description}
 
-      With this note
+      इस टिप्पणी के साथ
 
       > %{user_custom_message}
 
-      If you're interested, click the link below:
+      यदि आप रुचि रखते हैं, तो नीचे दी गई लिंक पर क्लिक करें:
 
       %{invite_link}
 
   invite_password_instructions:
     title: "Invite Password Instructions"
-    subject_template: "Set password for your %{site_name} account"
+    subject_template: "अपने %{site_name} अकाउंट का पासवर्ड सेट करें"
     text_body_template: |
-      Thanks for accepting your invitation to %{site_name} -- welcome!
+      %{site_name} का निमंत्रण स्वीकार करने के लिए धन्यवाद -- स्वागतम!
 
-      Click this link to choose a password now:
+      अभी पासवर्ड सेट करने के लिए इस लिंक पर क्लिक करें:
       %{base_url}/u/password-reset/%{email_token}
 
-      (If the link above has expired, choose "I forgot my password" when logging in with your email address.)
+      (यदि उपरोक्त लिंक की समय सीमा समाप्त हो गई है, तो अपने ईमेल पते से लॉग इन करते समय "मैं अपना पासवर्ड भूल गया" चुनें।)
 
   download_backup_mailer:
     title: "Download Backup Mailer"
