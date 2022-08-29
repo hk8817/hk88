@@ -639,7 +639,7 @@ hi_IN:
             base:
               invalid_url: "Replacement URL is invalid"
 
-  uncategorized_category_name: "सामान्य"
+  uncategorized_category_name: "अवर्गीकृत"
 
   vip_category_name: "Lounge"
   vip_category_description: "A category exclusive to members with trust level 3 and higher."
