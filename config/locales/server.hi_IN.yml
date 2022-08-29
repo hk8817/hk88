@@ -717,7 +717,7 @@ hi_IN:
         one: "Can't delete this category because it has %{count} topic. Oldest topic is %{topic_link}."
         other: "Can't delete this category because it has %{count} topics. Oldest topic is %{topic_link}."
       topic_exists_no_oldest: "Can't delete this category because topic count is %{count}."
-    uncategorized_description: "ऐसे टॉपिक्स जिन्हें किसी श्रेणी की आवश्यकता नहीं है, या जो किसी अन्य मौजूदा श्रेणी में फिट नहीं होते हैं।"
+    uncategorized_description: "अवर्गीकृत टॉपिक्स, ऐसे टॉपिक्स जिन्हें किसी श्रेणी की आवश्यकता नहीं"
   trust_levels:
     admin: "एडमिन"
     staff: "Staff"
