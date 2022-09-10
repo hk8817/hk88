@@ -251,6 +251,8 @@ hi_IN:
     not_implemented: "वह सुविधा अभी तक लागू नहीं की गई है, क्षमा करें!"
     no_value: "नहीं"
     yes_value: "हाँ"
+    ok_value: "ठीक है"
+    cancel_value: "रद्द"
     submit: "सबमिट"
     generic_error: "माफ कीजिए, एक त्रुटि हुई है।"
     generic_error_with_reason: "एक त्रुटि पाई गई: %{error}"
