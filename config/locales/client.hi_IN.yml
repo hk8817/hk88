@@ -1312,6 +1312,7 @@ hi_IN:
         tags: "टैग्स"
         interface: "Interface"
         apps: "Apps"
+        sidebar: "Sidebar"
 
       change_password:
         success: "(email sent)"
@@ -4062,13 +4063,17 @@ hi_IN:
             unread_with_count: "Unread (%{count})"
             archive: "Archive"
         tags:
-          no_tracked_tags: "You are not tracking any tags."
+          none: "You have not added any tags."
+          click_to_get_started: "Click here to get started."
           header_link_title: "all tags"
           header_link_text: "Tags"
+          header_action_title: "edit your sidebar tags"
         categories:
-          no_tracked_categories: "You are not tracking any categories."
+          none: "You have not added any categories."
+          click_to_get_started: "Click here to get started."
           header_link_title: "all categories"
           header_link_text: "Categories"
+          header_action_title: "edit your sidebar categories"
         topics:
           header_link_title: "home"
           header_link_text: "Topics"
