@@ -335,11 +335,13 @@ hi_IN:
 
     bookmarks:
       created: "आपने इस पोस्ट को बुकमार्क कर लिया है। %{name}"
+      created_generic: "आपने इसे बुकमार्क कर लिया है। %{name}"
       create: "के लिए बुकमार्क बनाएं"
       edit: "के लिए बुकमार्क सम्पादित करें"
       not_bookmarked: "इस पोस्ट को बुकमार्क करें"
       remove_reminder_keep_bookmark: "रिमाइंडर हटाएं और बुकमार्क रखें"
       created_with_reminder: "आपने इस पोस्ट को रिमाइंडर के साथ बुकमार्क कर लिया है %{date}. %{name}"
+      created_with_reminder_generic: "आपने इसे रिमाइंडर के साथ बुकमार्क कर लिया है %{date}. %{name}"
       remove: "बुकमार्क हटाएँ"
       delete: "बुकमार्क डिलीट करें"
       confirm_delete: "क्या आप वाकई में इस बुकमार्क को डिलीट करना चाहते हैं? रिमाइंडर भी हटा दिया जाएगा।"
