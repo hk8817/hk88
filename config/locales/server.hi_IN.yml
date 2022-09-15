@@ -646,7 +646,7 @@ hi_IN:
             linkable_type:
               invalid: "is not valid"
 
-  uncategorized_category_name: "अवर्गीकृत"
+  uncategorized_category_name: "सामान्य"
 
   general_category_name: "General"
   general_category_description: "Create topics here that don’t fit into any other existing category."
@@ -700,7 +700,7 @@ hi_IN:
         one: "Can't delete this category because it has %{count} topic. Oldest topic is %{topic_link}."
         other: "Can't delete this category because it has %{count} topics. Oldest topic is %{topic_link}."
       topic_exists_no_oldest: "Can't delete this category because topic count is %{count}."
-    uncategorized_description: "अवर्गीकृत टॉपिक्स, ऐसे टॉपिक्स जिन्हें किसी श्रेणी की आवश्यकता नहीं"
+    uncategorized_description: "ऐसे टॉपिक्स जिन्हें किसी श्रेणी की आवश्यकता नहीं है, या जो किसी अन्य मौजूदा श्रेणी में फिट नहीं होते हैं।"
   trust_levels:
     admin: "एडमिन"
     staff: "Staff"
