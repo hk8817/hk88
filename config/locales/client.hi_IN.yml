@@ -2800,8 +2800,8 @@ hi_IN:
         title: "Auto-Delete Replies"
 
       status_update_notice:
-        auto_open: "This topic will automatically open %{timeLeft}."
-        auto_close: "This topic will automatically close %{timeLeft}."
+        auto_open: "यह टॉपिक %{timeLeft} अपनेआप खुल जायेगा।"
+        auto_close: "यह टॉपिक %{timeLeft} अपनेआप बंद हो जायेगा।"
         auto_publish_to_category: "This topic will be published to <a href=%{categoryUrl}>#%{categoryName}</a> %{timeLeft}."
         auto_close_after_last_post: "This topic will close %{duration} after the last reply."
         auto_delete: "This topic will be automatically deleted %{timeLeft}."
