@@ -497,18 +497,18 @@ hi_IN:
       other: "%{count} posts"
 
     "new-topic": |
-      Welcome to %{site_name} &mdash; **thanks for starting a new conversation!**
+      %{site_name} में आपका स्वागत है &mdash; **नया टॉपिक शुरू करने के लिए धन्यवाद!**
 
-      - Does the title sound interesting if you read it out loud? Is it a good summary?
+      - अगर आप इसे ज़ोर से पढ़ते हैं तो क्या शीर्षक दिलचस्प लगता है? क्या यह टॉपिक का एक अच्छा सारांश है?
 
-      - Who would be interested in this? Why does it matter? What kind of responses do you want?
+      - इसमें किसे दिलचस्पी होगी? यह क्यों मायने रखता है? आप किस प्रकार रिप्लाई चाहते हैं?
 
-      - Include commonly used words in your topic so others can *find* it. To group your topic with related topics, select a category (or tag).
+      - अपने टॉपिक में आमतौर पर इस्तेमाल होने वाले शब्दों को शामिल करें ताकि अन्य लोग इसे *ढूंढ* सकें। अपने टॉपिक को संबंधित विषयों के साथ समूहित करने के लिए, सही श्रेणी (या टैग) चुनें।
 
-      For more, [see our community guidelines](%{base_path}/guidelines). This panel will only appear for your first %{education_posts_text}.
+      अधिक जानकारी के लिए, [हमारे समुदाय दिशानिर्देश देखें](%{base_path}/guidelines)। यह पैनल केवल आपके पहले %{education_posts_text} के लिए दिखाई देगा।
 
     "new-reply": |
-      Welcome to %{site_name} &mdash; **thanks for contributing!**
+      %{site_name} में आपका स्वागत है &mdash; **योगदान देने के लिए धन्यवाद!**
 
       - Be kind to your fellow community members.
 
