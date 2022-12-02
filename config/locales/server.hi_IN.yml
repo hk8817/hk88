@@ -2717,7 +2717,7 @@ hi_IN:
     title: "Invite Forum Mailer"
     subject_template: "%{inviter_name} ने आपको हिंदकुटी से जुड़ने के लिए आमंत्रित किया है"
     text_body_template: |
-      नमस्,ते %{inviter_name} ने आपको हिंदकुटी से जुड़ने के लिए आमंत्रण भेजा है 
+      नमस्ते %{inviter_name} ने आपको हिंदकुटी से जुड़ने के लिए आमंत्रण भेजा है 
 
       > **%{site_title}**
       >
