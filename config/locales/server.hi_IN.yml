@@ -2450,8 +2450,8 @@ hi_IN:
   poster_description_joiner: ", "
 
   redirected_to_top_reasons:
-    new_user: "Welcome to our community! These are the most popular recent topics."
-    not_seen_in_a_month: "Welcome back! We haven't seen you in a while. These are the most popular topics since you've been away."
+    new_user: "हिंदकुटी समुदाय में आपका स्वागत है! ये सबसे लोकप्रिय हाल के टॉपिक्स हैं।"
+    not_seen_in_a_month: "यहाँ वापिस आने पर आपका स्वागत है! कुछ समय से आप यहाँ नहीं आये हैं। आपके दूर रहने के बाद से अबतक के यह सबसे लोकप्रिय टॉपिक्स हैं।"
 
   merge_posts:
     edit_reason:
