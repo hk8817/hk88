@@ -322,7 +322,7 @@ hi_IN:
       like_count: "लाइक्स"
       topic_count: "टॉपिक्स"
       post_count: "पोस्ट"
-      user_count: "उपयोगकर्ता"
+      user_count: "Sign-Ups"
       active_user_count: "सक्रिय उपयोगकर्ता"
       contact: "संपर्क करें"
       contact_info: "इस साइट को प्रभावित करने वाली कोई गंभीर समस्या या जरूरी मामले की स्थिति में, कृपया हमसे <b>%{contact_info}</b> पर संपर्क करें। <br><br><b>हमारे सोशल अकाउंट</b><ul><li><a href='https://www.facebook.com/HindKuti/'>Facebook</a></li><li><a href='https://twitter.com/HindKuti'>Twitter</a></li><li><a href='https://www.instagram.com/hindkuti/'>Instagram</a></li><li><a href='https://www.linkedin.com/company/hindkuti/'>LinkedIn</a></li></ul><br>धन्यवाद!"
@@ -1837,6 +1837,18 @@ hi_IN:
       topic_timeline:
         title: "Topic timeline"
         content: "Scroll quickly through a post using the topic timeline."
+
+      post_menu:
+        title: "Post menu"
+        content: "See how else you can interact with the post by clicking the three dots!"
+
+      topic_notification_levels:
+        title: "You are now following this topic"
+        content: "Look for this bell to adjust your notification preferences for specific topics or whole categories."
+
+      suggested_topics:
+        title: "Keep reading!"
+        content: "Here are some topics we think you might like to read next."
 
     loading: "Loading..."
     errors:
