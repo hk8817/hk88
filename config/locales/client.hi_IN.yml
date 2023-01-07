@@ -922,6 +922,7 @@ hi_IN:
         no_filter_matches: "No members match that search."
       topics: "टॉपिक्स"
       posts: "पोस्ट"
+      aria_post_number: "%{title} - post #%{postNumber}"
       mentions: "Mentions"
       messages: "संदेश"
       notification_level: "Default notification level for group messages"
