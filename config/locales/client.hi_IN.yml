@@ -888,6 +888,7 @@ hi_IN:
         group_type: "Group type"
         is_group_user: "सदस्य"
         is_group_owner: "मालिक"
+        search_results: "Search results will appear below."
       title:
         one: "समूह"
         other: "समूह"
