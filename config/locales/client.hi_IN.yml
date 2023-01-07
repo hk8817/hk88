@@ -1275,6 +1275,7 @@ hi_IN:
         move_to_archive: "Archive"
         failed_to_move: "Failed to move selected messages (perhaps your network is down)"
         tags: "टैग्स"
+        all_tags: "All Tags"
         warnings: "Official Warnings"
         read_more_in_group: "Want to read more? Browse other messages in %{groupLink}."
         read_more: "क्या आप और पढ़ना चाहते हैं? <a href='%{basePath}/u/%{username}/messages'>व्यक्तिगत संदेशों</a> में अन्य संदेश खोलें।"
