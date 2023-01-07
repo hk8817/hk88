@@ -1326,6 +1326,7 @@ hi_IN:
         profile: "प्रोफाइल"
         emails: "Emails"
         notifications: "नोटिफिकेशन"
+        tracking: "Tracking"
         categories: "श्रेणियाँ"
         users: "उपयोगकर्ता"
         tags: "टैग्स"
@@ -1604,6 +1605,7 @@ hi_IN:
 
       other_settings: "Other"
       categories_settings: "श्रेणियाँ"
+      topics_settings: "Topics"
 
       new_topic_duration:
         label: "टॉपिक्स को नया मानें जब"
