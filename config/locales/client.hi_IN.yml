@@ -3731,7 +3731,7 @@ hi_IN:
 
     browser_update: 'दुर्भाग्य से, आपका ब्राउजर असमर्थित है। समृद्ध सामग्री देखने, लॉग इन करने और उत्तर देने के लिए कृपया समर्थित ब्राउजर का उपयोग करें।'
 
-    safari_13_warning: This site will soon remove support for iOS and Safari versions 13 and below - please update your browser
+    safari_13_warning: This site will soon remove support for iOS and Safari versions 13 and below. A simplified read-only version will remain available.
 
     permission_types:
       full: "Create / Reply / See"
@@ -4097,6 +4097,8 @@ hi_IN:
         other: "%{count} new"
       toggle_section: "toggle section"
       more: "More..."
+      all_categories: "All categories"
+      all_tags: "All tags"
       sections:
         messages:
           header_link_text: "Messages"
