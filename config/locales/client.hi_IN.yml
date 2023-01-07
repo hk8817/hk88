@@ -383,7 +383,6 @@ hi_IN:
       remove_confirmation: "क्या आप वाकई में इस ड्राफ़्ट को हटाना चाहते हैं?"
       new_topic: "नया टॉपिक ड्राफ्ट"
       new_private_message: "नया व्यक्तिगत संदेश ड्राफ्ट"
-      topic_reply: "ड्राफ्ट रिप्लाई"
       abandon:
         confirm: "आपके पास इस टॉपिक के लिए एक ड्राफ्ट मौजूद है। आप इसके साथ क्या करना चाहेंगे?"
         yes_value: "रद्द करें"
@@ -4282,8 +4281,8 @@ hi_IN:
         critical_available: "A critical update is available."
         updates_available: "Updates are available."
         please_upgrade: "Please upgrade!"
-        no_check_performed: "A check for updates has not been performed. Ensure sidekiq is running."
-        stale_data: "A check for updates has not been performed lately. Ensure sidekiq is running."
+        no_check_performed: "A check for updates has not been performed. Ensure Sidekiq is running."
+        stale_data: "A check for updates has not been performed lately. Ensure Sidekiq is running."
         version_check_pending: "Looks like you upgraded recently. Fantastic!"
         installed_version: "Installed"
         latest_version: "नवीनतम"
