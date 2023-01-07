@@ -257,6 +257,7 @@ hi_IN:
     delete: "Delete"
     generic_error: "माफ कीजिए, एक त्रुटि हुई है।"
     generic_error_with_reason: "एक त्रुटि पाई गई: %{error}"
+    multiple_errors: "Multiple errors occurred: %{errors}"
     sign_up: "साइन अप"
     log_in: "लॉग इन"
     age: "Age"
