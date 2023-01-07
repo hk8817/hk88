@@ -2038,6 +2038,7 @@ hi_IN:
       blank_username_or_password: "Please enter your email or username, and password."
       reset_password: "पासवर्ड रीसेट करें"
       logging_in: "लॉग इन कर रहे हैं..."
+      previous_sign_up: "Already have an account?"
       or: "या"
       authenticating: "Authenticating..."
       awaiting_activation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
