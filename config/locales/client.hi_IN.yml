@@ -4238,9 +4238,6 @@ hi_IN:
               title: "All topics"
             faq:
               content: "FAQ"
-            tracked:
-              content: "Tracked"
-              title: "All tracked topics"
             groups:
               content: "Groups"
               title: "All groups"
